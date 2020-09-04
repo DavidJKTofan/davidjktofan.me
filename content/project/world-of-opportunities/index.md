@@ -18,3 +18,4 @@ image:
   caption: World of Opportunities
   alt_text: Project Thumbnail
 ---
+![World of Opportunities Thumbnail](opportunities.png "World of Opportunities")
