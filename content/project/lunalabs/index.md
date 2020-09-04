@@ -13,7 +13,7 @@ external_link: https://www.lunalabs.eu/
 image:
   filename: lunalabs.png
   focal_point: Smart
-  preview_only: true
+  preview_only: false
   caption: Lunalabs
   alt_text: Cover
 ---
