@@ -1,7 +1,7 @@
 ---
 draft: false
 editable: false
-title: Privacy Policy
+title: Privacy Policy, Terms & Disclaimer
 summary: ""
 header:
   caption: ""
@@ -10,7 +10,7 @@ date: 2020-09-04T11:20:00.000Z
 commentable: false
 share: false
 ---
-# TERMS & DISCLAIMER
+
 
 1. ### **Acceptance of our Terms**
 
@@ -64,13 +64,9 @@ WWW.DAVIDTOFAN.COM reserves the right to modify these Terms from time to time at
 
 **Updated:  September 4th 2020**
 
-
-
 # COOKIES
 
 A cookie is a small piece of computer code that allows a Web site to identify users. This site uses cookies that are stored temporarily in your Web browser. They are necessary to identify you as a visitor while browsing the site and do not contain any personal information that you may have provided to the site. They may not be saved on your computer's hard drive, and they are often deleted when you close your Web browser.
-
-
 
 ## Google Analytics
 
