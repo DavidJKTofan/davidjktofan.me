@@ -18,19 +18,19 @@ subtitle = ""
   icon = "r-project"
   icon_pack = "fab"
   name = "R"
-  description = ""
+  description = " "
   
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
   name = "Statistics"
-  description = ""  
+  description = " "  
   
 [[feature]]
   icon = "python"
   icon_pack = "fab"
   name = "Python"
-  description = ""
+  description = " "
   
 [[feature]]
   icon = "wordpress"
