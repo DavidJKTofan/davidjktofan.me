@@ -22,11 +22,7 @@ social:
     icon_pack: fab
     link: https://github.com/DavidJKTofan
 education:
-  courses: [
-    - Artificial Intelligence
-    - Business Analytics
-    - Sustainable Development Goals (SDGs)
-  ]
+  courses: []
 email: ""
 user_groups:
   - ""
