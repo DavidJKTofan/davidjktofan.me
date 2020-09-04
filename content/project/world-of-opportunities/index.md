@@ -6,6 +6,8 @@ summary: "*Free resource platform for entrepreneurs and students who are eager
   to reach their goals.*"
 draft: false
 featured: false
+tags:
+  - Resources
 categories:
   - Resources
 external_link: https://david-tofan.netlify.app/world/
