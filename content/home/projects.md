@@ -30,8 +30,12 @@ subtitle = ""
      tag = "Resources"
   
    [[content.filter_button]]
+     name = "Startups"
+     tag = "Startups"
+     
+   [[content.filter_button]]
      name = "Other"
-     tag = "other"
+     tag = "Other"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
