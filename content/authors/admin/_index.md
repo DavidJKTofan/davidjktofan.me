@@ -22,7 +22,16 @@ social:
     icon_pack: fab
     link: https://github.com/DavidJKTofan
 education:
-  courses: []
+  courses:
+    - institution: Universidad Europea de Madrid (UEM)
+      course: Master's in Business Analytics
+      year: 2020
+    - course: MBA
+      institution: EOI Business School
+      year: 2018
+    - institution: Universidad Europea de Madrid (UEM)
+      year: 2017
+      course: Global Bachelor's Degree in International Relations
 email: ""
 user_groups:
   - ""
