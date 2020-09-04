@@ -14,7 +14,7 @@ external_link: https://david-tofan.netlify.app/world/
 image:
   filename: opportunities.png
   focal_point: Smart
-  preview_only: false
+  preview_only: true
   caption: World of Opportunities
   alt_text: Project Thumbnail
 ---
