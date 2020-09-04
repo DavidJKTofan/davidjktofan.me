@@ -115,7 +115,7 @@ contact_links = [
   {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/davidjktofan"},
   #{icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:David.Tofan"},
   {icon = "linkedin", icon_pack = "fab", name = "LinkedIn", link = "https://www.linkedin.com/in/davidtofan"},
-  {icon = "discord", icon_pack = "fab", name = "Discord Name: Tototatutu#0935", link = ""},
+  {icon = "github", icon_pack = "fab", name = "GitHub", link = "https://github.com/DavidJKTofan"},
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
   ]
 
