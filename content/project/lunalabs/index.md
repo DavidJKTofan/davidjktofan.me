@@ -11,7 +11,7 @@ categories:
   - Startups
 external_link: https://www.lunalabs.eu/
 image:
-  filename: lunalabs.png
+  filename: featured.png
   focal_point: Smart
   preview_only: false
   caption: Lunalabs
