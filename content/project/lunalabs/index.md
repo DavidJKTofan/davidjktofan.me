@@ -4,7 +4,7 @@ date: 2020-09-04T15:07:52.533Z
 summary: A team of Digital Nomads made of Creatives, Designers, Web Developers
   and Project Managers who partner to drive impact for our clients.
 draft: false
-featured: false
+featured: true
 tags:
   - Startups
 categories:
