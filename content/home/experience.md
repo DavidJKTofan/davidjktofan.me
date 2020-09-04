@@ -18,27 +18,33 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  title = "Digital Consultant"
+  company = "Lunalabs"
+  company_url = "https://www.lunalabs.eu/"
+  location = "Remote"
+  date_start = "2019-04-01"
   date_end = ""
   description = """
   Responsibilities include:
   
-  * Analysing
-  * Modelling
-  * Deploying
+  * Responsible for client relations, as well as planning and overseeing client requests and maintaining clear communications.
+  * Oversee teams of designers and developers, setting clear objectives, designating project resources while monitoring progress.
+  * Assisting in internal administrative tasks, including digital tasks, finding new technologies, and improving internal processes.
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  title = "Marketing Technologist"
+  company = "teknowlogy Group"
+  company_url = "https://www.teknowlogy.com/"
+  location = "Munich"
+  date_start = "2018-07-16"
+  date_end = "2019-08-01"
+  description = """
+  Responsibilities include:
+  
+  * Managed agency budgets and resources to facilitate the roll-out of global initiatives in strategic regions.
+  * Responsible for the restructuring of the marketing and communications department, nurturing internal digital transformation and implementing new processes and tools, such as Pardot, Trello, Hootsuite, Canva, Typeform, Issuu, Bitly, and more.
+  * Project management and execution of improving corporate web presence and UX.
+  """
 
 +++
