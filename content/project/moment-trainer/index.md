@@ -11,7 +11,7 @@ categories:
   - Other
 external_link: https://www.mihaitofan.co/
 image:
-  filename: featured
+  filename: featured.png
   focal_point: Smart
   preview_only: false
 ---
