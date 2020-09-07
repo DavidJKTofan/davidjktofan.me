@@ -12,4 +12,9 @@ header:
   image: ""
 ---
 
-Add your terms here and set `draft: false` to publish it. Otherwise, delete this file if you don't need it.
+<!--Div that will hold the dashboard-->
+  <div id="dashboard_div">
+    <!--Divs that will hold the control and chart-->
+    <div id="filter_div"></div>
+    <div id="chart_div"></div>
+  </div>
