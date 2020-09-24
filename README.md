@@ -3,3 +3,7 @@
 # Academic Template for [Wowchemy Website Builder](https://wowchemy.com)
 
 Special thanks to Wowchemy Website Builder, Academic Template, Netlify, and all other contributors. :)
+
+# Personal Website
+
+[david-tofan.netlify.app](https://david-tofan.netlify.app/)
