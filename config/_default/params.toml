@@ -116,7 +116,8 @@ contact_links = [
   #{icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:David.Tofan"},
   {icon = "linkedin", icon_pack = "fab", name = "LinkedIn", link = "https://www.linkedin.com/in/davidtofan"},
   {icon = "github", icon_pack = "fab", name = "GitHub", link = "https://github.com/DavidJKTofan"},
-  {icon = "certificate", icon_pack = "fa", name = "Acclaim", link = "https://www.youracclaim.com/users/david-tofan/badges"},
+  {icon = "salesforce", icon_pack = "fab", name = "Salesforce Trailblazer", link = "https://trailblazer.me/id/dtofan"},
+  {icon = "certificate", icon_pack = "fas", name = "Acclaim", link = "https://www.youracclaim.com/users/david-tofan/badges"},
   ]
 
 ############################
