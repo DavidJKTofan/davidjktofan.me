@@ -1,5 +1,5 @@
 ---
-title: A Journey into Digital Privacy2
+title: A Journey into Digital Privacy
 date: 2020-09-27T21:22:53.306Z
 draft: false
 featured: true
@@ -12,7 +12,7 @@ image:
   focal_point: Smart
   preview_only: true
 ---
-## Browser Settings2
+## Browser Settings
 
 Our journey begins with our browser – our gateway to the internet, and our most favorite program by far. We use it every day, but we never (or very rarely) even stop to think about what information our browser is giving all those different websites we visit (yes, even in incognito mode).
 
