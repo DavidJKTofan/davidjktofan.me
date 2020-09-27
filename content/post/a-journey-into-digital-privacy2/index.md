@@ -1,5 +1,6 @@
 ---
 title: A Journey into Digital Privacy2
+view: 2
 date: 2020-09-27T21:22:53.306Z
 draft: false
 featured: true
