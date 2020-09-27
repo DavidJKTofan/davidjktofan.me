@@ -41,7 +41,7 @@ I recommend checking out the following URLs for potential content-filters that y
 * [FilterLists](https://filterlists.com/)
 * [Block List Project](https://blocklist.site/)
 
-But if you are more that "one-click-make-it-work" type of person, then the [Privacy Badger](https://privacybadger.org/) might be for you. Nonetheless, there are thousands of other tools out there which might better adapt to your needs.
+But if you are more that "one-click-make-it-work" type of person, then the [Privacy Badger](https://privacybadger.org/) might be for you – though it is more focused on blocking some third-party trackers only. Nonetheless, there are thousands of other tools out there which might better adapt to your needs – start googling!
 
 ## [](https://github.com/DavidJKTofan/davidjktofan.me/blob/master/content/post/_index.md#mac-settings)Mac settings
 
@@ -50,3 +50,9 @@ Soon...
 ## [](https://github.com/DavidJKTofan/davidjktofan.me/blob/master/content/post/_index.md#router-settings)Router settings
 
 Soon...
+
+## [](https://github.com/DavidJKTofan/davidjktofan.me/blob/master/content/post/_index.md#router-settings)Disclaimer
+
+Don't forget that any changes to your settings, and any tools/programs that you download on your device will have some sort of consequences. For example: when filtering content or blocking cookies, you cannot use several functionalities and/or features of some websites – like e.g. Facebook. Additionally, some setting changes might prevent you from using other tools or websites.
+
+You are responsible to figuring out what the best balance is for your online experience, and how much digital privacy you want to achieve. Though I hope that this brief blog post has helped some of you become more conscious about your online behavior, maybe even motivated or inspired some of you to learn more about IT.
