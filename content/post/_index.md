@@ -4,7 +4,7 @@ view: 2
 header:
   caption: ""
   image: ""
-title: A journey into privacy
+title: A Journey into Digital Privacy
 date: 2020-09-27T20:56:24.870Z
 featured: true
 tags:
