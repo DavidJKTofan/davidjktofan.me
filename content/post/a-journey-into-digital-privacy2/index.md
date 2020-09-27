@@ -47,7 +47,27 @@ But if you are more that "one-click-make-it-work" type of person, then the [Priv
 
 Soon...
 
-## [](https://github.com/DavidJKTofan/davidjktofan.me/blob/master/content/post/_index.md#router-settings)Router settings
+## [](https://github.com/DavidJKTofan/davidjktofan.me/blob/master/content/post/_index.md#router-settings)Home Router settings
+
+Soon...
+
+## Search Engines
+
+What better search engine than Google? Google is your friend – you can find almost anything nowadays through that search engine. (However, please don't believe everything you find and see online. Be a critical thinker – even towards this little blog post.)
+
+Even though Google is amazing and helps you find things online quickly and (most of the time) accurately, it still tracks a lot (really a lot) of the things you do online (and sometimes even *offline*). And if you do not want Google knowing that you curiously searched for *"Is watermelon a cucumber?"* at 2am, then you might be better off with **[DuckDuckGo](https://duckduckgo.com/)**.
+
+## Advertising, Ads everywhere
+
+What
+
+## Other practices
+
+Password Manager
+
+Private Email Account
+
+Junk Email Account
 
 Soon...
 
