@@ -12,7 +12,11 @@ header:
   caption: ""
   image: ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: A Journey into Digital Privacy
+=======
+title: A journey into privacy
+>>>>>>> parent of 45facd4... Update Post “_index”
 date: 2020-09-27T20:56:24.870Z
 featured: true
 tags:
