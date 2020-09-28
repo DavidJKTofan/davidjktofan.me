@@ -74,9 +74,9 @@ Soon...
 
 ## Search Engines
 
-<span style="color:#f8f8f2;">What better search engine than Google? Google is your friend – you can find almost anything nowadays through that search engine. (However, please don't believe everything you find and see online. Be a critical thinker – even towards this little blog post.)
+<span style="color:#f8f8f2;">What better search engine than Google? Google is your friend – you can find almost anything nowadays through that search engine. (However, please don't believe everything you find and see online. Be a critical thinker – even towards this little blog post.)</span>
 
-Even though Google is amazing and helps you find things online quickly and (most of the time) accurately, it still tracks a lot (really a lot) of the things you do online (and sometimes even *offline*). And if you do not want Google knowing that you curiously searched for *"Is watermelon a cucumber?"* at 2am, then you might be better off with</span> **[DuckDuckGo](https://duckduckgo.com/)**.
+<span style="color:#f8f8f2;">Even though Google is amazing and helps you find things online quickly and (most of the time) accurately, it still tracks a lot (really a lot) of the things you do online (and sometimes even *offline*). And if you do not want Google knowing that you curiously searched for *"Is watermelon a cucumber?"* at 2am, then you might be better off with</span> **[DuckDuckGo](https://duckduckgo.com/)**.
 
 <a name="ads"/>
 
