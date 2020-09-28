@@ -101,18 +101,18 @@ First step is to access your router. If you are reading this right now, I assume
 Make sure that the following points are checked (or at least most of them):
 
 * Change your **default WiFi name** (SSID).
-* Activate modern encryption protocols, such as WPA2-Personal(AES) or WPA3.
+* Activate modern encryption protocols, such as **WPA2-PSK (AES)** or [WPA3](https://www.wi-fi.org/discover-wi-fi/security).
 * Change your **default WiFi password** to something more complex and with at least 10 characters. (I don't have to mention that you also shouldn't hand out your WiFi password to anyone you don't trust).
 * Change your router's **default admin password** (and remember it).
 * Turn on your router's **Stateful Packet Inspection (SPI) Firewall** (if available).
 * Turn on **DoS (Denial of Service) protection**.
 * Disable **remote access**.
 * Disable **WEP encryption** protocol, or PIN access.
-* Keep your router's firmware up to date.
+* Keep your router's **firmware** up to date.
 
 If you don't have all these options above in your router's settings, then you might want to consider changing your router to a newer model.
 
-Additionally, don't forget that you can have the most secure and most powerful router ever, but if you have an older device with security flaws connected to it, well then you have a weak link.
+Additionally, don't forget that you can have the most secure and most powerful router ever, but if you have an older device with security flaws connected to it, well then you have an open door for potential intruders.
 
 <a name="search"></a>
 
