@@ -82,7 +82,7 @@ Even though Google is amazing and helps you find things online quickly and (most
 
 ## Advertising, Ads Everywhere
 
-Do you want to opt-out of personalized advertising? The following URLs show you which  companies might gather or even already own some of your data and how to opt-out from personalized advertising:
+<span style="color:#f8f8f2;">Do you want to opt-out of personalized advertising? The following URLs show you which  companies might gather or even already own some of your data and how to opt-out from personalized advertising:</span>
 
 * [Network Advertising Initiative](https://optout.networkadvertising.org/) (USA)
 * [Your Online Choices](https://www.youronlinechoices.com/)
