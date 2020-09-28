@@ -23,6 +23,7 @@ This is in no way a complete guide on how to become completely anonymous on the 
 [Search Engines](#search)  
 [Advertising](#ads)  
 [Password Manager](#password)  
+<a class="nav-link active" href="/#password" data-target="#accomplishments"><span>Password Manager</span></a>
 [Private Email Accounts](#emails)  
 
 ***
@@ -88,12 +89,14 @@ Soon...
 * [Your Online Choices](https://www.youronlinechoices.com/)
 
 <a name="password"/>
+<section id="password">
 
 ## Password Manager
 
 <span style="color:#f8f8f2;">Soon</span>
 
 <a name="emails"/>
+</section>
 
 ## Private Email Account
 
