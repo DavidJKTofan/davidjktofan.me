@@ -75,13 +75,13 @@ But if you are more that "one-click-make-it-work" type of person, then the [Priv
 
 ## Mac Settings
 
-Go to your System Preferences, Security & Privacy, and please review all your settings.
+<span style="color:#f8f8f2;">Go to your System Preferences, Security & Privacy, and please review all your settings.
 
 Most of the time I use Mac, but the general rules are: 
 
 * Your Firewall should definitely be on. 
 * If you travel a lot, or somebody else uses your laptop too, turn on FileVault (or device encryption). 
-* And please (please) [use a strong password](https://www.kaspersky.com/resource-center/threats/how-to-create-a-strong-password) for your Mac.
+* And please (please) [use a strong password](https://www.kaspersky.com/resource-center/threats/how-to-create-a-strong-password) for your Mac.</span>
 
 
 
