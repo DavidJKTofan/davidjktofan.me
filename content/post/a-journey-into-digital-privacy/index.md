@@ -81,7 +81,7 @@ If you are using a Mac and you want to go even further, here a few tips we recom
 
 * Check if your **[System Integrity Protection (ISP)](https://support.apple.com/en-us/HT204899)** is enabled by typing in the following command into your Terminal `csrutil status`
 * If you are not using the **remote login or SSH** functionality of your Mac, we recommend turning it off by typing into your Terminal `sudo systemsetup -setremotelogin off`
-* Want to see what connections are currently open? Type into your Terminal `lsof -i` to list all processes with some sort of network sockets open. Additionally, you should check out your Network Utility App which comes pre-installed on your Mac.
+* Want to see what connections are currently open? Type into your Terminal `lsof -i` to list all **processes with some sort of network connections open**. Additionally, you should check out your *Network Utility* App which comes pre-installed on your Mac.
 
 <a name="router"></a>
 
@@ -89,7 +89,19 @@ If you are using a Mac and you want to go even further, here a few tips we recom
 
 ## Home Router Settings
 
-Soon...
+First step is to access your router. If you are reading this right now, I assume that you are at home connected to your WiFi. Then go to your browser and in a new tab type in your** [router's IP address](https://www.techspot.com/guides/287-default-router-ip-addresses/)**, which usually is one of the following two:
+
+* 192.168.0.1
+* 192.168.1.1
+
+It does not matter what type of Router you use, make sure that the following points are checked:
+
+* Change your **default WiFi name** (SSID).
+* Change your **default WiFi password** to something more complex and with at least 10 characters. (I don't have to mention that you also shouldn't hand out your WiFi password to anyone you don't trust).
+* Change your router's **default admin password** (and remember it).
+* Turn on your router's **Stateful Packet Inspection (SPI) Firewall** (if available).
+
+If you don't have all these options above in your router's settings, then you might want to consider changing your router to a newer model.
 
 <a name="search"></a>
 
