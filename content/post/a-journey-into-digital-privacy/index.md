@@ -28,15 +28,11 @@ This is in no way a complete guide on how to become completely anonymous on the 
 
 - - -
 
-
-
 <a name="browsers"></a>
 
 ## Browsers
 
 Our journey begins with our browser – our gateway to the internet, and our most favorite program by far. We use it every day, but we never (or very rarely) even stop to think about what information our browser is giving to all those different websites we visit (yes, even in incognito mode).
-
-
 
 #### Check your Browser now!
 
@@ -46,15 +42,11 @@ There are many online tools out there to figure out what and how much informatio
 * [BrowserLeaks](https://browserleaks.com/)
 * [Do I Leak](https://www.doileak.com/)
 
-
-
 #### Settings
 
 Did you ever take the time to review your browser's settings? Like seriously taking your time and trying to understand what every option does?
 
 One of the most basic and easiest things you can do on your browser's settings is to **set your browser to delete Cookies after every session** close. [Here](https://ccm.net/faq/32792-google-chrome-automatically-clear-cookies-after-each-browsing-session) is a brief article that explains how to do it on Chrome. The process should be fairly similar for other browsers nowadays too. If not, google it.
-
-
 
 #### Extensions / Addons
 
@@ -66,8 +58,6 @@ We recommend checking out the following URLs for potential content-filters that 
 * [Block List Project](https://blocklist.site/)
 
 But if you are more that "one-click-make-it-work" type of person, then the [Privacy Badger](https://privacybadger.org/) might be for you – though it is more focused on blocking some third-party trackers only. Nonetheless, there are thousands of other tools out there which might better adapt to your needs – start googling!
-
-
 
 <a name="mac"></a>
 
@@ -86,7 +76,8 @@ Most of the time I use Mac, but the general rules are:
 
 If you are using a Mac, here a few tips we recommend you checking out:
 
-* Check if your [System Integrity Protection (ISP)](https://support.apple.com/en-us/HT204899) is enabled by typing in the following command into your Terminal \`\`\`csrutil status\`\`\`
+* Check if your [System Integrity Protection (ISP)](https://support.apple.com/en-us/HT204899) is enabled by typing in the following command into your Terminal `csrutil status`
+* If you are not using the remote login or SSH functionality of your Mac, we recommend turning it off by typing into your Terminal `sudo systemsetup -setremotelogin off`
 
 <a name="router"></a>
 
@@ -95,8 +86,6 @@ If you are using a Mac, here a few tips we recommend you checking out:
 ## Home Router Settings
 
 Soon...
-
-
 
 <a name="search"></a>
 
@@ -107,8 +96,6 @@ Soon...
 What better search engine than Google? Google is your friend – you can find almost anything nowadays through that search engine. (However, please don't believe everything you find and see online. Be a critical thinker – even towards this little blog post.)
 
 Even though Google is amazing and helps you find things online quickly and (most of the time) accurately, it still tracks a lot (really a lot) of the things you do online (and sometimes even *offline*). And if you do not want Google knowing that you curiously searched for *"Is watermelon a cucumber?"* at 2am, then you might be better off with **[DuckDuckGo](https://duckduckgo.com/)**.
-
-
 
 <a name="ads"></a>
 
@@ -121,8 +108,6 @@ Do you want to opt-out of personalized advertising? The following URLs show you 
 * [Network Advertising Initiative](https://optout.networkadvertising.org/) – USA
 * [Your Online Choices](https://www.youronlinechoices.com/)
 
-
-
 <a name="password"></a>
 
 <br>
@@ -130,8 +115,6 @@ Do you want to opt-out of personalized advertising? The following URLs show you 
 ## Password Manager
 
 Soon
-
-
 
 <a name="emails"></a>
 
@@ -141,13 +124,9 @@ Soon
 
 Soon
 
-
-
 #### Junk Email Account
 
 Soon
-
-
 
 ## Disclaimer
 
