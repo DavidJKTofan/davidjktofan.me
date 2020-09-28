@@ -31,7 +31,7 @@ This is in no way a complete guide on how to become completely anonymous on the 
 
 ## Browsers
 
-Our journey begins with our browser – our gateway to the internet, and our most favorite program by far. We use it every day, but we never (or very rarely) even stop to think about what information our browser is giving to all those different websites we visit (yes, even in incognito mode).
+<span style="color:#f8f8f2;">Our journey begins with our browser – our gateway to the internet, and our most favorite program by far. We use it every day, but we never (or very rarely) even stop to think about what information our browser is giving to all those different websites we visit (yes, even in incognito mode).</span>
 
 #### Check your Browser now!
 
