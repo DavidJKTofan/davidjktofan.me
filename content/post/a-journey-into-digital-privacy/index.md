@@ -71,7 +71,7 @@ But if you are more that "one-click-make-it-work" type of person, then the [Priv
 
 <a name="mac"></a>
 
-
+<br>
 
 ## Mac Settings
 
@@ -87,7 +87,7 @@ Most of the time I use Mac, but the general rules are:<span>
 
 <a name="router"></a>
 
-
+<br>
 
 ## Home Router Settings
 
@@ -97,7 +97,7 @@ Soon...
 
 <a name="search"></a>
 
-
+<br>
 
 ## Search Engines
 
@@ -109,7 +109,7 @@ Even though Google is amazing and helps you find things online quickly and (most
 
 <a name="ads"></a>
 
-
+<br>
 
 ## Advertising, Ads Everywhere
 
@@ -122,7 +122,7 @@ Even though Google is amazing and helps you find things online quickly and (most
 
 <a name="password"></a>
 
-
+<br>
 
 ## Password Manager
 
@@ -132,7 +132,7 @@ Soon
 
 <a name="emails"></a>
 
-
+<br>
 
 ## Private Email Account
 
@@ -150,4 +150,4 @@ Soon
 
 Don't forget that any changes to your settings, and any tools/programs that you download on your device will have some sort of consequences. For example: when filtering content or blocking cookies, you cannot use several functionalities and/or features of some websites – like e.g. Facebook. Additionally, some changes in your settings might prevent you from using other tools or websites. Therefore, when changing anything you are not really sure about: *baby steps*.
 
-You are responsible of figuring out what the best balance is for your online experience, and how much digital privacy you want to achieve. Though I hope that this brief blog post has helped some of you become more conscious about your online behavior, maybe even motivated or inspired some of you to learn more about IT. There are thousands of tools and ways out there to improve your digital privacy and security – go for it (if you are curious)!
+**You are responsible** of figuring out what the best balance is for your online experience, and how much digital privacy you want to achieve. Though I hope that this brief blog post has helped some of you become more conscious about your online behavior, maybe even motivated or inspired some of you to learn more about IT. There are thousands of tools and ways out there to improve your digital privacy and security – go for it (if you are curious)!
