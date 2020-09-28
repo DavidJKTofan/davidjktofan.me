@@ -75,9 +75,9 @@ But if you are more that "one-click-make-it-work" type of person, then the [Priv
 
 ## Mac Settings
 
-<span style="color:#f8f8f2;">Go to your System Preferences, Security & Privacy, and please review all your settings.
+<span style="color:#f8f8f2;">Go to your System Preferences, Security & Privacy, and please review all your settings.</span>
 
-Most of the time I use Mac, but the general rules are: 
+<span style="color:#f8f8f2;">Most of the time I use Mac, but the general rules are: 
 
 * Your Firewall should definitely be on. 
 * If you travel a lot, or somebody else uses your laptop too, turn on FileVault (or device encryption). 
