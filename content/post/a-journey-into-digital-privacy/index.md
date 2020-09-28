@@ -73,7 +73,9 @@ The general rules are:
 
 * Your **Firewall** should definitely be on. 
 * If you travel a lot, or somebody else uses your laptop too, turn on FileVault (or **device encryption**). 
+* Disable **automatic login**.
 * Review your **Privacy (App) permissions** (e.g. what Apps have access to your Location Services?)
+* S
 * Uninstall or delete any Apps you do not need or you do not use at all.
 * And please (*please*) [use a strong password](https://www.kaspersky.com/resource-center/threats/how-to-create-a-strong-password).
 
@@ -82,6 +84,8 @@ If you are using a Mac and you want to go even further, here a few tips we recom
 * Check if your **[System Integrity Protection (ISP)](https://support.apple.com/en-us/HT204899)** is enabled by typing in the following command into your Terminal `csrutil status`
 * If you are not using the **remote login or SSH** functionality of your Mac, we recommend turning it off by typing into your Terminal `sudo systemsetup -setremotelogin off`
 * Want to see what connections are currently open? Type into your Terminal `lsof -i` to list all **processes with some sort of network connections open**. Additionally, you should check out your *Network Utility* App which comes pre-installed on your Mac.
+
+You might also want to consider downloading one (or more) of those **free security tools** from [Objective See](https://objective-see.com/products.html).
 
 <a name="router"></a>
 
