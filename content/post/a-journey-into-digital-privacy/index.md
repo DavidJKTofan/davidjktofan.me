@@ -93,7 +93,7 @@ You might also want to consider downloading one (or more) of those **free securi
 
 ## Home Router Settings
 
-First step is to access your router. If you are reading this right now, I assume that you are at home connected to your WiFi. Then go to your browser and in a new tab type in your** [router's IP address](https://www.techspot.com/guides/287-default-router-ip-addresses/)**, which usually is one of the following two:
+First step is to access your router. If you are reading this right now, I assume that you are at home connected to your WiFi. Then go to your browser and in a new tab type in your **[router's IP address](https://www.techspot.com/guides/287-default-router-ip-addresses/)**, which usually is one of the following two:
 
 * 192.168.0.1
 * 192.168.1.1
