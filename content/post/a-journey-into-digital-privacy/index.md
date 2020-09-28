@@ -117,6 +117,11 @@ What better search engine than Google? Google is your friend – you can find al
 
 Even though Google is amazing and helps you find things online quickly and (most of the time) accurately, it still tracks a lot (really a lot) of the things you do online (and sometimes even *offline*). And if you do not want Google knowing that you curiously searched for *"Is watermelon a cucumber?"* at 2am, then you might be better off with **[DuckDuckGo](https://duckduckgo.com/)**.
 
+Some alternatives are:
+* [Swisscows](https://swisscows.com/)
+* [Startpage](https://www.startpage.com/)
+* [Searx](https://searx.space/)
+
 <a name="ads"></a>
 
 <br>
@@ -147,6 +152,8 @@ Soon
 #### Junk Email Account
 
 Soon
+
+<br>
 
 ## Disclaimer
 
