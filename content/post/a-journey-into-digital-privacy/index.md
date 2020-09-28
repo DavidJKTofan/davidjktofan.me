@@ -16,6 +16,14 @@ This is a brief blog post about my friends' and my journey into digital privacy,
 
 This is in no way a complete guide on how to become completely anonymous on the web or whatever, but more like an introduction towards what you can do to gain a little bit of digital privacy back, as well as to protect yourself a little better from potential outside threats (like e.g. malware, or simply annoying ads).
 
+## Table of Contents
+[Browsers](#browsers)  
+[Mac Settings](#mac)  
+
+***
+
+<a name="browsers"/>
+
 ## Browsers
 
 Our journey begins with our browser – our gateway to the internet, and our most favorite program by far. We use it every day, but we never (or very rarely) even stop to think about what information our browser is giving to all those different websites we visit (yes, even in incognito mode).
@@ -45,11 +53,13 @@ We recommend checking out the following URLs for potential content-filters that 
 
 But if you are more that "one-click-make-it-work" type of person, then the [Privacy Badger](https://privacybadger.org/) might be for you – though it is more focused on blocking some third-party trackers only. Nonetheless, there are thousands of other tools out there which might better adapt to your needs – start googling!
 
-## [](https://github.com/DavidJKTofan/davidjktofan.me/blob/master/content/post/_index.md#mac-settings)Mac settings
+<a name="mac"/>
+
+## [](https://github.com/DavidJKTofan/davidjktofan.me/blob/master/content/post/_index.md#mac-settings)Mac Settings
 
 Soon...
 
-## [](https://github.com/DavidJKTofan/davidjktofan.me/blob/master/content/post/_index.md#router-settings)Home Router settings
+## [](https://github.com/DavidJKTofan/davidjktofan.me/blob/master/content/post/_index.md#router-settings)Home Router Settings
 
 Soon...
 
@@ -59,7 +69,7 @@ What better search engine than Google? Google is your friend – you can find al
 
 Even though Google is amazing and helps you find things online quickly and (most of the time) accurately, it still tracks a lot (really a lot) of the things you do online (and sometimes even *offline*). And if you do not want Google knowing that you curiously searched for *"Is watermelon a cucumber?"* at 2am, then you might be better off with **[DuckDuckGo](https://duckduckgo.com/)**.
 
-## Advertising, Ads everywhere
+## Advertising, Ads Everywhere
 
 Do you want to opt-out of personalized advertising? The following URLs show you which  companies might gather or even already own some of your data and how to opt-out from personalized advertising:
 
