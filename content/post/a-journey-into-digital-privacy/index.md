@@ -76,8 +76,8 @@ The general rules are:
 * Disable **automatic login**.
 * Review your **Privacy (App) permissions** (e.g. what Apps have access to your Location Services?)
 * S
-* Uninstall or delete any Apps you do not need or you do not use at all.
-* And please (*please*) [use a strong password](https://www.kaspersky.com/resource-center/threats/how-to-create-a-strong-password).
+* Uninstall or delete any **Apps you don't need** or you do not use at all.
+* And please (*please*) **[use a strong password](https://www.kaspersky.com/resource-center/threats/how-to-create-a-strong-password)**.
 
 If you are using a Mac and you want to go even further, here a few tips we recommend you checking out:
 
