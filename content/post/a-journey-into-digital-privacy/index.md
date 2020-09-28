@@ -91,17 +91,17 @@ Even though Google is amazing and helps you find things online quickly and (most
 
 ## Password Manager
 
-Soon...
+Don't
 
 <a name="emails"/>
 
 ## Private Email Account
 
-Soon...
+Don't
 
 #### Junk Email Account
 
-Soon...
+Don't
 
 ## [](https://github.com/DavidJKTofan/davidjktofan.me/blob/master/content/post/_index.md#router-settings)Disclaimer
 
