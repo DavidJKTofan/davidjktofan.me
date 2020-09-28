@@ -79,8 +79,6 @@ But if you are more that "one-click-make-it-work" type of person, then the [Priv
 
 <span style="color:#f8f8f2;">Most of the time I use Mac, but the general rules are:<span> 
 
-
-
 * <span style="color:#f8f8f2;">
 * Your Firewall should definitely be on. 
 * If you travel a lot, or somebody else uses your laptop too, turn on FileVault (or device encryption). 
@@ -89,7 +87,7 @@ But if you are more that "one-click-make-it-work" type of person, then the [Priv
 
 
 
-<a name="router"/>
+<a><a name="router"/>
 
 
 
