@@ -60,13 +60,13 @@ But if you are more that "one-click-make-it-work" type of person, then the [Priv
 
 <a name="mac"/>
 
-## [](https://github.com/DavidJKTofan/davidjktofan.me/blob/master/content/post/_index.md#mac-settings)Mac Settings
+## Mac Settings
 
 Soon...
 
 <a name="router"/>
 
-## [](https://github.com/DavidJKTofan/davidjktofan.me/blob/master/content/post/_index.md#router-settings)Home Router Settings
+## Home Router Settings
 
 Soon...
 
@@ -84,7 +84,7 @@ Soon...
 
 <span style="color:#f8f8f2;">Do you want to opt-out of personalized advertising? The following URLs show you which  companies might gather or even already own some of your data and how to opt-out from personalized advertising:</span>
 
-* [Network Advertising Initiative](https://optout.networkadvertising.org/) (USA)
+* [Network Advertising Initiative](https://optout.networkadvertising.org/) – USA
 * [Your Online Choices](https://www.youronlinechoices.com/)
 
 <a name="password"/>
