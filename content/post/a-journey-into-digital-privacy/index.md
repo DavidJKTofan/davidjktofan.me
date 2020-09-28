@@ -75,7 +75,6 @@ The general rules are:
 * If you travel a lot, or somebody else uses your laptop too, turn on FileVault (or **device encryption**). 
 * Disable **automatic login**.
 * Review your **Privacy (App) permissions** (e.g. what Apps have access to your Location Services?)
-* S
 * Uninstall or delete any **Apps you don't need** or you do not use at all.
 * And please (*please*) **[use a strong password](https://www.kaspersky.com/resource-center/threats/how-to-create-a-strong-password)**.
 
@@ -105,7 +104,7 @@ Make sure that the following points are checked (or at least most of them):
 * Change your **default WiFi password** to something more complex and with at least 10 characters. (I don't have to mention that you also shouldn't hand out your WiFi password to anyone you don't trust).
 * Change your router's **default admin password** (and remember it).
 * Turn on your router's **Stateful Packet Inspection (SPI) Firewall** (if available).
-* Turn on **DoS (Denial of Service) protection**.
+* Turn on **DoS (Denial of Service) protection** (if available).
 * Disable **remote access**.
 * Disable **WEP encryption** protocol, or PIN access.
 * Keep your router's **firmware** up to date.
