@@ -77,13 +77,16 @@ But if you are more that "one-click-make-it-work" type of person, then the [Priv
 
 Go to your System Preferences, Security & Privacy, and please review all your settings.
 
-Most of the time I use Mac, but the general rules are:<span> 
+Most of the time I use Mac, but the general rules are:
 
-* Your Firewall should definitely be on. 
-* If you travel a lot, or somebody else uses your laptop too, turn on FileVault (or device encryption). 
-* And please (please) [use a strong password](https://www.kaspersky.com/resource-center/threats/how-to-create-a-strong-password) for your Mac.
+* Your **Firewall** should definitely be on. 
+* If you travel a lot, or somebody else uses your laptop too, turn on FileVault (or **device encryption**). 
+* Review your **Privacy (App) permissions** (e.g. what Apps have access to your Location Services?)
+* And please (*please*) [use a strong password](https://www.kaspersky.com/resource-center/threats/how-to-create-a-strong-password).
 
+If you are using a Mac, here a few tips we recommend you checking out:
 
+* Check if your [System Integrity Protection (ISP)](https://support.apple.com/en-us/HT204899) is enabled by typing in the following command into your Terminal \`\`\`csrutil status\`\`\`
 
 <a name="router"></a>
 
@@ -113,7 +116,7 @@ Even though Google is amazing and helps you find things online quickly and (most
 
 ## Advertising, Ads Everywhere
 
-<span style="color:#f8f8f2;">Do you want to opt-out of personalized advertising? The following URLs show you which  companies might gather or even already own some of your data and how to opt-out from personalized advertising:</span>
+Do you want to opt-out of personalized advertising? The following URLs show you which  companies might gather or even already own some of your data and how to opt-out from personalized advertising:
 
 * [Network Advertising Initiative](https://optout.networkadvertising.org/) – USA
 * [Your Online Choices](https://www.youronlinechoices.com/)
