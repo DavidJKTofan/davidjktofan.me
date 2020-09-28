@@ -59,6 +59,8 @@ We recommend checking out the following URLs for potential content-filters that 
 
 But if you are more that "one-click-make-it-work" type of person, then the [Privacy Badger](https://privacybadger.org/) might be for you – though it is more focused on blocking some third-party trackers only. Nonetheless, there are thousands of other tools out there which might better adapt to your needs – start googling!
 
+However, be careful not to add too many Extensions, because they might stop each other from working properly, and your device processor will also thank you.
+
 <a name="mac"></a>
 
 <br>
@@ -72,6 +74,7 @@ The general rules are:
 * Your **Firewall** should definitely be on. 
 * If you travel a lot, or somebody else uses your laptop too, turn on FileVault (or **device encryption**). 
 * Review your **Privacy (App) permissions** (e.g. what Apps have access to your Location Services?)
+* Uninstall or delete any Apps you do not need or you do not use at all.
 * And please (*please*) [use a strong password](https://www.kaspersky.com/resource-center/threats/how-to-create-a-strong-password).
 
 If you are using a Mac and you want to go even further, here a few tips we recommend you checking out:
