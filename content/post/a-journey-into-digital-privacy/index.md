@@ -67,17 +67,18 @@ But if you are more that "one-click-make-it-work" type of person, then the [Priv
 
 Go to your System Preferences, Security & Privacy, and please review all your settings.
 
-Most of the time I use Mac, but the general rules are:
+The general rules are:
 
 * Your **Firewall** should definitely be on. 
 * If you travel a lot, or somebody else uses your laptop too, turn on FileVault (or **device encryption**). 
 * Review your **Privacy (App) permissions** (e.g. what Apps have access to your Location Services?)
 * And please (*please*) [use a strong password](https://www.kaspersky.com/resource-center/threats/how-to-create-a-strong-password).
 
-If you are using a Mac, here a few tips we recommend you checking out:
+If you are using a Mac and you want to go even further, here a few tips we recommend you checking out:
 
-* Check if your [System Integrity Protection (ISP)](https://support.apple.com/en-us/HT204899) is enabled by typing in the following command into your Terminal `csrutil status`
-* If you are not using the remote login or SSH functionality of your Mac, we recommend turning it off by typing into your Terminal `sudo systemsetup -setremotelogin off`
+* Check if your **[System Integrity Protection (ISP)](https://support.apple.com/en-us/HT204899)** is enabled by typing in the following command into your Terminal `csrutil status`
+* If you are not using the **remote login or SSH** functionality of your Mac, we recommend turning it off by typing into your Terminal `sudo systemsetup -setremotelogin off`
+* Want to see what connections are currently open? Type into your Terminal `lsof -i` to list all processes with some sort of network sockets open. Additionally, you should check out your Network Utility App which comes pre-installed on your Mac.
 
 <a name="router"></a>
 
