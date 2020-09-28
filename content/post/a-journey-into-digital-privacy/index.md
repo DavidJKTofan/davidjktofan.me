@@ -91,17 +91,17 @@ Soon...
 
 ## Password Manager
 
-Don't
+<span style="color:#f8f8f2;">Soon</span>
 
 <a name="emails"/>
 
 ## Private Email Account
 
-Don't
+<span style="color:#f8f8f2;">Soon</span>
 
 #### Junk Email Account
 
-Don't
+<span style="color:#f8f8f2;">Soon</span>
 
 ## [](https://github.com/DavidJKTofan/davidjktofan.me/blob/master/content/post/_index.md#router-settings)Disclaimer
 
