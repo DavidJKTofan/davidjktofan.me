@@ -23,7 +23,7 @@ This is in no way a complete guide on how to become completely anonymous on the 
 [Search Engines](#search)  
 [Advertising](#ads)  
 [Password Manager](#password)  
-<a class="nav-link active" href="/#password" data-target="#accomplishments"><span>Password Manager</span></a>
+<a class="nav-link active" href="post/a-journey-into-digital-privacy/#password" data-target="#accomplishments"><span>Password Manager</span></a>
 [Private Email Accounts](#emails)  
 
 ***
