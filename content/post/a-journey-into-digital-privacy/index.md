@@ -30,17 +30,17 @@ This is in no way a complete guide on how to become completely anonymous on the 
 
 
 
-<a name="browsers"/>
+<a name="browsers"></a>
 
 ## Browsers
 
-<span style="color:#f8f8f2;">Our journey begins with our browser – our gateway to the internet, and our most favorite program by far. We use it every day, but we never (or very rarely) even stop to think about what information our browser is giving to all those different websites we visit (yes, even in incognito mode).</span>
+Our journey begins with our browser – our gateway to the internet, and our most favorite program by far. We use it every day, but we never (or very rarely) even stop to think about what information our browser is giving to all those different websites we visit (yes, even in incognito mode).
 
 
 
 #### Check your Browser now!
 
-<span style="color:#f8f8f2;">There are many online tools out there to figure out what and how much information your browser is giving away, but these URLs might be a good start for you:</span>
+There are many online tools out there to figure out what and how much information your browser is giving away, but these URLs might be a good start for you:
 
 * [BrowserAudit](https://browseraudit.com/)
 * [BrowserLeaks](https://browserleaks.com/)
@@ -75,9 +75,9 @@ But if you are more that "one-click-make-it-work" type of person, then the [Priv
 
 ## Mac Settings
 
-<span style="color:#f8f8f2;">Go to your System Preferences, Security & Privacy, and please review all your settings.</span>
+Go to your System Preferences, Security & Privacy, and please review all your settings.
 
-<span style="color:#f8f8f2;">Most of the time I use Mac, but the general rules are:<span> 
+Most of the time I use Mac, but the general rules are:<span> 
 
 * Your Firewall should definitely be on. 
 * If you travel a lot, or somebody else uses your laptop too, turn on FileVault (or device encryption). 
@@ -91,23 +91,23 @@ But if you are more that "one-click-make-it-work" type of person, then the [Priv
 
 ## Home Router Settings
 
-<span style="color:#f8f8f2;">Soon...</span>
+Soon...
 
 
 
-<a name="search"/>
+<a name="search"></a>
 
 
 
 ## Search Engines
 
-<span style="color:#f8f8f2;">What better search engine than Google? Google is your friend – you can find almost anything nowadays through that search engine. (However, please don't believe everything you find and see online. Be a critical thinker – even towards this little blog post.)</span>
+What better search engine than Google? Google is your friend – you can find almost anything nowadays through that search engine. (However, please don't believe everything you find and see online. Be a critical thinker – even towards this little blog post.)
 
-<span style="color:#f8f8f2;">Even though Google is amazing and helps you find things online quickly and (most of the time) accurately, it still tracks a lot (really a lot) of the things you do online (and sometimes even *offline*). And if you do not want Google knowing that you curiously searched for *"Is watermelon a cucumber?"* at 2am, then you might be better off with</span> **[DuckDuckGo](https://duckduckgo.com/)**.
+Even though Google is amazing and helps you find things online quickly and (most of the time) accurately, it still tracks a lot (really a lot) of the things you do online (and sometimes even *offline*). And if you do not want Google knowing that you curiously searched for *"Is watermelon a cucumber?"* at 2am, then you might be better off with **[DuckDuckGo](https://duckduckgo.com/)**.
 
 
 
-<a name="ads"/>
+<a name="ads"></a>
 
 
 
@@ -120,29 +120,29 @@ But if you are more that "one-click-make-it-work" type of person, then the [Priv
 
 
 
-<a name="password"/>
+<a name="password"></a>
 
 
 
 ## Password Manager
 
-<span style="color:#f8f8f2;">Soon</span>
+Soon
 
 
 
-<a name="emails"/>
+<a name="emails"></a>
 
 
 
 ## Private Email Account
 
-<span style="color:#f8f8f2;">Soon</span>
+Soon
 
 
 
 #### Junk Email Account
 
-<span style="color:#f8f8f2;">Soon</span>
+Soon
 
 
 
