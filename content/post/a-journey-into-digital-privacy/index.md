@@ -17,21 +17,26 @@ This is a brief blog post about my friends' and my journey into digital privacy,
 This is in no way a complete guide on how to become completely anonymous on the web or whatever, but more like an introduction towards what you can do to gain a little bit of digital privacy back, as well as to protect yourself a little better from potential outside threats (like e.g. malware, or simply annoying ads).
 
 ## Table of Contents
-[Browsers](#browsers)  
-[Mac Settings](#mac)  
-[Router Settings](#router)  
-[Search Engines](#search)  
-[Advertising](#ads)  
-[Password Manager](#password)  
+
+[Browsers](#browsers)\
+[Mac Settings](#mac)\
+[Router Settings](#router)\
+[Search Engines](#search)\
+[Advertising](#ads)\
+[Password Manager](#password)\
 [Private Email Accounts](#emails)  
 
-***
+- - -
+
+
 
 <a name="browsers"/>
 
 ## Browsers
 
-Our journey begins with our browser – our gateway to the internet, and our most favorite program by far. We use it every day, but we never (or very rarely) even stop to think about what information our browser is giving to all those different websites we visit (yes, even in incognito mode).
+<span style="color:#f8f8f2;">Our journey begins with our browser – our gateway to the internet, and our most favorite program by far. We use it every day, but we never (or very rarely) even stop to think about what information our browser is giving to all those different websites we visit (yes, even in incognito mode).</span>
+
+
 
 #### Check your Browser now!
 
@@ -41,11 +46,15 @@ Our journey begins with our browser – our gateway to the internet, and our mos
 * [BrowserLeaks](https://browserleaks.com/)
 * [Do I Leak](https://www.doileak.com/)
 
+
+
 #### Settings
 
 Did you ever take the time to review your browser's settings? Like seriously taking your time and trying to understand what every option does?
 
 One of the most basic and easiest things you can do on your browser's settings is to **set your browser to delete Cookies after every session** close. [Here](https://ccm.net/faq/32792-google-chrome-automatically-clear-cookies-after-each-browsing-session) is a brief article that explains how to do it on Chrome. The process should be fairly similar for other browsers nowadays too. If not, google it.
+
+
 
 #### Extensions / Addons
 
@@ -58,19 +67,37 @@ We recommend checking out the following URLs for potential content-filters that 
 
 But if you are more that "one-click-make-it-work" type of person, then the [Privacy Badger](https://privacybadger.org/) might be for you – though it is more focused on blocking some third-party trackers only. Nonetheless, there are thousands of other tools out there which might better adapt to your needs – start googling!
 
+
+
 <a name="mac"/>
+
+
 
 ## Mac Settings
 
-Soon...
+Go to your System Preferences, Security & Privacy, and please review all your settings.
+
+Most of the time I use Mac, but the general rules are: 
+
+* Your Firewall should definitely be on. 
+* If you travel a lot, or somebody else uses your laptop too, turn on FileVault (or device encryption). 
+* And please (please) [use a strong password](https://www.kaspersky.com/resource-center/threats/how-to-create-a-strong-password) for your Mac.
+
+
 
 <a name="router"/>
+
+
 
 ## Home Router Settings
 
 Soon...
 
+
+
 <a name="search"/>
+
+
 
 ## Search Engines
 
@@ -78,7 +105,11 @@ Soon...
 
 <span style="color:#f8f8f2;">Even though Google is amazing and helps you find things online quickly and (most of the time) accurately, it still tracks a lot (really a lot) of the things you do online (and sometimes even *offline*). And if you do not want Google knowing that you curiously searched for *"Is watermelon a cucumber?"* at 2am, then you might be better off with</span> **[DuckDuckGo](https://duckduckgo.com/)**.
 
+
+
 <a name="ads"/>
+
+
 
 ## Advertising, Ads Everywhere
 
@@ -87,23 +118,35 @@ Soon...
 * [Network Advertising Initiative](https://optout.networkadvertising.org/) – USA
 * [Your Online Choices](https://www.youronlinechoices.com/)
 
+
+
 <a name="password"/>
+
+
 
 ## Password Manager
 
 <span style="color:#f8f8f2;">Soon</span>
 
+
+
 <a name="emails"/>
+
+
 
 ## Private Email Account
 
 <span style="color:#f8f8f2;">Soon</span>
 
+
+
 #### Junk Email Account
 
 <span style="color:#f8f8f2;">Soon</span>
 
-## [](https://github.com/DavidJKTofan/davidjktofan.me/blob/master/content/post/_index.md#router-settings)Disclaimer
+
+
+## Disclaimer
 
 Don't forget that any changes to your settings, and any tools/programs that you download on your device will have some sort of consequences. For example: when filtering content or blocking cookies, you cannot use several functionalities and/or features of some websites – like e.g. Facebook. Additionally, some changes in your settings might prevent you from using other tools or websites. Therefore, when changing anything you are not really sure about: *baby steps*.
 
