@@ -19,6 +19,11 @@ This is in no way a complete guide on how to become completely anonymous on the 
 ## Table of Contents
 [Browsers](#browsers)  
 [Mac Settings](#mac)  
+[Router Settings](#router) 
+[Search Engines](#search) 
+[Advertising](#ads) 
+[Password Manager](#password) 
+[Private Email Accounts](#emails) 
 
 ***
 
@@ -59,15 +64,21 @@ But if you are more that "one-click-make-it-work" type of person, then the [Priv
 
 Soon...
 
+<a name="router"/>
+
 ## [](https://github.com/DavidJKTofan/davidjktofan.me/blob/master/content/post/_index.md#router-settings)Home Router Settings
 
 Soon...
+
+<a name="search"/>
 
 ## Search Engines
 
 What better search engine than Google? Google is your friend – you can find almost anything nowadays through that search engine. (However, please don't believe everything you find and see online. Be a critical thinker – even towards this little blog post.)
 
 Even though Google is amazing and helps you find things online quickly and (most of the time) accurately, it still tracks a lot (really a lot) of the things you do online (and sometimes even *offline*). And if you do not want Google knowing that you curiously searched for *"Is watermelon a cucumber?"* at 2am, then you might be better off with **[DuckDuckGo](https://duckduckgo.com/)**.
+
+<a name="ads"/>
 
 ## Advertising, Ads Everywhere
 
@@ -76,9 +87,13 @@ Do you want to opt-out of personalized advertising? The following URLs show you 
 * [Network Advertising Initiative](https://optout.networkadvertising.org/) (USA)
 * [Your Online Choices](https://www.youronlinechoices.com/)
 
+<a name="password"/>
+
 ## Password Manager
 
 Soon...
+
+<a name="emails"/>
 
 ## Private Email Account
 
