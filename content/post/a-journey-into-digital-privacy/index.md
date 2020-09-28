@@ -17,12 +17,12 @@ This is a brief blog post about my friends' and my journey into digital privacy,
 This is in no way a complete guide on how to become completely anonymous on the web or whatever, but more like an introduction towards what you can do to gain a little bit of digital privacy back, as well as to protect yourself a little better from potential outside threats (like e.g. malware, or simply annoying ads).
 
 ## Table of Contents
-[Browsers](#browsers)  
-[Mac Settings](#mac)  
-[Router Settings](#router) 
-[Search Engines](#search) 
-[Advertising](#ads) 
-[Password Manager](#password) 
+[Browsers](#browsers)
+[Mac Settings](#mac)
+[Router Settings](#router)
+[Search Engines](#search)
+[Advertising](#ads)
+[Password Manager](#password)
 [Private Email Accounts](#emails) 
 
 ***
