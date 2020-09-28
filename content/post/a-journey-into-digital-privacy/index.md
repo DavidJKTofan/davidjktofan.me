@@ -91,7 +91,7 @@ Most of the time I use Mac, but the general rules are:
 
 ## Home Router Settings
 
-Soon...
+<span style="color:#f8f8f2;">Soon...</span>
 
 
 
