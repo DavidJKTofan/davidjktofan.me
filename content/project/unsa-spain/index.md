@@ -6,9 +6,9 @@ summary: UNSA Spain is a Spanish Federation of Associations that mainly aims to
 draft: false
 featured: false
 tags:
-  - Other
+  - Initiatives
 categories:
-  - Other
+  - Initiatives
 external_link: https://unsaspain.org/
 image:
   filename: featured.png
