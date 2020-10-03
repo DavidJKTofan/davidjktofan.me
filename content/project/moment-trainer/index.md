@@ -6,9 +6,9 @@ summary: A book on learning how to live in the moment, improve your health, do
 draft: false
 featured: false
 tags:
-  - Other
+  - Initiatives
 categories:
-  - Other
+  - Initiatives
 external_link: https://www.mihaitofan.co/
 image:
   filename: featured.png
