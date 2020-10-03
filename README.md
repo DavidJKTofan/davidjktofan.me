@@ -4,6 +4,8 @@
 
 Special thanks to Wowchemy Website Builder, Academic Template, Netlify, and all other contributors. :)
 
+* Documentation here: https://wowchemy.com/docs/
+
 # Personal Website
 
 [david-tofan.netlify.app](https://david-tofan.netlify.app/)
