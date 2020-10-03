@@ -6,9 +6,9 @@ summary: My GitHub repositories where I work on Python, SQL, R and other
 draft: false
 featured: false
 tags:
-  - Other
+  - Resources
 categories:
-  - Other
+  - Resources
 external_link: https://github.com/DavidJKTofan
 image:
   filename: featured.png
