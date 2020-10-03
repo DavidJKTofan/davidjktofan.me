@@ -15,11 +15,4 @@ header:
 Work in progress...
 
 <!-- The Chart is drawn here -->
-<div id="chart_divAddedValue"/></div>
-
-<!-- Here are the Buttons -->
-<div align="center">
-  <button id="totaladdedvalue" style="background-color:#004b85">Total</button>
-  <button id="premiumaddedvalue">Premium</button>
-  <button id="nonpremiumaddedvalue">Non Premium</button>
-</div>
+<div id="chart_div" style="width:400; height:300"></div>
