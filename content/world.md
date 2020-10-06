@@ -14,23 +14,4 @@ header:
 
 Work in progress...
 
-<!-- The Chart is drawn here -->
-<div id='dashboard' style="width: 100%;">
-    <div class="row">
-      <div>
-        <div id='category_div' style="float:left; height:80px; margin:10px;margin-bottom:40px"></div>
-      </div>
-      <div>
-        <div id='category_2_div' style="float:left; height:80px; margin:10px; margin-left:80px"></div>
-      </div>
-      <div>
-        <div style="position:relative; float:right; height:40px; margin:10px; margin-left:80px">
-          <p style="font-size:12px; color: #808080; margin-bottom: 5px;">Try searching for "MOOC"</p>
-          <div id='string_div'></div>
-        </div>
-      </div>
-    </div>
-    <div style="width:100%; overflow-x:auto;">
-      <table id='chart_div' class='table_style'></table>
-    </div>
-  </div>
+<!-- Chart here -->
