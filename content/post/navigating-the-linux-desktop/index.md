@@ -116,3 +116,8 @@ Website: https://wiki.ubuntu.com/UncomplicatedFirewall
 
 **Gufw**\
 Website: http://gufw.org/
+
+## Password Manager
+
+**KeePassX**\
+Website: https://www.keepassx.org/
