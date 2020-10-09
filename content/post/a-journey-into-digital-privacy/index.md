@@ -154,7 +154,11 @@ Soon
 
 ## Private Email Account
 
-Soon
+Here some free Email Providers which offer some degree of privacy and security:
+
+* [Tutanota](https://tutanota.com/)
+* [ProtonMail](https://protonmail.com/)
+* [Mailfence](https://mailfence.com/)
 
 #### Junk Email Account
 
@@ -164,6 +168,8 @@ Soon
 
 ## Disclaimer
 
-Don't forget that any changes to your settings, and any tools/programs that you download on your device will have some sort of consequences. For example: when filtering content or blocking cookies, you cannot use several functionalities and/or features of some websites – like e.g. Facebook. Additionally, some changes in your settings might prevent you from using other tools or websites. Therefore, when changing anything you are not really sure about: *baby steps*.
+Don't forget that any changes to your settings, and any tools/programs that you download on your device will have some sort of consequences. For example: when filtering content or blocking cookies, you cannot use several functionalities and/or features of some websites – like e.g. Facebook. Additionally, some changes in your settings might prevent you from using other tools or websites. Therefore, when changing anything you are not really sure about: *baby steps*. 
+
+As mentioned at the beginning, this is not a complete guide on how to become  to protect yourself.
 
 **You are responsible** of figuring out what the best balance is for your online experience, and how much digital privacy you want to achieve. Though I hope that this brief blog post has helped some of you become more conscious about your online behavior, maybe even motivated or inspired some of you to learn more about IT. There are thousands of tools and ways out there to improve your digital privacy and security – go for it (if you are curious)!
