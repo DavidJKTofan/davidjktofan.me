@@ -1,5 +1,5 @@
 ---
-title: A Journey into Digital Privacy
+title: A Journey into Digital Privacy & CyberSec
 date: 2020-09-27T21:22:53.306Z
 draft: false
 featured: true
@@ -12,9 +12,9 @@ image:
   focal_point: Smart
   preview_only: true
 ---
-This is a brief blog post about my friends' and my journey into digital privacy, and how to achieve some of it by simply changing a few settings, or with the help of publicly available and open source tools.
+This is a brief blog post about my friends' and my journey into digital privacy and cyber security, and how to achieve some of it by simply changing a few settings, or with the help of publicly available, free, and open source tools.
 
-This is in no way a complete guide on how to become completely anonymous on the web or whatever, but more like an introduction towards what you can do to gain a little bit of digital privacy back, as well as to protect yourself a little better from potential outside threats (like e.g. malware, or simply annoying ads).
+This is in no way a complete guide on how to become completely anonymous or secure on the web, but more like an introduction towards what you can do to gain a little bit of digital privacy back, as well as to protect yourself a little better from potential outside threats (like e.g. malware, or simply annoying ads).
 
 ## Table of Contents
 
@@ -57,7 +57,7 @@ We recommend checking out the following URLs for potential content-filters that 
 * [FilterLists](https://filterlists.com/)
 * [Block List Project](https://blocklist.site/)
 
-But if you are more that "one-click-make-it-work" type of person, then the [Privacy Badger](https://privacybadger.org/) might be for you – though it is more focused on blocking some third-party trackers only. Nonetheless, there are thousands of other tools out there which might better adapt to your needs – start googling!
+But if you are more that "one-click-make-it-work" type of person, then the [Privacy Badger](https://privacybadger.org/) might be for you – though it is more focused on blocking some third-party trackers only. Additionally, check out the [CanvasDefender](https://multilogin.com/canvas-defender/), which attempts to change your browser *fingerprint*. Nonetheless, there are thousands of more tools out there which might better adapt to your needs – start googling!
 
 However, be careful not to add too many Extensions, because they might stop each other from working properly, and your device processor will also thank you.
 
@@ -124,6 +124,7 @@ What better search engine than Google? Google is your friend – you can find al
 Even though Google is amazing and helps you find things online quickly and (most of the time) accurately, it still tracks a lot (really a lot) of the things you do online (and sometimes even *offline*). And if you do not want Google knowing that you curiously searched for *"Is watermelon a cucumber?"* at 2am, then you might be better off with **[DuckDuckGo](https://duckduckgo.com/)**.
 
 Some alternatives are:
+
 * [Swisscows](https://swisscows.com/)
 * [Startpage](https://www.startpage.com/)
 * [Searx](https://searx.space/)
