@@ -48,6 +48,8 @@ Did you ever take the time to review your browser's settings? Like seriously tak
 
 One of the most basic and easiest things you can do on your browser's settings is to **set your browser to delete Cookies after every session** close. [Here](https://ccm.net/faq/32792-google-chrome-automatically-clear-cookies-after-each-browsing-session) is a brief article that explains how to do it on Chrome. The process should be fairly similar for other browsers nowadays too. If not, google it.
 
+If you are using Firefox, here is a good [guide on privacy settings](https://restoreprivacy.com/firefox-privacy/) you might be interested in.
+
 #### Extensions / Addons
 
 One of our favorite Extensions is **[uBlock Origin](https://github.com/gorhill/uBlock)** (not to be confused with [uBlock](https://www.reddit.com/r/ublock/comments/32mos6/ublock_vs_ublock_origin/)). It is our go-to-Extension for content-filtering and ad-blocking (*"it is a wide-spectrum blocker"*).
