@@ -71,7 +71,6 @@ Work in progress...
   th {
     padding-top: 12px;
     padding-bottom: 12px;
-    background-color: rgb(1, 0, 113);
     border-color: rgb(151, 150, 168) !important;
     color: #FFFFFF;
   }
@@ -82,10 +81,6 @@ Work in progress...
     font-weight: bold;
     font-size: 18px;
     color: #FFFFFF;
-  }
-  
-  .oddTableRow {
-    background-color: rgb(220, 230, 252);
   }
 
   .hoverTableRow {
