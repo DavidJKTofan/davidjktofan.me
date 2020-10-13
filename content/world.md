@@ -80,16 +80,8 @@ Work in progress...
     background-color: rgb(1, 0, 113);
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 18px;
     color: #FFFFFF;
-  }
-
-  .oddTableRow {
-    background-color: rgb(220, 230, 252);
-  }
-
-  .tableRow {
-    background-color: #FFFFFF;
   }
 
   .hoverTableRow {
@@ -151,13 +143,13 @@ Work in progress...
 </style>
 
 <!-- Chart here -->
-  <div id="dashboard" style="width: 100%; margin-top:40px;">
+  <div id="dashboard" style="width: 100%; margin-top:40px; margin-bottom:40px;">
     <div class="row">
       <div>
-        <div id="category_div" style="float:left; height:60px; margin:10px;margin-bottom:40px;"></div>
+        <div id="category_div" style="float:left; height:60px; margin:15px;margin-bottom:40px;"></div>
       </div>
       <div>
-        <div id="category_2_div" style="float:left; height:60px; margin:10px; margin-left:80px;"></div>
+        <div id="category_2_div" style="float:left; height:60px; margin:15px; margin-left:80px;"></div>
       </div>
       <div>
         <div style="position:relative; float:right; height:40px; margin:10px; margin-left:80px">
@@ -166,7 +158,7 @@ Work in progress...
         </div>
       </div>
     </div>
-    <div style="width:100%; overflow-x:auto;">
+    <div style="width:100%; margin-top:40px; overflow-x:auto;">
       <table id="chart_div" class="table_style"></table>
     </div>
   </div>
