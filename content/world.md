@@ -14,9 +14,17 @@ header:
 
 Work in progress...
 
-<div class="article-container">
+<style>
+  .article-container {
+    max-width: 900px important;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+</style>
+
+<div class="article-container" style="width: 900px; !important;">
 <!-- Chart here -->
-  <div id="dashboard" style="width: 900px; !important;">
+  <div id="dashboard" style="width: 100%;">
     <div class="row">
       <div>
         <div id="category_div" style="float:left; height:60px; margin:10px;margin-bottom:40px;"></div>
