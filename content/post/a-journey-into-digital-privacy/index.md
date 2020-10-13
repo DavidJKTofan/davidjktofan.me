@@ -168,6 +168,10 @@ Soon
 
 <br>
 
+## More on GitHub
+
+For more tools, resources, Linux and MacOs terminal commands, and more, visit my GitHub repo [CyberSec-resources](https://github.com/DavidJKTofan/CyberSec-resources).
+
 ## Disclaimer
 
 Don't forget that any changes to your settings, and any tools/programs that you download on your device will have some sort of consequences. For example: when filtering content or blocking cookies, you cannot use several functionalities and/or features of some websites – like e.g. Facebook. Additionally, some changes in your settings might prevent you from using other tools or websites. Therefore, when changing anything you are not really sure about: *baby steps*. 
