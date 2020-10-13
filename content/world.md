@@ -14,8 +14,9 @@ header:
 
 Work in progress...
 
+<div class="article-container">
 <!-- Chart here -->
-  <div id="dashboard" style="width: 100%;">
+  <div id="dashboard" style="width: 900px; !important;">
     <div class="row">
       <div>
         <div id="category_div" style="float:left; height:60px; margin:10px;margin-bottom:40px;"></div>
@@ -34,3 +35,5 @@ Work in progress...
       <table id="chart_div" class="table_style"></table>
     </div>
   </div>
+  
+</div>
