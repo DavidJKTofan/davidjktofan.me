@@ -33,7 +33,7 @@ Work in progress...
     padding-bottom: 7px;
     margin-right: 5px;
     margin-bottom:5px;
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .filter .goog-link-button {
@@ -53,7 +53,7 @@ Work in progress...
     padding-bottom: 7px;
     margin-right: 5px;
     margin-bottom:5px;
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .filter2 .goog-link-button {
@@ -100,10 +100,6 @@ Work in progress...
     margin-left: 10px;
     height: 20px !important;
     color: white !important;
-  }
-
-  .selectedTableRow {
-    background-color: rgba(141, 186, 238, 0.76) !important;
   }
 
   .table_style {
