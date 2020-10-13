@@ -14,149 +14,144 @@ header:
 
 Work in progress...
 
+<!-- STYLESHEET CSS -->
 <style>
   .article-container {
     max-width: 900px !important;
     padding: 0 20px;
     margin: 0 auto;
   }
-</style>
 
-<!-- STYLESHEET CSS -->
-<style>
-    /* FILTERS */
-    .filter .google-visualization-controls-categoryfilter-selected li {
-      background-color: rgb(1, 0, 113);
-      border: 1px solid rgb(1, 0, 113);
-      color: #FFFFFF;
-      padding: 1px;
-      padding-right: 7px;
-      padding-left: 7px;
-      padding-top: 7px;
-      padding-bottom: 7px;
-      margin-right: 5px;
-      margin-bottom:5px;
-      font-size: 12px;
-    }
+  .filter .google-visualization-controls-categoryfilter-selected li {
+    background-color: rgb(1, 0, 113);
+    border: 1px solid rgb(1, 0, 113);
+    color: #FFFFFF;
+    padding: 1px;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-right: 5px;
+    margin-bottom:5px;
+    font-size: 12px;
+  }
 
-    .filter .goog-link-button {
-      cursor: pointer;
-      float: right;
-      margin-left: 4px;
-    }
+  .filter .goog-link-button {
+    cursor: pointer;
+    float: right;
+    margin-left: 4px;
+  }
 
-    .filter2 .google-visualization-controls-categoryfilter-selected li {
-      background-color: rgb(1, 0, 113, 0.8);
-      border: 1px solid rgb(1, 0, 113, 0.5);
-      color: #FFFFFF;
-      padding: 1px;
-      padding-right: 7px;
-      padding-left: 7px;
-      padding-top: 7px;
-      padding-bottom: 7px;
-      margin-right: 5px;
-      margin-bottom:5px;
-      font-size: 12px;
-    }
+  .filter2 .google-visualization-controls-categoryfilter-selected li {
+    background-color: rgb(1, 0, 113, 0.8);
+    border: 1px solid rgb(1, 0, 113, 0.5);
+    color: #FFFFFF;
+    padding: 1px;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-right: 5px;
+    margin-bottom:5px;
+    font-size: 12px;
+  }
 
-    .filter2 .goog-link-button {
-      cursor: pointer;
-      float: right;
-      margin-left: 4px;
-    }
+  .filter2 .goog-link-button {
+    cursor: pointer;
+    float: right;
+    margin-left: 4px;
+  }
 
-    .goog-menu-vertical {
-      max-height: 100vh;
-      overflow-y: auto;
-      overflow: scroll;
-    }
+  .goog-menu-vertical {
+    max-height: 100vh;
+    overflow-y: auto;
+    overflow: scroll;
+  }
 
-    /* TABLE */
-    th {
-      padding-top: 12px;
-      padding-bottom: 12px;
-      background-color: rgb(1, 0, 113);
-      border-color: rgb(151, 150, 168) !important;
-      color: #FFFFFF;
-    }
+  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(1, 0, 113);
+    border-color: rgb(151, 150, 168) !important;
+    color: #FFFFFF;
+  }
 
-    .headerRow {
-      background-color: rgb(1, 0, 113);
-      font-family: 'Roboto', sans-serif;
-      font-weight: bold;
-      font-size: 17px;
-      color: #FFFFFF;
-    }
+  .headerRow {
+    background-color: rgb(1, 0, 113);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: #FFFFFF;
+  }
 
-    .oddTableRow {
-      /* background-color: #FFFFFF; */
-      background-color: rgb(220, 230, 252);
-    }
+  .oddTableRow {
+    background-color: rgb(220, 230, 252);
+  }
 
-    .tableRow {
-      background-color: #FFFFFF;
-    }
+  .tableRow {
+    background-color: #FFFFFF;
+  }
 
-    .hoverTableRow {
-      background-color: #ADC6F8 !important;
-    }
+  .hoverTableRow {
+    background-color: #ADC6F8 !important;
+  }
 
-    .tableCell {
-      font-family: 'Roboto', sans-serif;
-      font-size: 14px;
-      padding-top: 10px;
-      padding-right: 10px;
-      padding-bottom: 10px;
-      padding-left: 10px;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      margin-right: 10px;
-      margin-left: 10px;
-      height: 20px !important;
-      color: black !important;
-    }
+  .tableCell {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 20px !important;
+    color: black !important;
+  }
 
-    .selectedTableRow {
-      background-color: rgba(141, 186, 238, 0.76) !important;
-      font-weight: bold;
-    }
+  .selectedTableRow {
+    background-color: rgba(141, 186, 238, 0.76) !important;
+    font-weight: bold;
+  }
 
-    .table_style {
-      border-collapse: collapse;
-      table-layout: fixed;
-    }
+  .table_style {
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
 
-    .table_style tbody{
-      overflow: auto;
-      height: 20px;
-    }
+  .table_style tbody{
+    overflow: auto;
+    height: 20px;
+  }
 
-    .table_style td:nth-child(1) {
-      font-weight: bold;
-    }
+  .table_style td:nth-child(1) {
+    font-weight: bold;
+  }
 
-    .table_style td:nth-child(3) {
-      text-align: center;
-    }
+  .table_style td:nth-child(3) {
+    text-align: center;
+  }
 
-    .table_style td:nth-child(3) a {
-      text-decoration: none;
-    }
+  .table_style td:nth-child(3) a {
+    text-decoration: none;
+  }
 
-    .table_style td:nth-child(3) a:hover {
-      text-decoration: none;
-      color: rgb(1, 0, 113);
-      font-weight: bold;
-      cursor: pointer;
-    }
+  .table_style td:nth-child(3) a:hover {
+    text-decoration: none;
+    color: rgb(1, 0, 113);
+    font-weight: bold;
+    cursor: pointer;
+  }
 
-    .table_style td:nth-child(3) a:visited {
-      color: rgb(250, 157, 27);
-    }
+  .table_style td:nth-child(3) a:visited {
+    color: rgb(250, 157, 27);
+  }
 </style>
 
 <!-- Chart here -->
-  <div id="dashboard" style="width: 100%;">
+  <div id="dashboard" style="width: 100%; margin-top:40px;">
     <div class="row">
       <div>
         <div id="category_div" style="float:left; height:60px; margin:10px;margin-bottom:40px;"></div>
