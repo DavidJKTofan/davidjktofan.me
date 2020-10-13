@@ -1,5 +1,206 @@
 <!-- SCRIPT HERE -->
+<!--Load the AJAX API-->
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <!-- GOOGLE CHARTS SCRIPT -->
+  <script type="text/javascript">
+    google.charts.load('current', {
+      callback: function() {
+        var query = new google.visualization.Query(
+          'https://docs.google.com/spreadsheets/d/1yRhq2Fx_Rq7mvc8EMGYsXmqRqFHyU8KcBIX6rgCeqR4/gviz/tq?sheet=resources&headers=1&tq='
+        );
+        query.setQuery('SELECT A, B, C, D, E, F, G, H, I');
+        // query.setRefreshInterval(10)
+        query.send(drawDashboard);
+      },
+      packages: ['controls', 'table']
+    });
 
+    function drawDashboard(response) {
+      if (response.isError()) {
+        console.log('Error in query: ' + response.getMessage() + ' ' + response.getDetailedMessage());
+        return;
+      }
+
+      var data = response.getDataTable();
+
+      var dashboard = new google.visualization.Dashboard(document.getElementById('dashboard'));
+
+      // var percentFormatter = new google.visualization.NumberFormat({
+      //   pattern: '#,###.##%'
+      // });
+      // percentFormatter.format(data, 1);
+      // percentFormatter.format(data, 3);
+
+      // var numberFormatter = new google.visualization.NumberFormat({
+      //   pattern: '#.##'
+      // });
+      // numberFormatter.format(data, 7);
+      // numberFormatter.format(data, 8);
+      //
+      // var colorFormatter = new google.visualization.ColorFormat();
+      // colorFormatter.addRange(-20000, 0, 'white', 'orange');
+      // colorFormatter.addRange(20000, null, 'red', '#33ff33');
+      // colorFormatter.format(data, 8);
+      // colorFormatter.format(data, 9);
+      // colorFormatter.format(data, 10);
+      // colorFormatter.format(data, 11);
+
+      // DROPDOWN FILTER
+      var controlCat = new google.visualization.ControlWrapper({
+        controlType: 'CategoryFilter',
+        containerId: 'category_div',
+        options: {
+          filterColumnIndex: 3, // Main Category 1
+          ui: {
+            labelStacking: 'vertical',
+            allowTyping: false,
+            allowMultiple: true,
+            labelSeparator: ':',
+            caption: 'Choose',
+            label: 'Category',
+            sortValues: true,
+            allowNone: true,
+            cssClass: 'filter',
+            selectedValuesLayout: 'below'
+          }
+        }
+      });
+
+      // DROPDOWN FILTER
+      var controlSubCat = new google.visualization.ControlWrapper({
+        controlType: 'CategoryFilter',
+        containerId: 'category_2_div',
+        options: {
+          filterColumnIndex: 5, // Main Category
+          ui: {
+            labelStacking: 'vertical',
+            allowTyping: false,
+            allowMultiple: true,
+            labelSeparator: ':',
+            caption: 'Choose',
+            label: 'Sub-Category',
+            sortValues: true,
+            allowNone: true,
+            cssClass: 'filter2',
+            selectedValuesLayout: 'below'
+          }
+        }
+      });
+
+      // STRING FILTER
+      // create a list of columns for the dashboard
+      var columns = [{
+        // this column aggregates all of the data into one column
+        // for use with the string filter
+        type: 'string',
+        calc: function(dt, row) {
+          for (var i = 0, vals = [], cols = dt.getNumberOfColumns(); i < cols; i++) {
+            vals.push(dt.getFormattedValue(row, i));
+          }
+          return vals.join('\n');
+        }
+      }];
+      for (var i = 0, cols = data.getNumberOfColumns(); i < cols; i++) {
+        columns.push(i);
+      }
+
+      // Define a slider control for the 'Donuts eaten' column
+      var controlString = new google.visualization.ControlWrapper({
+        controlType: 'StringFilter',
+        containerId: 'string_div',
+        options: {
+          filterColumnIndex: 0,
+          matchType: 'any',
+          caseSensitive: false,
+          ui: {
+            label: 'Search',
+            labelSeparator: ':',
+          }
+        },
+        view: {
+          columns: columns
+        }
+      });
+
+      // TABLE STYLE CSS
+      var cssClassNames = {
+        headerRow: 'headerRow',
+        tableRow: 'tableRow',
+        oddTableRow: 'oddTableRow',
+        selectedTableRow: 'selectedTableRow',
+        hoverTableRow: 'hoverTableRow',
+        headerCell: 'headerCell',
+        tableCell: 'tableCell',
+        rowNumberCell: 'rowNumberCell'
+      };
+
+      // TABLE CHART
+      var table = new google.visualization.ChartWrapper({
+        chartType: 'Table',
+        containerId: 'chart_div',
+        options: {
+          allowHtml: true,
+          cssClassNames: cssClassNames,
+          width: '100vw',
+          height: '100%',
+          page: 'enable',
+          pageSize: 20,
+          pagingSymbols: {
+            prev: 'prev',
+            next: 'next'
+          },
+          pagingButtons: 7
+        },
+        view: {
+          columns: [0, 1, 2] // View first 3 columns
+        }
+      });
+
+      // TABLE FIXED WIDTH
+      data.setProperty(0, 0, 'style', 'width:20vw');
+      data.setProperty(0, 1, 'style', 'width:50vw');
+      data.setProperty(0, 2, 'style', 'width:30vw');
+
+      // // FORMATTER
+      // hyperlink URL column
+      var format_url = new google.visualization.PatternFormat(
+        '<a href="{0}" target="_blank" rel="nofollow">{0}</a>');
+      // extract the third column for format_url variable
+      format_url.format(data, [2]);
+
+      // Use DataView to create read-only view for data.table
+      var view = new google.visualization.DataView(data);
+
+      // DEPENDENCIES
+      dashboard.bind(controlCat, controlSubCat);
+      dashboard.bind([controlCat, controlSubCat, controlString], table);
+      // DRAW
+      dashboard.draw(view);
+    }
+  </script>
+
+  <div id="dashboard" style="width: 100%;">
+    <div class="row">
+      <div>
+        <div id="category_div" style="float:left; height:80px; margin:10px;margin-bottom:40px;"></div>
+      </div>
+      <div>
+        <div id="category_2_div" style="float:left; height:80px; margin:10px; margin-left:80px;"></div>
+      </div>
+      <div>
+        <div style="position:relative; float:right; height:40px; margin:10px; margin-left:80px">
+          <p style="font-size:12px; color: #808080; margin-bottom: 5px;">Try searching for "MOOCs"</p>
+          <div id="string_div"></div>
+        </div>
+      </div>
+    </div>
+    <div style="width:100%; overflow-x:auto;">
+      <table id="chart_div" class="table_style"></table>
+    </div>
+  </div>
+
+
+<!-- FOOTER -->
 <footer class="site-footer">
   {{ if or (site.GetPage "terms.md") (site.GetPage "privacy.md") }}
   <p class="powered-by">
