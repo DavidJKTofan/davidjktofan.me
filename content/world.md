@@ -18,10 +18,10 @@ Work in progress...
   <div id="dashboard" style="width: 100%;">
     <div class="row">
       <div>
-        <div id="category_div" style="float:left; height:80px; margin:10px;margin-bottom:40px;"></div>
+        <div id="category_div" style="float:left; height:60px; margin:10px;margin-bottom:40px;"></div>
       </div>
       <div>
-        <div id="category_2_div" style="float:left; height:80px; margin:10px; margin-left:80px;"></div>
+        <div id="category_2_div" style="float:left; height:60px; margin:10px; margin-left:80px;"></div>
       </div>
       <div>
         <div style="position:relative; float:right; height:40px; margin:10px; margin-left:80px">
