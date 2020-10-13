@@ -140,10 +140,10 @@ Work in progress...
   <div id="dashboard" style="width: 100%; margin-top:40px; margin-bottom:40px;">
     <div class="row">
       <div>
-        <div id="category_div" style="font-size: 13px; float:left; height:60px; margin:15px; margin-bottom:40px;"></div>
+        <div id="category_div" style="font-size: 15px; float:left; height:60px; margin:15px; margin-bottom:40px;"></div>
       </div>
       <div>
-        <div id="category_2_div" style="font-size: 13px; float:left; height:60px; margin:15px; margin-left:80px;"></div>
+        <div id="category_2_div" style="font-size: 15px; float:left; height:60px; margin:15px; margin-left:80px;"></div>
       </div>
       <div>
         <div style="position:relative; float:right; height:40px; margin:10px; margin-left:80px">
