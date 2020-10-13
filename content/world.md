@@ -16,13 +16,12 @@ Work in progress...
 
 <style>
   .article-container {
-    max-width: 900px important;
+    max-width: 900px !important;
     padding: 0 20px;
     margin: 0 auto;
   }
 </style>
 
-<div class="article-container" style="width: 900px; !important;">
 <!-- Chart here -->
   <div id="dashboard" style="width: 100%;">
     <div class="row">
@@ -44,4 +43,3 @@ Work in progress...
     </div>
   </div>
   
-</div>
