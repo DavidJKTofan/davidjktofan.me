@@ -83,6 +83,10 @@ Work in progress...
     font-size: 18px;
     color: #FFFFFF;
   }
+  
+  .oddTableRow {
+    background-color: rgb(220, 230, 252);
+  }
 
   .hoverTableRow {
     background-color: #ADC6F8 !important;
@@ -100,12 +104,11 @@ Work in progress...
     margin-right: 10px;
     margin-left: 10px;
     height: 20px !important;
-    color: black !important;
+    color: white !important;
   }
 
   .selectedTableRow {
     background-color: rgba(141, 186, 238, 0.76) !important;
-    font-weight: bold;
   }
 
   .table_style {
