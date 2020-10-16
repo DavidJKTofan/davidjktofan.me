@@ -6,9 +6,9 @@
     google.charts.load('current', {
       callback: function() {
         var query = new google.visualization.Query(
-          'https://docs.google.com/spreadsheets/d/1yRhq2Fx_Rq7mvc8EMGYsXmqRqFHyU8KcBIX6rgCeqR4/gviz/tq?sheet=resources&headers=1&tq='
+          'https://docs.google.com/spreadsheets/d/1E2lE8EJoZSu0NeG76Yyq7ai6zCHb7jILXjCqKMQMD0I/gviz/tq?sheet=resources&headers=1&tq='
         );
-        query.setQuery('SELECT A, B, C, D, E, F, G, H, I');
+        query.setQuery('SELECT A, B, C, D, E, F, G, H');
         // query.setRefreshInterval(10)
         query.send(drawDashboard);
       },
@@ -51,7 +51,7 @@
         controlType: 'CategoryFilter',
         containerId: 'category_2_div',
         options: {
-          filterColumnIndex: 5, // Main Category
+          filterColumnIndex: 5, // Sub Category
           ui: {
             labelStacking: 'vertical',
             allowTyping: false,
