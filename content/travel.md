@@ -29,6 +29,7 @@ header:
   position: relative;
   width: 100%;
   max-width: 400px;
+  margin-bottom: -10px;
 }
 
 .container img {
@@ -51,7 +52,7 @@ header:
   cursor: pointer;
   border-radius: 10px;
   text-align: center;
-  clip-path: polygon(20% 0%, 90% 0%, 90% 100%, 20% 100%, 0% 50%);
+  clip-path: polygon(15% 0%, 95% 0%, 95% 100%, 15% 100%, 0% 50%);
 }
 
 .container .btn:hover {
