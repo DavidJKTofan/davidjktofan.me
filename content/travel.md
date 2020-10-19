@@ -80,4 +80,33 @@ Work in progress...
       <button class="btn">Cádiz</button>
     </div>
   </div>
+  
+  <div class="column">
+    <div class="container">
+        <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/Iceland-background.jpg" alt="CDMX" style="width:100%">
+      <button class="btn">CDMX</button>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="container">
+        <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/Madrid-background.jpg" alt="CDMX" style="width:100%">
+      <button class="btn">CDMX</button>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="container">
+        <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/Munich-city-background.jpg" alt="CDMX" style="width:100%">
+      <button class="btn">CDMX</button>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="container">
+        <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/New-York-background.jpg" alt="CDMX" style="width:100%">
+      <button class="btn">CDMX</button>
+    </div>
+  </div>
+  
 </div>
