@@ -16,8 +16,7 @@ header:
 <style>
 .column {
   float: left;
-  width: 20%;
-  padding: 5px;
+  width: 50%;
 }
 
 .row::after {
