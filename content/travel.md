@@ -41,20 +41,20 @@ header:
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(10%, 150%);
   -ms-transform: translate(-50%, -50%);
-  background-color: #282a36;
+  background-color: rgb(40, 42, 54, 0.7);
   color: white;
-  font-size: 16px;
-  padding: 12px 24px;
+  font-size: 18px;
+  padding: 10px 50px;
   border: none;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 10px;
   text-align: center;
 }
 
 .container .btn:hover {
-  background-color: #2962ff;
+  background-color: rgb(41, 98, 255, 0.9);
 }
 
 
