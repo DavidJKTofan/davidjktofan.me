@@ -51,6 +51,7 @@ header:
   cursor: pointer;
   border-radius: 10px;
   text-align: center;
+  clip-path: polygon(20% 0%, 90% 0%, 90% 100%, 20% 100%, 0% 50%);
 }
 
 .container .btn:hover {
