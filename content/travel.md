@@ -17,6 +17,7 @@ header:
 .column {
   float: left;
   width: 33%;
+  margin-bottom: -50px;
 }
 
 .row::after {
@@ -29,7 +30,6 @@ header:
   position: relative;
   width: 100%;
   max-width: 400px;
-  margin-bottom: -10px;
 }
 
 .container img {
