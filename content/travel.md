@@ -17,6 +17,7 @@ header:
 .column {
   float: left;
   width: 50%;
+  padding: 5px;
 }
 
 .row::after {
@@ -32,8 +33,9 @@ header:
 }
 
 .container img {
-  width: 100%;
-  height: auto;
+  width: 20vh;
+  height: 15vw;
+  object-fit: cover;
 }
 
 .container .btn {
