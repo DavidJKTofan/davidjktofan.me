@@ -14,6 +14,18 @@ header:
 
 <!-- STYLESHEET CSS -->
 <style>
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .container {
   position: relative;
   width: 100%;
@@ -53,23 +65,17 @@ Hope they are useful :) and feel free to recommend me new places too!
 Work in progress...
 
 <div class="row">
-  <div class="container">
-    <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/CDMX-piramides.jpeg" alt="CDMX" style="width:100%">
-    <button class="btn">CDMX</button>
+  <div class="column">
+    <div class="container">
+      <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/CDMX-piramides.jpeg" alt="CDMX" style="width:100%">
+      <button class="btn">CDMX</button>
+    </div>
   </div>
-  <div class="container"> 
-    <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/Cadiz-background.jpg" alt="Cadiz" style="width:100%">
-    <button class="btn">Cádiz</button>
-  </div>
-</div>
 
-<div class="row">
-  <div class="container">
-    <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/CDMX-piramides.jpeg" alt="CDMX" style="width:100%">
-    <button class="btn">CDMX</button>
-  </div>
-  <div class="container"> 
-    <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/Cadiz-background.jpg" alt="Cadiz" style="width:100%">
-    <button class="btn">Cádiz</button>
+  <div class="column">
+    <div class="container">
+      <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/Cadiz-background.jpg" alt="Cadiz" style="width:100%">
+      <button class="btn">Cádiz</button>
+    </div>
   </div>
 </div>
