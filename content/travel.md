@@ -154,9 +154,7 @@ Work in progress...
   <div class="column">
     <div class="container">
         <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/travel-plane-background.jpg" alt="CDMX" style="width:100%">
-      <a href="" target="_blank">
         <button class="btn">Soon more</button>
-      </a>
     </div>
   </div>
   
