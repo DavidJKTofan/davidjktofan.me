@@ -41,7 +41,7 @@ header:
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(10%, 150%);
+  transform: translate(-20%, 150%);
   -ms-transform: translate(-50%, -50%);
   background-color: rgb(40, 42, 54, 0.7);
   color: white;
@@ -84,28 +84,56 @@ Work in progress...
   <div class="column">
     <div class="container">
         <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/Iceland-background.jpg" alt="CDMX" style="width:100%">
-      <button class="btn">CDMX</button>
+      <button class="btn">Iceland</button>
     </div>
   </div>
   
   <div class="column">
     <div class="container">
         <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/Madrid-background.jpg" alt="CDMX" style="width:100%">
-      <button class="btn">CDMX</button>
+      <button class="btn">Madrid</button>
     </div>
   </div>
   
   <div class="column">
     <div class="container">
         <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/Munich-city-background.jpg" alt="CDMX" style="width:100%">
-      <button class="btn">CDMX</button>
+      <button class="btn">Munich</button>
     </div>
   </div>
   
   <div class="column">
     <div class="container">
         <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/New-York-background.jpg" alt="CDMX" style="width:100%">
-      <button class="btn">CDMX</button>
+      <button class="btn">New York</button>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="container">
+        <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/miami-beach-sun.jpg" alt="CDMX" style="width:100%">
+      <button class="btn">Miami</button>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="container">
+        <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/paris-eiffel-tower.jpg" alt="CDMX" style="width:100%">
+      <button class="btn">Paris</button>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="container">
+        <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/seville-spain.jpg" alt="CDMX" style="width:100%">
+      <button class="btn">Seville</button>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="container">
+        <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/travel-plane-background.jpg" alt="CDMX" style="width:100%">
+      <button class="btn">Soon more</button>
     </div>
   </div>
   
