@@ -69,70 +69,90 @@ Work in progress...
   <div class="column">
     <div class="container">
         <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/CDMX-piramides.jpeg" alt="CDMX" style="width:100%">
-      <button class="btn">CDMX</button>
+      <a href="https://goo.gl/maps/xweG7kQr8jq8omd36" target="_blank">
+        <button class="btn">CDMX</button>
+      </a>
     </div>
   </div>
 
   <div class="column">
     <div class="container">
         <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/Cadiz-background.jpg" alt="CDMX" style="width:100%">
-      <button class="btn">Cádiz</button>
+      <a href="https://goo.gl/maps/n4KSVZf3ekJ84hjR7" target="_blank">
+        <button class="btn">Cádiz</button>
+      </a>
     </div>
   </div>
   
   <div class="column">
     <div class="container">
         <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/Iceland-background.jpg" alt="CDMX" style="width:100%">
-      <button class="btn">Iceland</button>
+      <a href="https://goo.gl/maps/Rmu2vJUvN9Y8a6bV9" target="_blank">
+        <button class="btn">Iceland</button>
+      </a>
     </div>
   </div>
   
   <div class="column">
     <div class="container">
         <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/Madrid-background.jpg" alt="CDMX" style="width:100%">
-      <button class="btn">Madrid</button>
+      <a href="https://goo.gl/maps/uVDZCEa1vLotgps78" target="_blank">
+        <button class="btn">Madrid</button>
+      </a>
     </div>
   </div>
   
   <div class="column">
     <div class="container">
         <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/Munich-city-background.jpg" alt="CDMX" style="width:100%">
-      <button class="btn">Munich</button>
+      <a href="https://goo.gl/maps/KmzMJEcfaZ5vkoNy6" target="_blank">
+        <button class="btn">Munich</button>
+      </a>
     </div>
   </div>
   
   <div class="column">
     <div class="container">
         <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/New-York-background.jpg" alt="CDMX" style="width:100%">
-      <button class="btn">New York</button>
+      <a href="https://goo.gl/maps/qvcjPQ7uvk4XVBKm7" target="_blank">
+        <button class="btn">New York</button>
+      </a>
     </div>
   </div>
   
   <div class="column">
     <div class="container">
         <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/miami-beach-sun.jpg" alt="CDMX" style="width:100%">
-      <button class="btn">Miami</button>
+      <a href="https://goo.gl/maps/1JEc36CbsZi9HZw27" target="_blank">
+        <button class="btn">Miami</button>
+      </a>
     </div>
   </div>
   
   <div class="column">
     <div class="container">
         <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/paris-eiffel-tower.jpg" alt="CDMX" style="width:100%">
-      <button class="btn">Paris</button>
+      <a href="https://goo.gl/maps/CEKdSx2KLyCCzdT86" target="_blank">
+        <button class="btn">Paris</button>
+      </a>
     </div>
   </div>
   
   <div class="column">
     <div class="container">
         <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/seville-spain.jpg" alt="CDMX" style="width:100%">
+      <a href="https://goo.gl/maps/hgW4NTkVMnJECMa48" target="_blank">
       <button class="btn">Seville</button>
+      </a>
     </div>
   </div>
   
   <div class="column">
     <div class="container">
         <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/travel-plane-background.jpg" alt="CDMX" style="width:100%">
-      <button class="btn">Soon more</button>
+      <a href="" target="_blank">
+        <button class="btn">Soon more</button>
+      </a>
     </div>
   </div>
   
