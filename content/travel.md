@@ -41,9 +41,9 @@ header:
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-30%, 30%);
+  transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: #555;
+  background-color: #282a36;
   color: white;
   font-size: 16px;
   padding: 12px 24px;
@@ -54,14 +54,9 @@ header:
 }
 
 .container .btn:hover {
-  background-color: black;
+  background-color: #2962ff;
 }
 
-.squarey { 
-  background: 50% 50% no-repeat;
-  width: 300px;
-  height: 300px;
-}
 
 </style>
   
@@ -74,18 +69,14 @@ Work in progress...
 <div class="row">
   <div class="column">
     <div class="container">
-      <div class="squarey">
         <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/CDMX-piramides.jpeg" alt="CDMX" style="width:100%">
-      </div>
       <button class="btn">CDMX</button>
     </div>
   </div>
 
   <div class="column">
     <div class="container">
-      <div class="squarey">
         <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/Cadiz-background.jpg" alt="CDMX" style="width:100%">
-      </div>
       <button class="btn">Cádiz</button>
     </div>
   </div>
