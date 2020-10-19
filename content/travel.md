@@ -41,7 +41,7 @@ header:
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-30%, 30%);
   -ms-transform: translate(-50%, -50%);
   background-color: #555;
   color: white;
@@ -56,6 +56,13 @@ header:
 .container .btn:hover {
   background-color: black;
 }
+
+.squarey { 
+  background: 50% 50% no-repeat;
+  width: 300px;
+  height: 300px;
+}
+
 </style>
   
 During some of my journeys around the globe I try to remember the places that impacted me the most – must-see places –, or simply places that I had fun seeing. Therefore, I created a series of GoogleMaps Lists which I would like to share with you and your friends.
@@ -67,14 +74,18 @@ Work in progress...
 <div class="row">
   <div class="column">
     <div class="container">
-      <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/CDMX-piramides.jpeg" alt="CDMX" style="width:100%">
+      <div class="squarey">
+        <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/CDMX-piramides.jpeg" alt="CDMX" style="width:100%">
+      </div>
       <button class="btn">CDMX</button>
     </div>
   </div>
 
   <div class="column">
     <div class="container">
-      <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/Cadiz-background.jpg" alt="Cadiz" style="width:100%">
+      <div class="squarey">
+        <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/Cadiz-background.jpg" alt="CDMX" style="width:100%">
+      </div>
       <button class="btn">Cádiz</button>
     </div>
   </div>
