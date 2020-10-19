@@ -3,6 +3,13 @@
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <!-- GOOGLE CHARTS SCRIPT -->
   <script type="text/javascript">
+    //Attempt to get the element using document.getElementById
+    var element = document.getElementById("chart_div");
+ 
+    //If it isn't "undefined" and it isn't "null", then it exists.
+    if(typeof(element) != 'undefined' && element != null){
+        console.log('Element exists!');
+    
     google.charts.load('current', {
       callback: function() {
         var query = new google.visualization.Query(
@@ -157,6 +164,10 @@
       // DRAW
       dashboard.draw(view);
     }
+      
+   } else{
+      console.log('Element does not exist!');
+  }
   </script>
 
 
