@@ -18,6 +18,7 @@ header:
   float: left;
   width: 33%;
   margin-bottom: -50px;
+  overflow: hidden;
 }
 
 .row::after {
