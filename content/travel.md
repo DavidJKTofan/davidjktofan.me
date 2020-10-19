@@ -53,9 +53,9 @@ Hope they are useful :) and feel free to recommend me new places too!
 Work in progress...
 
 <div class="container">
-  <img src="/assets/images/gmaps-images/CDMX-piramides.jpeg" alt="CDMX" style="width:100%">
+  <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/CDMX-piramides.jpeg" alt="CDMX" style="width:100%">
   <button class="btn">CDMX</button>
   
-  <img src="/assets/images/gmaps-images/Cadiz-background.jpg" alt="Cadiz" style="width:100%">
+  <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/Cadiz-background.jpg" alt="Cadiz" style="width:100%">
   <button class="btn">Cádiz</button>
 </div>
