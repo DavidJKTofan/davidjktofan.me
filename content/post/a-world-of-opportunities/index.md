@@ -18,4 +18,4 @@ Nonetheless, I believe that there are still people out there who do not know how
 
 That's essentially how the World of Opportunities idea came to life. It is a free resource platform for entrepreneurs and students who are eager to discover useful links, gaining access to resources, tools and opportunities to reach their goals.
 
-As a fellow very curious individual, here I present to you a small (kind of curated list) of resources and more --> [World of Opportunities](https://david-tofan.netlify.app/world/)
+As a fellow very curious individual, here I present to you a small (kind of curated list) of resources and more --> [World of Opportunities](/world/)
