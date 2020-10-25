@@ -1,6 +1,6 @@
 ---
 title: A World of Opportunities
-date: 2020-09-27T21:22:53.306Z
+date: 2020-10-06T12:28:44.805Z
 draft: false
 featured: true
 tags:
