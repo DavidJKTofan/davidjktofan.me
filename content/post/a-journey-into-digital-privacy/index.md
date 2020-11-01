@@ -11,10 +11,16 @@ image:
   filename: featured.png
   focal_point: Smart
   preview_only: true
+header:
+  caption: ""
+  image: "cyber_blog_thumbnail.png"
+toc: true
 ---
 This is a brief blog post about my friends' and my journey into digital privacy and cyber security, and how to achieve some of it by simply changing a few settings, or with the help of publicly available, free, and open source tools.
 
 This is in no way a complete guide on how to become completely anonymous or secure on the web, but more like an introduction towards what you can do to gain a little bit of digital privacy back, as well as to protect yourself a little better from potential outside threats (like e.g. malware, or simply annoying ads).
+
+{{% toc %}}
 
 ## Table of Contents
 
