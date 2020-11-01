@@ -6,7 +6,7 @@ share: true
 commentable: false
 editable: false
 
-hero_media = "world_thumbnail.png"
+hero_media = "static/media/world_thumbnail.png"
 
 # Optional header image (relative to `static/media/` folder).
 #header:
