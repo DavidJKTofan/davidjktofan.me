@@ -5,9 +5,8 @@ draft: false
 share: true
 commentable: false
 editable: false
-
 images:
-- /static/media/world_thumbnail.png
+    - /static/media/world_thumbnail.png
 
 # Optional header image (relative to `static/media/` folder).
 #header:
