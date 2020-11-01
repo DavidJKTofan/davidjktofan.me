@@ -5,11 +5,13 @@ draft: false
 share: false
 commentable: false
 editable: false
+image:
+  filename: world_thumbnail.png
 
 # Optional header image (relative to `static/media/` folder).
-header:
-  caption: ""
-  image: "world_thumbnail.png"
+#header:
+  #caption: ""
+  #image: "world_thumbnail.png"
 ---
 The World of Opportunities is a free resource platform for entrepreneurs and students who are eager to discover useful links, gaining access to resources, tools and opportunities to reach their goals. This is a personal pet project... Hope it is useful to someone! :)
 
