@@ -2,12 +2,12 @@
 title: World of Opportunities
 date: "2020-06-28T00:00:00+01:00"
 draft: false
-share: false
+share: true
 commentable: false
 editable: false
 image:
   filename: static/media/world_thumbnail.png
-  preview_only: true
+  preview_only: false
 
 # Optional header image (relative to `static/media/` folder).
 #header:
