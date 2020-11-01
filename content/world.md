@@ -6,7 +6,7 @@ share: true
 commentable: false
 editable: false
 image:
-  filename: world_thumbnail.png
+  filename: static/media/world_thumbnail.png
   focal_point: Smart
   preview_only: false
 
