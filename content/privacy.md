@@ -80,4 +80,6 @@ For more information about Terms of Use and Privacy, please visit <https://www.g
 
 - Published with [Wowchemy Website Builder](https://wowchemy.com/)
 - Academic Template for Wowchemy Website Builder [GitHub Repository](https://github.com/wowchemy/starter-academic)
+- Hosted on [GitHub](https://github.com/)
+- Served by [Netlify](https://www.netlify.com/)
 - Icons from [FontAwesome](https://fontawesome.com/)
