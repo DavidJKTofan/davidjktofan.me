@@ -11,6 +11,11 @@ header:
   caption: ""
   image: ""
 ---
+During some of my journeys around the globe I try to remember the places that impacted me the most – must-see places –, or simply places that I had fun seeing. Therefore, I created a series of GoogleMaps Lists which I would like to share with you and your friends.
+
+Hope they are useful :) and feel free to recommend me new places too!
+
+Work in progress... (Currently only available on desktop)...
 
 <!-- STYLESHEET CSS -->
 <style>
@@ -60,14 +65,7 @@ header:
   background-color: rgb(41, 98, 255, 0.9);
 }
 
-
 </style>
-  
-During some of my journeys around the globe I try to remember the places that impacted me the most – must-see places –, or simply places that I had fun seeing. Therefore, I created a series of GoogleMaps Lists which I would like to share with you and your friends.
-
-Hope they are useful :) and feel free to recommend me new places too!
-
-Work in progress...
 
 <div class="row">
   <div class="column">
