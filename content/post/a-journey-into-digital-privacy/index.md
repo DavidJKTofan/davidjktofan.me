@@ -11,30 +11,16 @@ image:
   filename: featured.png
   focal_point: Smart
   preview_only: true
-header:
-  caption: ""
-  image: "cyber_blog_thumbnail.png"
 toc: true
 ---
 This is a brief blog post about my friends' and my journey into digital privacy and cyber security, and how to achieve some of it by simply changing a few settings, or with the help of publicly available, free, and open source tools.
 
 This is in no way a complete guide on how to become completely anonymous or secure on the web, but more like an introduction towards what you can do to gain a little bit of digital privacy back, as well as to protect yourself a little better from potential outside threats (like e.g. malware, or simply annoying ads).
 
+
 {{% toc %}}
 
-## Table of Contents
-
-[Browsers](#browsers)\
-[Mac Settings](#mac)\
-[Router Settings](#router)\
-[Search Engines](#search)\
-[Advertising](#ads)\
-[Password Manager](#password)\
-[Private Email Accounts](#emails)  
-
 - - -
-
-<a name="browsers"></a>
 
 ## Browsers
 
@@ -69,8 +55,6 @@ But if you are more that "one-click-make-it-work" type of person, then the [Priv
 
 However, be careful not to add too many Extensions, because they might stop each other from working properly, and your device processor will also thank you.
 
-<a name="mac"></a>
-
 <br>
 
 ## Mac Settings
@@ -93,8 +77,6 @@ If you are using a Mac and you want to go even further, here a few tips we recom
 * Want to see what connections are currently open? Type into your Terminal `lsof -i` to list all **processes with some sort of network connections open**. Additionally, you should check out your *Network Utility* App which comes pre-installed on your Mac.
 
 You might also want to consider downloading one (or more) of those **free security tools** from [Objective See](https://objective-see.com/products.html).
-
-<a name="router"></a>
 
 <br>
 
@@ -121,8 +103,6 @@ If you don't have all these options above in your router's settings, then you mi
 
 Additionally, don't forget that you can have the most secure and most powerful router ever, but if you have an older device with security flaws connected to it, well then you have an open door for potential intruders.
 
-<a name="search"></a>
-
 <br>
 
 ## Search Engines
@@ -137,8 +117,6 @@ Some alternatives are:
 * [Startpage](https://www.startpage.com/)
 * [Searx](https://searx.space/)
 
-<a name="ads"></a>
-
 <br>
 
 ## Advertising, Ads Everywhere
@@ -148,15 +126,11 @@ Do you want to opt-out of personalized advertising? The following URLs show you 
 * [Network Advertising Initiative](https://optout.networkadvertising.org/) – USA
 * [Your Online Choices](https://www.youronlinechoices.com/)
 
-<a name="password"></a>
-
 <br>
 
 ## Password Manager
 
 Soon
-
-<a name="emails"></a>
 
 <br>
 
