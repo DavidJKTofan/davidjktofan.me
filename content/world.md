@@ -6,7 +6,7 @@ share: false
 commentable: false
 editable: false
 image:
-  filename: world_thumbnail.png
+  filename: static/media/world_thumbnail.png
   preview_only: true
 
 # Optional header image (relative to `static/media/` folder).
