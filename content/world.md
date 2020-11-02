@@ -6,7 +6,10 @@ share: true
 commentable: false
 editable: false
 
-thumbnail: "/static/media/world_thumbnail.png"
+params:
+  description: World of Opportunities
+  images:
+  - /static/media/world_thumbnail.png
 
 #<meta property="og:image" content="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/static/media/world_thumbnail.png">
 
