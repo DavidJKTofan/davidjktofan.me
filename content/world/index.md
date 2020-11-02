@@ -6,7 +6,10 @@ share: true
 commentable: false
 editable: false
 
+og_image: /static/media/world_thumbnail.png
+
 image:
+  filename: featured.png
   caption: ""
   focal_point: ""
   preview_only: yes
