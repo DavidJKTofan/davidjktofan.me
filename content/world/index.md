@@ -6,13 +6,6 @@ share: true
 commentable: false
 editable: false
 
-og_image: /static/media/world_thumbnail.png
-
-image:
-  filename: featured.png
-  focal_point: Smart
-  preview_only: yes
-
 # Optional header image (relative to `static/media/` folder).
 #header:
   #caption: ""
