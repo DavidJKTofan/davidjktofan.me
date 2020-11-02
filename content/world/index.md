@@ -7,8 +7,8 @@ commentable: false
 editable: false
 
 image:
-  caption: ''
-  focal_point: ''
+  caption: ""
+  focal_point: ""
   preview_only: yes
 
 # Optional header image (relative to `static/media/` folder).
