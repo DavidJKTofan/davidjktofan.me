@@ -2,15 +2,17 @@
 title: GoogleMaps Travel List
 date: "2020-08-28T00:00:00+01:00"
 draft: false
-share: false
+share: true
 commentable: false
 editable: false
-
+image: "/media/travel_thumbnail.png" 
+images:
+ - "/media/travel_thumbnail.png"
+ 
 # Optional header image (relative to `static/media/` folder).
-header:
-  caption: ""
-  image: "travel_thumbnail.png"
-  preview_only: true
+#header:
+  #caption: ""
+  #image: "travel_thumbnail.png"
 ---
 During some of my journeys around the globe I try to remember the places that impacted me the most – must-see places –, or simply places that I had fun seeing. Therefore, I created a series of GoogleMaps Lists which I would like to share with you and your friends.
 
