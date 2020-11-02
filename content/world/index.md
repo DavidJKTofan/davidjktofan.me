@@ -10,8 +10,7 @@ og_image: /static/media/world_thumbnail.png
 
 image:
   filename: featured.png
-  caption: ""
-  focal_point: ""
+  focal_point: Smart
   preview_only: yes
 
 # Optional header image (relative to `static/media/` folder).
