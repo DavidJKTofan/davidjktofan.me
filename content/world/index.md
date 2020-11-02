@@ -6,6 +6,11 @@ share: true
 commentable: false
 editable: false
 
+image:
+  filename: featured.png
+  focal_point: Smart
+  preview_only: true
+
 # Optional header image (relative to `static/media/` folder).
 #header:
   #caption: ""
