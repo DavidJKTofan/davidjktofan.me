@@ -5,8 +5,10 @@ draft: false
 share: true
 commentable: false
 editable: false
-images:
-    - /static/media/world_thumbnail.png
+
+thumbnail: "/static/media/world_thumbnail.png"
+
+#<meta property="og:image" content="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/static/media/world_thumbnail.png">
 
 # Optional header image (relative to `static/media/` folder).
 #header:
