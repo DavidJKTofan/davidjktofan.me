@@ -9,3 +9,4 @@ image:
   focal_point: Smart
   preview_only: false
 ---
+Nonprofit and politically independent association of young change-makers, which was founded on the basic notion of networking and global leadership development.
