@@ -1,7 +1,6 @@
 ---
 title: Andabike
 date: 2020-11-03T19:40:20.508Z
-weight = 20
 summary: Spain's first Streetstepper bike - a new and fun way to improve your health.
 draft: false
 featured: false
