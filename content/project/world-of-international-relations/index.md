@@ -1,8 +1,12 @@
 ---
-title: World of International Relations
+title: W.I.R.
 date: 2020-11-03T18:50:38.955Z
 draft: false
 featured: false
+tags:
+  - Initiatives
+categories:
+  - Initiatives
 external_link: https://www.world-ir.international/
 image:
   filename: featured.png
