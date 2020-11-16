@@ -10,7 +10,7 @@ tags:
   - Resources
 categories:
   - Resources
-external_link: https://david-tofan.netlify.app/world/
+external_link: https://davidjktofan.com/world/
 image:
   filename: featured.png
   focal_point: Smart
