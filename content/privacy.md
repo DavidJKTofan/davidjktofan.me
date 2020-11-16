@@ -11,11 +11,6 @@ commentable: false
 share: false
 ---
 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PD4GZXJ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
 1. ### **Acceptance of our Terms**
 
 By visiting the website WWW.DAVIDTOFAN.COM, viewing, accessing or otherwise using any of the services or information created, collected, compiled or submitted to WWW.DAVIDTOFAN.COM, you agree to be bound by the following Terms and Conditions of Service. If you do not want to be bound by our Terms your only option is not to visit, view or otherwise use the services of WWW.DAVIDTOFAN.COM. You understand, agree and acknowledge that these Terms constitute a legally binding agreement between you and WWW.DAVIDTOFAN.COM and that your use of WWW.DAVIDTOFAN.COM shall indicate your conclusive acceptance of this agreement.
