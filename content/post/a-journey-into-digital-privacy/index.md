@@ -30,6 +30,7 @@ Our journey begins with our browser – our gateway to the internet, and our mos
 
 There are many online tools out there to figure out what and how much information your browser is giving away, but these URLs might be a good start for you:
 
+* [Cloudflare ESNI Checker](https://www.cloudflare.com/ssl/encrypted-sni/)
 * [BrowserAudit](https://browseraudit.com/)
 * [BrowserLeaks](https://browserleaks.com/)
 * [Do I Leak](https://www.doileak.com/)
