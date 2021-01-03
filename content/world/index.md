@@ -22,10 +22,23 @@ Work in progress...
 
 <!-- STYLESHEET CSS -->
 <style>
-  .article-container {
-    /* max-width: 80% !important; */
-    padding: 0 20px;
-    margin: 0 auto;
+  
+  /* Mobile */
+  @media only screen and (max-width: 600px) {
+    .article-container {
+      max-width: 80% !important;
+      padding: 0 20px;
+      margin: 0 auto;
+    }
+  }
+  
+  /* Desktop */
+  @media only screen and (min-width: 768px) {
+    .article-container {
+      /* max-width: 80% !important; */
+      padding: 0 20px;
+      margin: 0 auto;
+    }
   }
 
   .filter .google-visualization-controls-categoryfilter-selected li {
@@ -149,12 +162,12 @@ Work in progress...
         <div id="category_div" style="font-size: 15px; float:left; height:60px; margin:15px; margin-bottom:40px;"></div>
       </div>
       <div>
-        <div id="category_2_div" style="font-size: 15px; float:left; height:60px; margin:15px; margin-left:80px;"></div>
+        <div id="category_2_div" style="font-size: 15px; float:left; height:60px; margin:15px; margin-left:60px;"></div>
       </div>
       <div>
-        <div style="position:relative; float:right; height:40px; margin:10px; margin-left:80px">
+        <div style="position:relative; float:right; height:40px; margin:15px; margin-left:80px">
           <p style="font-size:12px; color: #808080; margin-bottom: 5px;">Try searching for "MOOCs"</p>
-          <div id="string_div"></div>
+          <div id="string_div" style="font-size: 15px;"></div>
         </div>
       </div>
     </div>
