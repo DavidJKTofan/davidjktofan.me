@@ -19,6 +19,16 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  organization = "Acclaim"
+  organization_url = "https://www.youracclaim.com/"
+  title = "Acclaim"
+  url = ""
+  certificate_url = "https://www.youracclaim.com/users/david-tofan/badges"
+  date_start = "2021-01-01"
+  date_end = ""
+  description = "Check out my verified badges on Credly's Acclaim."
+
+[[item]]
   organization = "CertiProf"
   organization_url = "https://certiprof.com/"
   title = "Scrum Foundations Professional Certificate (SFPC)"
@@ -55,16 +65,6 @@ date_format = "Jan 2006"
   url = ""
   certificate_url = "https://courses.cognitiveclass.ai/certificates/ed6d7dbc71814cf998b2020f7755fdbc"
   date_start = "2019-12-04"
-  date_end = ""
-  description = ""
-
-[[item]]
-  organization = "IBM Cognitive Class"
-  organization_url = "https://cognitiveclass.ai/"
-  title = "Hadoop 101"
-  url = ""
-  certificate_url = "https://courses.cognitiveclass.ai/certificates/5fb1e0ee5dbb40ac8a4a1c569167eeac"
-  date_start = "2019-11-21"
   date_end = ""
   description = ""
 
