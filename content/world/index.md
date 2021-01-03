@@ -23,7 +23,7 @@ Work in progress...
 <!-- STYLESHEET CSS -->
 <style>
   .article-container {
-    max-width: 100% !important;
+    #max-width: 80% !important; # 900px
     padding: 0 20px;
     margin: 0 auto;
   }
