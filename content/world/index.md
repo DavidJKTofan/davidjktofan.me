@@ -130,29 +130,34 @@ Work in progress...
     overflow: auto;
     height: 20px;
   }
-
+  
+  /* COLUMN 1 */
   .table_style td:nth-child(1) {
     font-weight: bold;
   }
-
+  
+  /* COLUMN 2 */
+  .table_style td:nth-child(1) {
+    font-size:10px;
+  }
+  
+  /* COLUMN 3 */
   .table_style td:nth-child(3) {
     text-align: center;
   }
-
   .table_style td:nth-child(3) a {
     text-decoration: none;
   }
-
   .table_style td:nth-child(3) a:hover {
     text-decoration: none;
     color: rgb(1, 0, 113);
     font-weight: bold;
     cursor: pointer;
   }
-
   .table_style td:nth-child(3) a:visited {
     color: rgb(250, 157, 27);
   }
+  
 </style>
 
 <!-- Chart here -->
