@@ -133,16 +133,19 @@ Work in progress...
   /* COLUMN 1 */
   .table_style td:nth-child(1) {
     font-weight: bold;
+    width: 40vw;
   }
   
   /* COLUMN 2 */
   .table_style td:nth-child(2) {
-    font-size:10px;
+    font-size: 10px;
+    width: 25vw;
   }
   
   /* COLUMN 3 */
   .table_style td:nth-child(3) {
     text-align: center;
+    width: 35vw;
   }
   .table_style td:nth-child(3) a {
     text-decoration: none;
