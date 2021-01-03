@@ -27,7 +27,6 @@ Work in progress...
   @media only screen and (max-width: 600px) {
     .article-container {
       max-width: 380px !important;
-      padding: 0 20px;
       margin: 0 auto;
     }
   }
