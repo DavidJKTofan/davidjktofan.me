@@ -133,13 +133,13 @@ Work in progress...
   /* COLUMN 1 */
   .table_style td:nth-child(1) {
     font-weight: bold;
-    width: 40vw;
+    width: 35vw;
   }
   
   /* COLUMN 2 */
   .table_style td:nth-child(2) {
     font-size: 10px;
-    width: 25vw;
+    width: 30vw;
   }
   
   /* COLUMN 3 */
