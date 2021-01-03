@@ -128,7 +128,7 @@
             options: {
               allowHtml: true,
               cssClassNames: cssClassNames,
-              width: '100vw',
+              width: '100%', // 100vw
               height: '100%',
               page: 'enable',
               pageSize: 20,
@@ -143,10 +143,11 @@
             }
           });
 
-          // TABLE FIXED WIDTH
-          data.setProperty(0, 0, 'style', 'width:20vw');
-          data.setProperty(0, 1, 'style', 'width:50vw');
-          data.setProperty(0, 2, 'style', 'width:30vw');
+          // TABLE COLUMN STYLE
+          data.setProperty(0, 0, 'style', 'width:25%'); // 20vw
+          data.setProperty(0, 1, 'style', 'width:50%'); // 50vw
+          data.setProperty(0, 1, 'style', 'font-size:10px');
+          data.setProperty(0, 2, 'style', 'width:25%'); // 30vw
 
           // // FORMATTER
           // hyperlink URL column
