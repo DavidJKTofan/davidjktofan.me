@@ -136,7 +136,7 @@ Work in progress...
   }
   
   /* COLUMN 2 */
-  .table_style td:nth-child(1) {
+  .table_style td:nth-child(2) {
     font-size:10px;
   }
   
