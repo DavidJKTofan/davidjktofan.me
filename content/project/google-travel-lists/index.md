@@ -8,7 +8,7 @@ tags:
   - Resources
 categories:
   - Resources
-external_link: https://david-tofan.netlify.app/travel/
+external_link: https://davidjktofan.com/travel/
 image:
   filename: featured.png
   focal_point: Smart
