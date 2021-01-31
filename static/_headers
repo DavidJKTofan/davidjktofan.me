@@ -7,13 +7,13 @@
   #Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 
   # Block site from being framed with X-Frame-Options and CSP
+  Content-Security-Policy: default-src 'self'; font-src 'self' https://fonts.gstatic.com; style-src 'self' https://tagmanager.google.com https://fonts.googleapis.com; img-src 'self' https://www.google-analytics.com https://ssl.gstatic.com https://www.gstatic.com; connect-src 'self' https://www.google-analytics.com; script-src 'self' 'sha256-teUzgb5IVyU3l1H5Q7cXTCDi4luexGVV++pOR0L1np8=' 'sha256-53Kyk5aka2YGP0+Cmk1iG3ynykE7d39XBzXhXa57SOA=' 'sha256-So9B3UdMO0LtCDeSzrt0MCE2SDWSWTwuLvIAv13ccrM=' 'sha256-NBCOCtwkDQ/vkdb5S/lSLSHgPkPjXsKdeIZVjbvv2I0=' https://www.google-analytics.com https://ssl.google-analytics.com https://tagmanager.google.com https://apis.google.com https://ajax.googleapis.com https://cdnjs.cloudflare.com/ajax/libs
   #Content-Security-Policy: default-src 'none'
-  Content-Security-Policy: font-src https://fonts.gstatic.com
-  Content-Security-Policy: style-src: https://tagmanager.google.com https://fonts.googleapis.com
-  Content-Security-Policy: img-src: https://www.google-analytics.com https://ssl.gstatic.com https://www.gstatic.com
-  Content-Security-Policy: connect-src: https://www.google-analytics.com
-  Content-Security-Policy: script-src https://www.google-analytics.com https://ssl.google-analytics.com https://tagmanager.google.com https://apis.google.com https://ajax.googleapis.com https://cdnjs.cloudflare.com ajax.cloudflare.com
-  Content-Security-Policy: default-src 'self'
+  #Content-Security-Policy: font-src 'self' https://fonts.gstatic.com
+  #Content-Security-Policy: style-src 'self' https://tagmanager.google.com https://fonts.googleapis.com
+  #Content-Security-Policy: img-src 'self' https://www.google-analytics.com https://ssl.gstatic.com https://www.gstatic.com
+  #Content-Security-Policy: connect-src 'self' https://www.google-analytics.com
+  #Content-Security-Policy: script-src 'self' https://www.google-analytics.com https://ssl.google-analytics.com https://tagmanager.google.com https://apis.google.com https://ajax.googleapis.com https://cdnjs.cloudflare.com ajax.cloudflare.com
 
   # Don't load any resource type not explicitly enabled
   # Disable plugins like Flash or Silverlight
