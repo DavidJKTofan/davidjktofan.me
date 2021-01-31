@@ -37,7 +37,7 @@
   #Access-Control-Allow-Origin: *
 
   # Permissions Policy can be thought of conceptually as a way to control delegation of powerful features to subframes.
-  #Permissions-Policy: fullscreen=(self "https://davidjktofan.com/"), geolocation=*, camera=()
+  Permissions-Policy: fullscreen=(self "https://davidjktofan.com/"), geolocation=*, camera=()
 
   # The HTTP Feature-Policy header provides a mechanism to allow and deny the use of browser features in its own frame, and in content within any <iframe> elements in the document.
   #Feature-Policy: microphone 'none'; geolocation 'none'; autoplay 'none'; camera 'none'
@@ -49,7 +49,7 @@
   #Clear-Site-Data: "cache", "cookies"
 
   # The Expect-CT header lets sites opt in to reporting and/or enforcement of Certificate Transparency requirements, to prevent the use of misissued certificates for that site from going unnoticed.
-  #Expect-CT: max-age=86400, enforce, report-uri="https://foo.example/report"
+  #Expect-CT: max-age=86400, enforce, report-uri="https://davidjktofan.report-uri.com/r/d/ct/reportOnly"
 
   # The HTTP Cross-Origin-Embedder-Policy (COEP) response header prevents a document from loading any cross-origin resources that don't explicitly grant the document permission.
   #Cross-Origin-Embedder-Policy: require-corp
