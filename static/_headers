@@ -47,6 +47,18 @@
   # The Clear-Site-Data header clears browsing data (cookies, storage, cache) associated with the requesting website.
   #Clear-Site-Data: "cache", "cookies"
 
+  # The Expect-CT header lets sites opt in to reporting and/or enforcement of Certificate Transparency requirements, to prevent the use of misissued certificates for that site from going unnoticed.
+  #Expect-CT: max-age=86400, enforce, report-uri="https://foo.example/report"
+
+  # The HTTP Cross-Origin-Embedder-Policy (COEP) response header prevents a document from loading any cross-origin resources that don't explicitly grant the document permission.
+  #Cross-Origin-Embedder-Policy: require-corp
+
+  # The HTTP Cross-Origin-Opener-Policy (COOP) response header allows you to ensure a top-level document does not share a browsing context group with cross-origin documents.
+  #Cross-Origin-Opener-Policy: same-origin
+
+  # The HTTP Cross-Origin-Resource-Policy response header conveys a desire that the browser blocks no-cors cross-origin/cross-site requests to the given resource.
+  #Cross-Origin-Resource-Policy: same-origin
+
 
   ### CACHE ###
   # The Cache-Control HTTP header holds directives (instructions) for caching in both requests and responses.
