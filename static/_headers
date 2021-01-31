@@ -8,11 +8,11 @@
 
   # Block site from being framed with X-Frame-Options and CSP
   #Content-Security-Policy: default-src 'none'
-  Content-Security-Policy: font-src 'self' https://fonts.gstatic.com
-  Content-Security-Policy: style-src: 'self' https://tagmanager.google.com https://fonts.googleapis.com
-  Content-Security-Policy: img-src: 'self' https://www.google-analytics.com https://ssl.gstatic.com https://www.gstatic.com
+  Content-Security-Policy: font-src https://fonts.gstatic.com
+  Content-Security-Policy: style-src: https://tagmanager.google.com https://fonts.googleapis.com
+  Content-Security-Policy: img-src: https://www.google-analytics.com https://ssl.gstatic.com https://www.gstatic.com
   Content-Security-Policy: connect-src: https://www.google-analytics.com
-  Content-Security-Policy: script-src 'self' https://www.google-analytics.com https://ssl.google-analytics.com https://tagmanager.google.com https://apis.google.com https://ajax.googleapis.com https://cdnjs.cloudflare.com ajax.cloudflare.com
+  Content-Security-Policy: script-src https://www.google-analytics.com https://ssl.google-analytics.com https://tagmanager.google.com https://apis.google.com https://ajax.googleapis.com https://cdnjs.cloudflare.com ajax.cloudflare.com
   Content-Security-Policy: default-src 'self'
 
   # Don't load any resource type not explicitly enabled
