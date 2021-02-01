@@ -1,52 +1,8 @@
-### ALL PAGES
 /*
-
-  ### HEADERS ###
-
-  # Only connect to this site and subdomains via HTTPS for the next one year
-  #Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
-
-  # Block site from being framed with X-Frame-Options and CSP
-  Content-Security-Policy-Report-Only: default-src 'self' https://github.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com/ajax/libs/font-awesome/; style-src 'self' https://tagmanager.google.com https://fonts.googleapis.com https://cdnjs.cloudflare.com/ajax/libs; img-src 'self' https://www.google-analytics.com https://ssl.gstatic.com https://www.gstatic.com; connect-src 'self' https://www.google-analytics.com; script-src 'self' 'unsafe-inline' sha256-So9B3UdMO0LtCDeSzrt0MCE2SDWSWTwuLvIAv13ccrM= sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU= https://www.google-analytics.com https://ssl.google-analytics.com https://tagmanager.google.com https://apis.google.com https://ajax.googleapis.com https://cdnjs.cloudflare.com/ajax/libs https://www.gstatic.com/charts/loader.js; style-src-elem 'self' https://cdnjs.cloudflare.com/ajax/libs; report-uri https://davidjktofan.report-uri.com/r/d/csp/reportOnly; report-to default; frame-ancestors 'none'; form-action 'none'; script-src-elem 'self' https://www.google-analytics.com https://ssl.google-analytics.com https://tagmanager.google.com https://apis.google.com https://ajax.googleapis.com https://cdnjs.cloudflare.com ajax.cloudflare.com
-  #Content-Security-Policy: default-src 'none'
-  #Content-Security-Policy: font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com/ajax/libs/font-awesome/
-  #Content-Security-Policy: style-src 'self' https://tagmanager.google.com https://fonts.googleapis.com https://cdnjs.cloudflare.com/ajax/libs
-  #Content-Security-Policy: style-src-elem 'self' https://cdnjs.cloudflare.com/ajax/libs
-  #Content-Security-Policy: img-src 'self' https://www.google-analytics.com https://ssl.gstatic.com https://www.gstatic.com
-  #Content-Security-Policy: connect-src 'self' https://www.google-analytics.com
-  #Content-Security-Policy: script-src 'self' https://www.google-analytics.com https://ssl.google-analytics.com https://tagmanager.google.com https://apis.google.com https://ajax.googleapis.com https://cdnjs.cloudflare.com ajax.cloudflare.com
-  #Content-Security-Policy: script-src-elem 'self' https://www.google-analytics.com https://ssl.google-analytics.com https://tagmanager.google.com https://apis.google.com https://ajax.googleapis.com https://cdnjs.cloudflare.com ajax.cloudflare.com
-
-  # X-Frame-Options tells the browser whether you want to allow your site to be framed or not. By preventing a browser from framing your site you can defend against attacks like clickjacking.
+  Content-Security-Policy: default-src https:
   X-Frame-Options: SAMEORIGIN
-
-  # X-XSS-Protection sets the configuration for the cross-site scripting filter built into most browsers.
   X-XSS-Protection: 1; mode=block
-
-  # Prevent browsers from incorrectly detecting non-scripts as scripts
   X-Content-Type-Options: nosniff
-
-  # Referrer Policy is a new header that allows a site to control how much information the browser includes with navigations away from a document and should be set by all sites.
   Referrer-Policy: no-referrer
-
-  # The Access-Control-Allow-Origin response header indicates whether the response can be shared with requesting code from the given origin.
   #Access-Control-Allow-Origin: *
-
-  # Permissions Policy can be thought of conceptually as a way to control delegation of powerful features to subframes.
   Permissions-Policy: fullscreen=(self "https://davidjktofan.com/"), geolocation=*, camera=()
-
-  # Disables the option to open a file directly on download.
-  #X-Download-Options: noopen
-
-  # The Clear-Site-Data header clears browsing data (cookies, storage, cache) associated with the requesting website.
-  #Clear-Site-Data: "cache", "cookies"
-
-  # The Expect-CT header lets sites opt in to reporting and/or enforcement of Certificate Transparency requirements, to prevent the use of misissued certificates for that site from going unnoticed.
-  #Expect-CT: max-age=86400, enforce, report-uri="https://davidjktofan.report-uri.com/r/d/ct/reportOnly"
-
-  ### CACHE ###
-  # The Cache-Control HTTP header holds directives (instructions) for caching in both requests and responses.
-  Cache-Control: max-age=0
-  Cache-Control: no-cache
-  Cache-Control: no-store
-  Cache-Control: must-revalidate
