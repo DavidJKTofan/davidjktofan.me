@@ -1,5 +1,6 @@
 /*
   Content-Security-Policy-Report-Only: default-src https:; report-uri https://davidjktofan.report-uri.com/r/d/csp/reportOnly
+  Content-Security-Policy-Report-Only: default-src https:; img-src 'self'; script-src 'self'; style-src 'self'; font-src https://fonts.gstatic.com; object-src 'none'
   X-Frame-Options: SAMEORIGIN
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
