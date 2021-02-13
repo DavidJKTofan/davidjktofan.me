@@ -1,7 +1,7 @@
 ---
 title: Smart Guide 2019
 date: 2020-10-03T08:34:00.982Z
-summary: The Smart Guide 2019 is a collection of different _smart_ use cases – ranging from Business Innovation Architecture to Hybrid Cloud –, serving as references for innovations based on platforms for corporate applications and related services.
+summary: A collection of different _smart_ use cases – ranging from Business Innovation Architecture to Hybrid Cloud –, serving as references for innovations based on platforms for corporate applications and related services.
 draft: false
 featured: false
 tags:
