@@ -74,7 +74,7 @@ Work in progress... (Currently only available on desktop)...
 <div class="row">
   <div class="column">
     <div class="container">
-        <img src="/assets/images/gmaps-images/CDMX-piramides.jpeg" alt="CDMX" style="width:100%">
+        <img src="../assets/images/gmaps-images/CDMX-piramides.jpeg" alt="CDMX" style="width:100%">
       <a href="https://goo.gl/maps/xweG7kQr8jq8omd36" target="_blank">
         <button class="btn">CDMX</button>
       </a>
@@ -83,7 +83,7 @@ Work in progress... (Currently only available on desktop)...
 
   <div class="column">
     <div class="container">
-        <img src="/assets/images/gmaps-images/Cadiz-background.jpg" alt="CDMX" style="width:100%">
+        <img src="../assets/images/gmaps-images/Cadiz-background.jpg" alt="CDMX" style="width:100%">
       <a href="https://goo.gl/maps/n4KSVZf3ekJ84hjR7" target="_blank">
         <button class="btn">Cádiz</button>
       </a>
