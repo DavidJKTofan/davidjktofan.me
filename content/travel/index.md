@@ -60,18 +60,18 @@ Work in progress... (Currently only available on desktop)...
   }
 }
 
-.container_grid {
+.container_img_grid {
   position: relative;
   width: 100%;
   max-width: 400px;
 }
 
-.container_grid img {
+.container_img_grid img {
   width: 100%;
   height: auto;
 }
 
-.container_grid .btn {
+.container_img_grid .btn {
   position: absolute;
   top: 80%;
   left: 20%;
@@ -88,15 +88,15 @@ Work in progress... (Currently only available on desktop)...
   clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
 }
 
-.container_grid .btn:hover {
+.container_img_grid .btn:hover {
   background-color: rgb(41, 98, 255, 0.9);
 }
 </style>
 
 <div class="row_grid">
   <div class="column_img_grid">
-  
-    <div class="container_grid">
+
+    <div class="container_img_grid">
       <img src="/gmaps-images/CDMX-piramides.jpeg" alt="Mexico City" >
       <a href="https://goo.gl/maps/xweG7kQr8jq8omd36" target="_blank">
         <button class="btn">CDMX</button>
