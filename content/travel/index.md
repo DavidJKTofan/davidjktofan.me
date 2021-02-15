@@ -29,7 +29,7 @@ Work in progress... (Currently only available on desktop)...
     box-sizing: border-box !important;
   }
 
-  .travel_row_img_grid_grid {
+  .travel_row_img_grid {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -37,21 +37,21 @@ Work in progress... (Currently only available on desktop)...
     padding: 0 4px;
   }
 
-  .travel_column_img_grid_grid {
+  .travel_column_img_grid {
     -ms-flex: 25%;
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
   }
 
-  .travel_column_img_grid_grid img {
+  .travel_column_img_grid img {
     margin-top: 5px;
     vertical-align: middle;
     width: 100%;
   }
 
   @media screen and (max-width: 800px) {
-    .travel_column_img_grid_grid {
+    .travel_column_img_grid {
       -ms-flex: 50%;
       flex: 50%;
       max-width: 50%;
@@ -59,25 +59,25 @@ Work in progress... (Currently only available on desktop)...
   }
 
   @media screen and (max-width: 600px) {
-    .travel_column_img_grid_grid {
+    .travel_column_img_grid {
       -ms-flex: 100%;
       flex: 100%;
       max-width: 100%;
     }
   }
 
-  .travel_container_img_grid_grid {
+  .travel_container_img_grid {
     position: relative;
     width: 100%;
     max-width: 400px;
   }
 
-  .travel_container_img_grid_grid img {
+  .travel_container_img_grid img {
     width: 100%;
     height: auto;
   }
 
-  .travel_container_img_grid_grid .btn {
+  .travel_container_img_grid .btn {
     position: absolute;
     top: 80%;
     left: 20%;
@@ -94,7 +94,7 @@ Work in progress... (Currently only available on desktop)...
     clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
   }
 
-  .travel_container_img_grid_grid .btn:hover {
+  .travel_container_img_grid .btn:hover {
     background-color: rgb(41, 98, 255, 0.9);
   }
 </style>
