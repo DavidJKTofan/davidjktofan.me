@@ -44,21 +44,6 @@ Work in progress... (Currently only available on desktop)...
   width: 100%;
 }
 
-@media screen and (max-width: 800px) {
-  .column_grid {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .column_grid {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
 
 .container_grid {
   position: relative;
