@@ -31,21 +31,21 @@ Work in progress... (Currently only available on desktop)...
   padding: 0 4px;
 }
 
-.column_img_grid {
+.column_grid {
   -ms-flex: 25%;
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
 }
 
-.column_img_grid img {
+.column_grid img {
   margin-top: 5px;
   vertical-align: middle;
   width: 100%;
 }
 
 @media screen and (max-width: 800px) {
-  .column_img_grid {
+  .column_grid {
     -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
@@ -53,25 +53,25 @@ Work in progress... (Currently only available on desktop)...
 }
 
 @media screen and (max-width: 600px) {
-  .column_img_grid {
+  .column_grid {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
   }
 }
 
-.container_img_grid {
+.container_grid {
   position: relative;
   width: 100%;
   max-width: 400px;
 }
 
-.container_img_grid img {
+.container_grid img {
   width: 100%;
   height: auto;
 }
 
-.container_img_grid .btn {
+.container_grid .btn {
   position: absolute;
   top: 80%;
   left: 20%;
@@ -88,20 +88,19 @@ Work in progress... (Currently only available on desktop)...
   clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
 }
 
-.container_img_grid .btn:hover {
+.container_grid .btn:hover {
   background-color: rgb(41, 98, 255, 0.9);
 }
 </style>
 
-<div class="row_grid">
-  <div class="column_img_grid">
-
-    <div class="container_img_grid">
-      <img src="/gmaps-images/CDMX-piramides.jpeg" alt="Mexico City">
+<div class="row">
+  <div class="column">
+    <div class="container">
+        <img src="https://raw.githubusercontent.com/DavidJKTofan/davidjktofan.me/master/assets/images/gmaps-images/CDMX-piramides.jpeg" alt="CDMX" style="width:100%">
       <a href="https://goo.gl/maps/xweG7kQr8jq8omd36" target="_blank">
         <button class="btn">CDMX</button>
       </a>
     </div>
-
   </div>
+
 </div>
