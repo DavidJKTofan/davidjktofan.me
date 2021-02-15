@@ -93,6 +93,7 @@ Work in progress... (Currently only available on desktop)...
 }
 </style>
 
+<body>
 <div class="row_grid">
   <div class="column_grid">
 
@@ -170,3 +171,4 @@ Work in progress... (Currently only available on desktop)...
 
   </div>
 </div>
+</body>
