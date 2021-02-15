@@ -107,5 +107,11 @@ Work in progress... (Currently only available on desktop)...
         <button class="btn">CDMX</button>
       </a>
     </div>
+    <div class="travel_container_img_grid">
+      <img src="/gmaps-images/Iceland-background.jpg" alt="Iceland">
+      <a href="https://goo.gl/maps/Rmu2vJUvN9Y8a6bV9" target="_blank">
+        <button class="btn">Iceland</button>
+      </a>
+    </div>
   </div>
 </div>
