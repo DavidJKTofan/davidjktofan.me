@@ -25,7 +25,7 @@ Work in progress... (Currently only available on desktop)...
 <style>
 
 div {
-  box-sizing: border-box;
+  box-sizing: border-box !important;
 }
 
 .travel_row_img_grid_grid {
@@ -105,13 +105,6 @@ div {
         <img src="/gmaps-images/CDMX-piramides.jpeg" alt="Mexico City">
       <a href="https://goo.gl/maps/xweG7kQr8jq8omd36" target="_blank">
         <button class="btn">CDMX</button>
-      </a>
-    </div>
-
-    <div class="travel_container_img_grid">
-        <img src="/gmaps-images/Iceland-background.jpg" alt="Iceland">
-      <a href="https://goo.gl/maps/Rmu2vJUvN9Y8a6bV9" target="_blank">
-        <button class="btn">Iceland</button>
       </a>
     </div>
 
