@@ -110,4 +110,15 @@ div {
 
   </div>
 
+  <div class="travel_column_img_grid">
+
+    <div class="travel_container_img_grid">
+        <img src="/gmaps-images/CDMX-piramides.jpeg" alt="Mexico City">
+      <a href="https://goo.gl/maps/xweG7kQr8jq8omd36" target="_blank">
+        <button class="btn">CDMX</button>
+      </a>
+    </div>
+
+  </div>
+
 </div>
