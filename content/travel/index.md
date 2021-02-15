@@ -23,52 +23,74 @@ Work in progress... (Currently only available on desktop)...
 
 <!-- STYLESHEET CSS -->
 <style>
-.column {
-  float: left;
-  width: 33%;
-  margin-bottom: -50px;
-  overflow: hidden;
+.row_grid {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
 }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+.column_grid {
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
 }
 
-.container {
+.column_grid img {
+  margin-top: 5px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column_grid {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column_grid {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.container_grid {
   position: relative;
   width: 100%;
   max-width: 400px;
 }
 
-.container img {
-  width: 20vh;
-  height: 15vw;
-  object-fit: cover;
+.container_grid img {
+  width: 100%;
+  height: auto;
 }
 
-.container .btn {
+.container_grid .btn {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-20%, 150%);
+  top: 80%;
+  left: 20%;
+  transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: rgb(40, 42, 54, 0.7);
+  background-color: rgb(40, 42, 54, 0.8);
   color: white;
-  font-size: 18px;
-  padding: 10px 50px;
+  font-size: 16px;
+  padding: 12px 24px;
   border: none;
   cursor: pointer;
   border-radius: 10px;
   text-align: center;
-  clip-path: polygon(15% 0%, 95% 0%, 95% 100%, 15% 100%, 0% 50%);
+  clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
 }
 
-.container .btn:hover {
+.container_grid .btn:hover {
   background-color: rgb(41, 98, 255, 0.9);
 }
-
 </style>
 
 <div class="row">
