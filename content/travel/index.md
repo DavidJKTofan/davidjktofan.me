@@ -29,6 +29,10 @@ Work in progress... (Currently only available on desktop)...
     box-sizing: border-box !important;
   }
 
+  img {
+    margin-bottom: 0.5em !important;
+  }
+
   .travel_row_img_grid {
     display: -ms-flexbox;
     display: flex;
@@ -85,7 +89,7 @@ Work in progress... (Currently only available on desktop)...
     -ms-transform: translate(-50%, -50%);
     background-color: rgb(40, 42, 54, 0.8);
     color: white;
-    font-size: 16px;
+    font-size: 18px;
     padding: 5px 24px;
     border: none;
     cursor: pointer;
