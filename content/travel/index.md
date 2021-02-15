@@ -95,7 +95,7 @@ Work in progress... (Currently only available on desktop)...
 
 <div class="row_grid">
   <div class="column_img_grid">
-
+  
     <div class="container_grid">
       <img src="/gmaps-images/CDMX-piramides.jpeg" alt="Mexico City" >
       <a href="https://goo.gl/maps/xweG7kQr8jq8omd36" target="_blank">
