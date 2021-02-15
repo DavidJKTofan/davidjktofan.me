@@ -23,17 +23,58 @@ Work in progress... (Currently only available on desktop)...
 
 <!-- STYLESHEET CSS -->
 <style>
-.column {
-  float: left;
-  width: 33%;
-  margin-bottom: -50px;
-  overflow: hidden;
+* {
+  box-sizing: border-box;
 }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 5px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 
 .container {
@@ -43,121 +84,107 @@ Work in progress... (Currently only available on desktop)...
 }
 
 .container img {
-  width: 20vh;
-  height: 15vw;
-  object-fit: cover;
+  width: 100%;
+  height: auto;
 }
 
 .container .btn {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-20%, 150%);
+  top: 80%;
+  left: 20%;
+  transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: rgb(40, 42, 54, 0.7);
+  background-color: rgb(40, 42, 54, 0.8);
   color: white;
-  font-size: 18px;
-  padding: 10px 50px;
+  font-size: 16px;
+  padding: 12px 24px;
   border: none;
   cursor: pointer;
   border-radius: 10px;
   text-align: center;
-  clip-path: polygon(15% 0%, 95% 0%, 95% 100%, 15% 100%, 0% 50%);
+  clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
 }
 
 .container .btn:hover {
   background-color: rgb(41, 98, 255, 0.9);
 }
-
 </style>
 
+<<!-- Photo Grid -->
 <div class="row">
   <div class="column">
+
     <div class="container">
-        <img src="/gmaps-images/CDMX-piramides.jpeg" alt="CDMX" style="width:100%">
+      <img src="/gmaps-images/CDMX-piramides.jpeg" alt="Mexico City" style="width:100%">
       <a href="https://goo.gl/maps/xweG7kQr8jq8omd36" target="_blank">
         <button class="btn">CDMX</button>
       </a>
     </div>
-  </div>
 
-  <div class="column">
     <div class="container">
-        <img src="/gmaps-images/Cadiz-background.jpg" alt="CDMX" style="width:100%">
-      <a href="https://goo.gl/maps/n4KSVZf3ekJ84hjR7" target="_blank">
-        <button class="btn">Cádiz</button>
-      </a>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="container">
-        <img src="/gmaps-images/Iceland-background.jpg" alt="CDMX" style="width:100%">
+      <img src="/gmaps-images/Iceland-background.jpg" alt="Iceland" style="width:100%">
       <a href="https://goo.gl/maps/Rmu2vJUvN9Y8a6bV9" target="_blank">
         <button class="btn">Iceland</button>
       </a>
     </div>
-  </div>
 
-  <div class="column">
-    <div class="container">
-        <img src="/gmaps-images/Madrid-background.jpg" alt="CDMX" style="width:100%">
-      <a href="https://goo.gl/maps/uVDZCEa1vLotgps78" target="_blank">
-        <button class="btn">Madrid</button>
-      </a>
-    </div>
   </div>
-
   <div class="column">
-    <div class="container">
-        <img src="/gmaps-images/Munich-city-background.jpg" alt="CDMX" style="width:100%">
-      <a href="https://goo.gl/maps/KmzMJEcfaZ5vkoNy6" target="_blank">
-        <button class="btn">Munich</button>
-      </a>
-    </div>
-  </div>
 
-  <div class="column">
     <div class="container">
-        <img src="/gmaps-images/New-York-background.jpg" alt="CDMX" style="width:100%">
-      <a href="https://goo.gl/maps/qvcjPQ7uvk4XVBKm7" target="_blank">
-        <button class="btn">New York</button>
-      </a>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="container">
-        <img src="/gmaps-images/miami-beach-sun.jpg" alt="CDMX" style="width:100%">
+      <img src="/gmaps-images/miami-beach-sun.jpg" alt="Miami" style="width:100%">
       <a href="https://goo.gl/maps/1JEc36CbsZi9HZw27" target="_blank">
         <button class="btn">Miami</button>
       </a>
     </div>
-  </div>
 
-  <div class="column">
     <div class="container">
-        <img src="/gmaps-images/paris-eiffel-tower.jpg" alt="CDMX" style="width:100%">
+      <img src="/gmaps-images/New-York-background.jpg" alt="New York City" style="width:100%">
+      <a href="https://goo.gl/maps/qvcjPQ7uvk4XVBKm7" target="_blank">
+        <button class="btn">New York</button>
+      </a>
+    </div>
+
+  </div>
+  <div class="column">
+
+    <div class="container">
+      <img src="/gmaps-images/Cadiz-background.jpg" alt="Cadiz" style="width:100%">
+      <a href="https://goo.gl/maps/n4KSVZf3ekJ84hjR7" target="_blank">
+        <button class="btn">Cádiz</button>
+      </a>
+    </div>
+
+    <div class="container">
+      <img src="/gmaps-images/Madrid-background.jpg" alt="Madrid" style="width:100%">
+      <a href="https://goo.gl/maps/uVDZCEa1vLotgps78" target="_blank">
+        <button class="btn">Madrid</button>
+      </a>
+    </div>
+
+    <div class="container">
+      <img src="/gmaps-images/seville-spain.jpg" alt="Sevilla" style="width:100%">
+      <a href="https://goo.gl/maps/hgW4NTkVMnJECMa48" target="_blank">
+        <button class="btn">Seville</button>
+      </a>
+    </div>
+
+  </div>
+  <div class="column">
+
+    <div class="container">
+      <img src="/gmaps-images/Munich-city-background.jpg" alt="Munich" style="width:100%">
+      <a href="https://goo.gl/maps/KmzMJEcfaZ5vkoNy6" target="_blank">
+        <button class="btn">Munich</button>
+      </a>
+    </div>
+
+    <div class="container">
+      <img src="/gmaps-images/paris-eiffel-tower.jpg" alt="Paris" style="width:100%">
       <a href="https://goo.gl/maps/CEKdSx2KLyCCzdT86" target="_blank">
         <button class="btn">Paris</button>
       </a>
     </div>
-  </div>
 
-  <div class="column">
-    <div class="container">
-        <img src="/gmaps-images/seville-spain.jpg" alt="CDMX" style="width:100%">
-      <a href="https://goo.gl/maps/hgW4NTkVMnJECMa48" target="_blank">
-      <button class="btn">Seville</button>
-      </a>
-    </div>
   </div>
-
-  <div class="column">
-    <div class="container">
-        <img src="/gmaps-images/travel-plane-background.jpg" alt="CDMX" style="width:100%">
-        <button class="btn">Soon more</button>
-    </div>
-  </div>
-
 </div>
