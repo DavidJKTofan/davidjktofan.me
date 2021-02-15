@@ -23,6 +23,11 @@ Work in progress... (Currently only available on desktop)...
 
 <!-- STYLESHEET CSS -->
 <style>
+
+div {
+  box-sizing: border-box;
+}
+
 .row_grid_grid {
   display: -ms-flexbox;
   display: flex;
@@ -101,7 +106,9 @@ Work in progress... (Currently only available on desktop)...
       <a href="https://goo.gl/maps/xweG7kQr8jq8omd36" target="_blank">
         <button class="btn">CDMX</button>
       </a>
+    </div>
 
+    <div class="container_img_grid">
         <img src="/gmaps-images/Iceland-background.jpg" alt="Iceland" style="width:100%">
       <a href="https://goo.gl/maps/Rmu2vJUvN9Y8a6bV9" target="_blank">
         <button class="btn">Iceland</button>
