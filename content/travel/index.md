@@ -31,21 +31,21 @@ Work in progress... (Currently only available on desktop)...
   padding: 0 4px;
 }
 
-.column_grid {
+.column_img_grid {
   -ms-flex: 25%;
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
 }
 
-.column_grid img {
+.column_img_grid img {
   margin-top: 5px;
   vertical-align: middle;
   width: 100%;
 }
 
 @media screen and (max-width: 800px) {
-  .column_grid {
+  .column_img_grid {
     -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
@@ -53,7 +53,7 @@ Work in progress... (Currently only available on desktop)...
 }
 
 @media screen and (max-width: 600px) {
-  .column_grid {
+  .column_img_grid {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
@@ -94,7 +94,7 @@ Work in progress... (Currently only available on desktop)...
 </style>
 
 <div class="row_grid">
-  <div class="column_grid">
+  <div class="column_img_grid">
 
     <div class="container_grid">
       <img src="/gmaps-images/CDMX-piramides.jpeg" alt="Mexico City" >
@@ -102,6 +102,6 @@ Work in progress... (Currently only available on desktop)...
         <button class="btn">CDMX</button>
       </a>
     </div>
-    
+
   </div>
 </div>
