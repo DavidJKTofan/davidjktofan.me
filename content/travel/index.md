@@ -110,7 +110,6 @@ body {
 }
 </style>
 
-<<!-- Photo Grid -->
 <div class="row">
   <div class="column">
 
