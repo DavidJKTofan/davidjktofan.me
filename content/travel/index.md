@@ -95,12 +95,21 @@ Work in progress... (Currently only available on desktop)...
 
 <div class="row_grid">
   <div class="column_grid">
+
     <div class="container_img_grid">
-        <img src="/gmaps-images/CDMX-piramides.jpeg" alt="CDMX" style="width:100%">
+        <img src="/gmaps-images/CDMX-piramides.jpeg" alt="Mexico City" style="width:100%">
       <a href="https://goo.gl/maps/xweG7kQr8jq8omd36" target="_blank">
         <button class="btn">CDMX</button>
       </a>
     </div>
+
+    <div class="container_img_grid">
+        <img src="/gmaps-images/Iceland-background.jpg" alt="Iceland" style="width:100%">
+      <a href="https://goo.gl/maps/Rmu2vJUvN9Y8a6bV9" target="_blank">
+        <button class="btn">Iceland</button>
+      </a>
+    </div>
+
   </div>
 
 </div>
