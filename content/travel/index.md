@@ -114,4 +114,18 @@ Work in progress... (Currently only available on desktop)...
       </a>
     </div>
   </div>
+  <div class="travel_column_img_grid">
+    <div class="travel_container_img_grid">
+      <img src="/gmaps-images/miami-beach-sun.jpg" alt="Miami">
+      <a href="https://goo.gl/maps/1JEc36CbsZi9HZw27" target="_blank">
+        <button class="btn">Miami</button>
+      </a>
+    </div>
+    <div class="travel_container_img_grid">
+      <img src="/gmaps-images/New-York-background.jpg" alt="New York City">
+      <a href="https://goo.gl/maps/qvcjPQ7uvk4XVBKm7" target="_blank">
+        <button class="btn">New York</button>
+      </a>
+    </div>
+  </div>
 </div>
