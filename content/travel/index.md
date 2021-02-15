@@ -86,7 +86,7 @@ Work in progress... (Currently only available on desktop)...
     background-color: rgb(40, 42, 54, 0.8);
     color: white;
     font-size: 16px;
-    padding: 12px 24px;
+    padding: 5px 24px;
     border: none;
     cursor: pointer;
     border-radius: 10px;
@@ -125,6 +125,40 @@ Work in progress... (Currently only available on desktop)...
       <img src="/gmaps-images/New-York-background.jpg" alt="New York City">
       <a href="https://goo.gl/maps/qvcjPQ7uvk4XVBKm7" target="_blank">
         <button class="btn">New York</button>
+      </a>
+    </div>
+  </div>
+  <div class="travel_column_img_grid">
+    <div class="travel_container_img_grid">
+      <img src="/gmaps-images/Cadiz-background.jpg" alt="Cadiz">
+      <a href="https://goo.gl/maps/n4KSVZf3ekJ84hjR7" target="_blank">
+        <button class="btn">Cádiz</button>
+      </a>
+    </div>
+    <div class="travel_container_img_grid">
+      <img src="/gmaps-images/Madrid-background.jpg" alt="Madrid">
+      <a href="https://goo.gl/maps/uVDZCEa1vLotgps78" target="_blank">
+        <button class="btn">Madrid</button>
+      </a>
+    </div>
+    <div class="travel_container_img_grid">
+      <img src="/gmaps-images/seville-spain.jpg" alt="Sevilla">
+      <a href="https://goo.gl/maps/hgW4NTkVMnJECMa48" target="_blank">
+        <button class="btn">Seville</button>
+      </a>
+    </div>
+  </div>
+  <div class="travel_column_img_grid">
+    <div class="travel_container_img_grid">
+      <img src="/gmaps-images/Munich-city-background.jpg" alt="Munich">
+      <a href="https://goo.gl/maps/KmzMJEcfaZ5vkoNy6" target="_blank">
+        <button class="btn">Munich</button>
+      </a>
+    </div>
+    <div class="travel_container_img_grid">
+      <img src="/gmaps-images/paris-eiffel-tower.jpg" alt="Paris">
+      <a href="https://goo.gl/maps/CEKdSx2KLyCCzdT86" target="_blank">
+        <button class="btn">Paris</button>
       </a>
     </div>
   </div>
