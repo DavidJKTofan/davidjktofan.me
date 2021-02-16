@@ -20,7 +20,7 @@ During some of my journeys around the globe I try to remember the places that im
 
 Hope they are useful :) and feel free to recommend me new places too!
 
-Work in progress... (Currently only available on desktop)...
+Work in progress...
 
 <!-- STYLESHEET CSS -->
 
