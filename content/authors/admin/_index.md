@@ -39,4 +39,4 @@ email: ""
 user_groups:
   - ""
 ---
-As a Digital Consultant, I help businesses develop and acquire the necessary tools required to manage the company’s digitalization efforts as well as establishing automation processes, all while fostering a sustainable, collaborative and data-driven company culture. Aspiring Business Analyst!
+As a Digital Consultant, I help businesses develop and acquire the necessary tools and knowledge required to manage the company’s digitalization efforts as well as establishing automation processes, all while fostering a sustainable, collaborative and data-driven company culture. Part-Time Data Analyst!
