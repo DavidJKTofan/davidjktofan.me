@@ -4,9 +4,10 @@ date: 2020-09-27T21:22:53.306Z
 draft: false
 featured: true
 tags:
+  - Security
   - Privacy
 categories:
-  - Privacy
+  - Security
 image:
   filename: featured.png
   focal_point: Smart
@@ -64,8 +65,8 @@ Go to your System Preferences, Security & Privacy, and please review all your se
 
 The general rules are:
 
-* Your **Firewall** should definitely be on. 
-* If you travel a lot, or somebody else uses your laptop too, turn on FileVault (or **device encryption**). 
+* Your **Firewall** should definitely be on.
+* If you travel a lot, or somebody else uses your laptop too, turn on FileVault (or **device encryption**).
 * Disable **automatic login**.
 * Review your **Privacy (App) permissions** (e.g. what Apps have access to your Location Services?)
 * Uninstall or delete any **Apps you don't need** or you do not use at all.
@@ -155,7 +156,7 @@ For more tools, resources, Linux and MacOs terminal commands, and more, visit my
 
 ## Disclaimer
 
-Don't forget that any changes to your settings, and any tools/programs that you download on your device will have some sort of consequences. For example: when filtering content or blocking cookies, you cannot use several functionalities and/or features of some websites – like e.g. Facebook. Additionally, some changes in your settings might prevent you from using other tools or websites. Therefore, when changing anything you are not really sure about: *baby steps*. 
+Don't forget that any changes to your settings, and any tools/programs that you download on your device will have some sort of consequences. For example: when filtering content or blocking cookies, you cannot use several functionalities and/or features of some websites – like e.g. Facebook. Additionally, some changes in your settings might prevent you from using other tools or websites. Therefore, when changing anything you are not really sure about: *baby steps*.
 
 As mentioned at the beginning, this is not a complete guide on how to protect yourself.
 
