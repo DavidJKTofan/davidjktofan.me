@@ -5,9 +5,9 @@ summary: Prime Truck Solutions is a heavy duty truck parts retail business, prov
 draft: false
 featured: false
 tags:
-  - Initiatives
+  - Startups
 categories:
-  - Initiatives
+  - Startups
 external_link: https://www.primetrucksolutions.com/
 image:
   filename: featured.png
