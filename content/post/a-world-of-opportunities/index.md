@@ -5,6 +5,7 @@ draft: false
 featured: true
 tags:
   - Resources
+  - Opportunities
 categories:
   - Resources
 image:

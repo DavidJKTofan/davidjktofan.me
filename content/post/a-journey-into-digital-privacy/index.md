@@ -1,11 +1,12 @@
 ---
 title: A Journey into Digital Privacy & CyberSec
-date: 2020-09-27T21:22:53.306Z
+date: 2020-11-27T21:22:53.306Z
 draft: false
 featured: true
 tags:
   - Security
   - Privacy
+  - CyberSec
 categories:
   - Security
 image:
