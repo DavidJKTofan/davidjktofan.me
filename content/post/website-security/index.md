@@ -1,13 +1,13 @@
 ---
 title: Website Security
-date: 2020-09-27T21:22:53.306Z
+date: 2021-02-28T21:22:53.306Z
 draft: false
 featured: true
 tags:
   - Security
   - Web Development
 categories:
-  - Privacy
+  - Security
 image:
   filename: featured.png
   focal_point: Smart
