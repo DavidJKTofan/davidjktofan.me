@@ -21,30 +21,45 @@ date_format = "Jan 2006"
   title = "Digital Consultant"
   company = "Lunalabs"
   company_url = "https://www.lunalabs.eu/"
-  location = "Remote"
+  location = "Remote, Europe"
   date_start = "2019-04-01"
   date_end = ""
   description = """
   Responsibilities include:
-  
+
   * Responsible for client relations, as well as planning and overseeing client requests and maintaining clear communications.
-  * Oversee teams of designers and developers, setting clear objectives, designating project resources while monitoring progress.
-  * Assisting in internal administrative tasks, including digital tasks, finding new technologies, and improving internal processes.
+  * Manage teams of designers and developers, setting clear objectives, designating project resources while monitoring progress, and reviewing quality of the work.
+  * Assisting in internal administrative tasks, including digital tasks, finding new technologies, and improving and optimizing internal processes.
   """
 
 [[experience]]
   title = "Marketing Technologist"
   company = "teknowlogy Group"
   company_url = "https://www.teknowlogy.com/"
-  location = "Munich"
+  location = "Munich, Germany"
   date_start = "2018-07-16"
   date_end = "2019-08-01"
   description = """
   Responsibilities include:
-  
-  * Managed agency budgets and resources to facilitate the roll-out of global initiatives in strategic regions.
-  * Responsible for the restructuring of the marketing and communications department, nurturing internal digital transformation and implementing new processes and tools, such as Pardot, Trello, Hootsuite, Canva, Typeform, Issuu, Bitly, and more.
-  * Project management and execution of improving corporate web presence and UX.
+
+  * Managed agency budgets and resources to facilitate the roll-out of global initiatives in strategic regions. Co-developed and launched marketing campaigns – including landing pages with forms, and social media posts –, as well as created sales materials – presentations, flyers, and more.
+  * Responsible for the restructuring of the marketing and communications department, nurturing internal digital transformation and implementing new processes and tools, such as Pardot, Google Analytics, Trello, Hootsuite, Canva, Typeform, Issuu, Bitly, and more. Including Application Integrations and co-ordination with other Business teams like Salesforce CRM for enabling data flow between both the platforms.
+  * Project management and execution of improving corporate web presence and UX, as well as collaborative research projects such as the Smart Guide 2019.
+  """
+
+[[experience]]
+  title = "Commercial Manager"
+  company = "MTC Management & Consulting"
+  company_url = ""
+  location = "Spain"
+  date_start = "2017-09-04"
+  date_end = "2018-06-30"
+  description = """
+  Responsibilities include:
+
+  * Designed and develop sales strategies, developing pricing structures and risk assessments while monitoring budgets.
+  * Managed client relationships and identified and negotiated opportunities for new contracts, as well as ensuring that the organization complies with contractual obligations.
+  * Conducted market research to inform strategic business decisions.
   """
 
 +++
