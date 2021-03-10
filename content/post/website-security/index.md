@@ -14,7 +14,7 @@ image:
   focal_point: Smart
   preview_only: true
 toc: true
-toc_depth: 3
+toc_depth: 4
 toc_float: true
 ---
 
@@ -124,22 +124,22 @@ Here an example of a `_headers` file:
 Visit the `Workers` tab within your Cloudflare account. Click the `Manage Workers` button and then click `Create a Worker`.
 Add the following code to the Worker, and replace _«POLICY_GOES_HERE»_ with your Content Security Policy.
 
-      addEventListener('fetch', event => {
-        event.respondWith(handleRequest(event.request))
-      })
+    addEventListener('fetch', event => {
+      event.respondWith(handleRequest(event.request))
+    })
 
-      async function handleRequest(request) {
-        let response = await fetch(request)
+    async function handleRequest(request) {
+      let response = await fetch(request)
 
-        response = new Response(response.body, response)
+      response = new Response(response.body, response)
 
-        response.headers.set(
-          "Content-Security-Policy",
-          "<<POLICY_GOES_HERE>>"
-        )
+      response.headers.set(
+        "Content-Security-Policy",
+        "<<POLICY_GOES_HERE>>"
+      )
 
-        return response
-      }
+      return response
+    }
 
 _Note: Cloudflare will grant you 100,000 free worker requests per day on FREE._
 
@@ -150,7 +150,7 @@ Back on the Workers dashboard click the `Add Route` button.
 -   Expand the "Request limit failure mode" accordion to configure Failure mode (select "Fail" open) so that users can continue to use your website if you run out of requests.
 -   Add additional routes to prevent the CSP worker from processing requests for static assets (such as `img`, `style`, `scripts`, `assets`, etc.).
 
-Source for Cloudflare: Thanks to [maxchadwick](https://maxchadwick.xyz/blog/cloudflare-worker-csp)
+_Source for Cloudflare: Thanks to [maxchadwick](https://maxchadwick.xyz/blog/cloudflare-worker-csp)_
 
 
 ### Report URI
