@@ -14,6 +14,8 @@ image:
   focal_point: Smart
   preview_only: true
 toc: true
+toc_depth: 3
+toc_float: true
 ---
 
 Welcome to a brief introduction to Website Security – **FOCUS ON: Content Security Policy (CSP)**.
@@ -28,11 +30,13 @@ Let's dive right into it. Below a quick overview...
 
 * * *
 
+
 ## The OWASP Top 10
 
 Here you will find the top 10 web application security risks: [Top 10 Web Application Security Risks – OWASP](https://owasp.org/www-project-top-ten/)
 
 In this blog post you'll learn a little bit more about the X-XSS-Protection (_Cross-Site Scripting (XSS)_), specifically about the Content Security Policy (CSP).
+
 
 ## Content Security Policy (CSP)
 
@@ -58,6 +62,7 @@ Additionally, if you want to know what CSP a specific website has implemented, y
 -   [CSP Evaluator with Google](https://csp-evaluator.withgoogle.com/)
 -   [Content Security Policy (CSP) Validator](https://cspvalidator.org/)
 -   [HTTP Header Checker – KeyCDN](https://tools.keycdn.com/curl)
+
 
 ### Implementation of a CSP
 
@@ -114,6 +119,40 @@ Here an example of a `_headers` file:
       Cache-Control: no-store
       Cache-Control: must-revalidate
 
+#### Cloudflare
+
+Visit the `Workers` tab within your Cloudflare account. Click the `Manage Workers` button and then click `Create a Worker`.
+Add the following code to the Worker, and replace _«POLICY_GOES_HERE»_ with your Content Security Policy.
+
+      addEventListener('fetch', event => {
+        event.respondWith(handleRequest(event.request))
+      })
+
+      async function handleRequest(request) {
+        let response = await fetch(request)
+
+        response = new Response(response.body, response)
+
+        response.headers.set(
+          "Content-Security-Policy",
+          "<<POLICY_GOES_HERE>>"
+        )
+
+        return response
+      }
+
+_Note: Cloudflare will grant you 100,000 free worker requests per day on FREE._
+
+Back on the Workers dashboard click the `Add Route` button.
+
+-   Configure your route using [Cloudflare's Matching Behavior syntax](https://developers.cloudflare.com/workers/platform/routes#matching-behavior).
+-   Select the Worker you just created.
+-   Expand the "Request limit failure mode" accordion to configure Failure mode (select "Fail" open) so that users can continue to use your website if you run out of requests.
+-   Add additional routes to prevent the CSP worker from processing requests for static assets (such as `img`, `style`, `scripts`, `assets`, etc.).
+
+Source for Cloudflare: Thanks to [maxchadwick](https://maxchadwick.xyz/blog/cloudflare-worker-csp)
+
+
 ### Report URI
 
 _"Report URI provides real-time security reporting for your site."_
@@ -123,6 +162,7 @@ It is a useful feature built into content-security-policy that allows you to get
 -   [Report URI](https://report-uri.com/)
 
 Report URI allows you to easily display your CSP, as well as any errors that might occur over time. It has many more features, but it is definitely a good place to start learning about analytics.
+
 
 ## Web Security Analysis Tools
 
@@ -136,11 +176,13 @@ Another good place to start learning more is this article:
 
 -   [Hardening Your HTTP Security Headers – KeyCDN](https://www.keycdn.com/blog/http-security-headers)
 
+
 ## Server and Network Security
 
 Let's not forget websites are served by servers. Security actually starts right there (_Security Misconfiguration_). The level of your server security depends on who is your hosting provider, what are you web admin configurations, how's your network firewall configured, and several other aspects.
 
 There are many more aspects and more things to take into account when working on your website's security. Google can be your best friend for that. Feel free to also contact your hosting provider to learn more about how to properly secure your website.
+
 
 ## Disclaimer
 
