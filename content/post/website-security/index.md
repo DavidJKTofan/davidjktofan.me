@@ -14,8 +14,6 @@ image:
   focal_point: Smart
   preview_only: true
 toc: true
-toc_depth: 4
-toc_float: true
 ---
 
 Welcome to a brief introduction to Website Security – **FOCUS ON: Content Security Policy (CSP)**.
