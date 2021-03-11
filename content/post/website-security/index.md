@@ -28,13 +28,11 @@ Let's dive right into it. Below a quick overview...
 
 * * *
 
-
 ## The OWASP Top 10
 
 Here you will find the top 10 web application security risks: [Top 10 Web Application Security Risks – OWASP](https://owasp.org/www-project-top-ten/)
 
 In this blog post you'll learn a little bit more about the X-XSS-Protection (_Cross-Site Scripting (XSS)_), specifically about the Content Security Policy (CSP).
-
 
 ## Content Security Policy (CSP)
 
@@ -60,7 +58,6 @@ Additionally, if you want to know what CSP a specific website has implemented, y
 -   [CSP Evaluator with Google](https://csp-evaluator.withgoogle.com/)
 -   [Content Security Policy (CSP) Validator](https://cspvalidator.org/)
 -   [HTTP Header Checker – KeyCDN](https://tools.keycdn.com/curl)
-
 
 ### Implementation of a CSP
 
@@ -150,7 +147,6 @@ Back on the Workers dashboard click the `Add Route` button.
 
 _Source for Cloudflare: Thanks to [maxchadwick](https://maxchadwick.xyz/blog/cloudflare-worker-csp)_
 
-
 ### Report URI
 
 _"Report URI provides real-time security reporting for your site."_
@@ -161,6 +157,23 @@ It is a useful feature built into content-security-policy that allows you to get
 
 Report URI allows you to easily display your CSP, as well as any errors that might occur over time. It has many more features, but it is definitely a good place to start learning about analytics.
 
+## Implementing HTTPS
+
+Another important aspect of Website Security is HSTS and HTTPS. Normally, your hosting provider should allow you to activate HTTPS for your domain, providing you with SSL Certificates.
+
+Now, we can submit our domain to be preloaded. Being added to the [HTTP Strict Transport Security (HSTS)](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) preload list, allows our website to be _hardcoded_ into the browser, and your site should not be available in an insecure way anymore.
+
+The following page allows us to submit our domain:
+
+-   [](https://hstspreload.org/)
+
+And then we can test our SSL and security level on the following page:
+
+-   [SSL Labs](https://www.ssllabs.com/ssltest/)
+
+If you are using **Cloudflare**, then take a look at those amazing short YouTube tutorials:
+
+-   [HTTPS Is Easy](https://httpsiseasy.com/)
 
 ## Web Security Analysis Tools
 
@@ -174,13 +187,11 @@ Another good place to start learning more is this article:
 
 -   [Hardening Your HTTP Security Headers – KeyCDN](https://www.keycdn.com/blog/http-security-headers)
 
-
 ## Server and Network Security
 
 Let's not forget websites are served by servers. Security actually starts right there (_Security Misconfiguration_). The level of your server security depends on who is your hosting provider, what are you web admin configurations, how's your network firewall configured, and several other aspects.
 
 There are many more aspects and more things to take into account when working on your website's security. Google can be your best friend for that. Feel free to also contact your hosting provider to learn more about how to properly secure your website.
-
 
 ## Disclaimer
 
