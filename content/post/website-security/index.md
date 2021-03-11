@@ -165,7 +165,7 @@ Now, we can submit our domain to be preloaded. Being added to the [HTTP Strict T
 
 The following page allows us to submit our domain:
 
--   [](https://hstspreload.org/)
+-   [HSTS Preload](https://hstspreload.org/)
 
 And then we can test our SSL and security level on the following page:
 
