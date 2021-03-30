@@ -183,9 +183,10 @@ There are also other several tools out there that can be helpful to do further s
 -   [Probely](https://probely.com/)
 -   [Sucuri Site Check](https://sitecheck.sucuri.net/)
 
-Another good place to start learning more is this article:
+Other good places to start learning more are these articles (or just Google):
 
 -   [Hardening Your HTTP Security Headers – KeyCDN](https://www.keycdn.com/blog/http-security-headers)
+-   [HTTP Headers for fast & secure static sites](https://simonhearne.com/2019/http-headers-fast-and-secure/)
 
 ## Server and Network Security
 
