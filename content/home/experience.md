@@ -23,7 +23,7 @@ date_format = "Jan 2006"
   company_url = "https://www.lunalabs.eu/"
   location = "Remote, Europe"
   date_start = "2019-04-01"
-  date_end = ""
+  date_end = "2021-04-01"
   description = """
   Responsibilities include:
 
