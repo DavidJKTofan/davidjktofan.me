@@ -102,6 +102,7 @@ Work in progress...
 
   .travel_container_img_grid .btn:hover {
     background-color: rgb(41, 98, 255, 0.9);
+    cursor: default;
   }
 </style>
 
