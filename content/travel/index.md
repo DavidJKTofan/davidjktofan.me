@@ -126,7 +126,7 @@ Work in progress...
     </div>
     <div class="travel_container_img_grid">
     <a href="https://goo.gl/maps/Rmu2vJUvN9Y8a6bV9" target="_blank">
-      <img src="/gmaps-images/Iceland-background.jpg" alt="Iceland">
+      <img src="/gmaps-images/Iceland-background.webp" alt="Iceland">
     </a>
         <button class="btn">Iceland</button>
     </div>
@@ -135,13 +135,13 @@ Work in progress...
   <div class="travel_column_img_grid">
     <div class="travel_container_img_grid">
     <a href="https://goo.gl/maps/1JEc36CbsZi9HZw27" target="_blank">
-      <img src="/gmaps-images/miami-beach-sun.jpg" alt="Miami">
+      <img src="/gmaps-images/miami-beach-sun.webp" alt="Miami">
     </a>
         <button class="btn">Miami</button>
     </div>
     <div class="travel_container_img_grid">
     <a href="https://goo.gl/maps/qvcjPQ7uvk4XVBKm7" target="_blank">
-      <img src="/gmaps-images/New-York-background.jpg" alt="New York City">
+      <img src="/gmaps-images/New-York-background.webp" alt="New York City">
     </a>
         <button class="btn">New York</button>
     </div>
@@ -150,19 +150,19 @@ Work in progress...
   <div class="travel_column_img_grid">
     <div class="travel_container_img_grid">
     <a href="https://goo.gl/maps/n4KSVZf3ekJ84hjR7" target="_blank">
-      <img src="/gmaps-images/Cadiz-background.jpg" alt="Cadiz">
+      <img src="/gmaps-images/Cadiz-background.webp" alt="Cadiz">
     </a>
         <button class="btn">Cádiz</button>
     </div>
     <div class="travel_container_img_grid">
     <a href="https://goo.gl/maps/uVDZCEa1vLotgps78" target="_blank">
-      <img src="/gmaps-images/Madrid-background.jpg" alt="Madrid">
+      <img src="/gmaps-images/Madrid-background.webp" alt="Madrid">
     </a>
         <button class="btn">Madrid</button>
     </div>
     <div class="travel_container_img_grid">
     <a href="https://goo.gl/maps/hgW4NTkVMnJECMa48" target="_blank">
-      <img src="/gmaps-images/seville-spain.jpg" alt="Sevilla">
+      <img src="/gmaps-images/seville-spain.webp" alt="Sevilla">
     </a>
         <button class="btn">Seville</button>
     </div>
@@ -171,13 +171,13 @@ Work in progress...
   <div class="travel_column_img_grid">
     <div class="travel_container_img_grid">
     <a href="https://goo.gl/maps/KmzMJEcfaZ5vkoNy6" target="_blank">
-      <img src="/gmaps-images/Munich-city-background.jpg" alt="Munich">
+      <img src="/gmaps-images/Munich-city-background.webp" alt="Munich">
     </a>
         <button class="btn">Munich</button>
     </div>
     <div class="travel_container_img_grid">
     <a href="https://goo.gl/maps/CEKdSx2KLyCCzdT86" target="_blank">
-      <img src="/gmaps-images/paris-eiffel-tower.jpg" alt="Paris">
+      <img src="/gmaps-images/paris-eiffel-tower.webp" alt="Paris">
     </a>
         <button class="btn">Paris</button>
     </div>
