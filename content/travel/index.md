@@ -62,6 +62,11 @@ Work in progress...
       flex: 50%;
       max-width: 50%;
     }
+
+    .btn {
+      color: white;
+      font-size: 18px;
+    }
   }
 
   @media screen and (max-width: 600px) {
@@ -69,6 +74,11 @@ Work in progress...
       -ms-flex: 100%;
       flex: 100%;
       max-width: 100%;
+    }
+
+    .btn {
+      color: white;
+      font-size: 18px;
     }
   }
 
