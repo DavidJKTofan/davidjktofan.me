@@ -18,6 +18,26 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "BDR"
+  company = "Cloudflare"
+  company_url = "https://www.cloudflare.com/"
+  location = "Munich, Germany"
+  date_start = "2021-04-19"
+  date_end = ""
+  description = """
+  Responsibilities include:
+
+  * Own and operate your individual sales pipeline.
+  * Focus primarily on inbound sales, while handling marketing-generated leads.
+  * Work cross-functionally with stakeholders (account executives, marketing, sales operations, fellow BDRs).
+  * Help lead BDR team-wide campaigns.
+  * Identify target accounts with strategic timing and strong use cases.
+  * Meet target quota related to the number of qualified opportunities, the value of sales pipeline, and revenue.
+  * Report, track, and manage sales activities and results using SFDC.
+  * Play an active role in the creation and iteration of team processes.
+  """
+
+[[experience]]
   title = "Digital Consultant"
   company = "Lunalabs"
   company_url = "https://www.lunalabs.eu/"

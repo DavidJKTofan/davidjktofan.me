@@ -102,4 +102,4 @@ More info can be found here:
 
 ## Disclaimer
 
-This is a very general introduction to email security, SPF, DKIM and DMARC. There are many more aspects to email security which are not covered here, and all implementations might differ from situation to situation, platform to platform, technology to technology. Remember, you are responsible for your own actions – this is merely an educational intro. Properly inform yourself, keep learning, keep testing, and feel free to share your learnings and experiences like I do. Hope it was helpful!
+This is a very general introduction to email security, SPF, DKIM and DMARC. Educational purposes only. There are many more aspects to email security which are not covered here, and all implementations might differ from situation to situation, platform to platform, technology to technology. Remember, you are responsible for your own actions – this is merely an educational intro. Properly inform yourself, keep learning, keep testing, and feel free to share your learnings and experiences as I do. Hope it was helpful!

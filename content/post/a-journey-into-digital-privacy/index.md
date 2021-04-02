@@ -36,6 +36,8 @@ There are many online tools out there to figure out what and how much informatio
 * [BrowserAudit](https://browseraudit.com/)
 * [BrowserLeaks](https://browserleaks.com/)
 * [Do I Leak](https://www.doileak.com/)
+* [Cover Your Tracks](https://coveryourtracks.eff.org/)
+* [Am I Unique](https://amiunique.org/)
 
 #### Browser Settings
 
@@ -161,4 +163,4 @@ Don't forget that any changes to your settings, and any tools/programs that you 
 
 As mentioned at the beginning, this is not a complete guide on how to protect yourself.
 
-**You are responsible** of figuring out what the best balance is for your online experience, and how much digital privacy you want to achieve. Though I hope that this brief blog post has helped some of you become more conscious about your online behavior, maybe even motivated or inspired some of you to learn more about the world of IT in general. There are thousands of tools and ways out there to improve your digital privacy and security – go for it (if you are curious)!
+**You are responsible** of figuring out what the best balance is for your online experience, and how much digital privacy you want to achieve. Educational purposes only. Though I hope that this brief blog post has helped some of you become more conscious about your online behavior, maybe even motivated or inspired some of you to learn more about the world of IT in general. There are thousands of tools and ways out there to improve your digital privacy and security – go for it (if you are curious)!

@@ -196,4 +196,4 @@ There are many more aspects and more things to take into account when working on
 
 ## Disclaimer
 
-This is a very general introduction to Website security, specifically to Content Security Policy (CSP). There are many more aspects to website security which are not covered here, and all implementations might differ from situation to situation, technology to technology. Remember, you are responsible for your own actions – this is merely an educational intro. Properly inform yourself, keep learning, keep testing, and feel free to share your learnings and experiences like I do. Hope it was helpful!
+This is a very general introduction to Website security, specifically to Content Security Policy (CSP). Educational purposes only. There are many more aspects to website security which are not covered here, and all implementations might differ from situation to situation, technology to technology. Remember, you are responsible for your own actions – this is merely an educational intro. Properly inform yourself, keep learning, keep testing, and feel free to share your learnings and experiences as I do. Hope it was helpful!
