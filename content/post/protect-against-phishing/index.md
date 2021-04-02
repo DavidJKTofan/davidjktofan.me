@@ -1,6 +1,6 @@
 ---
 title: Protect yourself from Phishing
-date: 2021-04-02T21:22:53.306Z
+date: 2021-04-02T11:22:53.306Z
 draft: false
 featured: true
 tags:
@@ -17,6 +17,8 @@ toc: true
 ---
 
 Welcome to a brief introduction on how to protect yourself from phishing attacks.
+
+I wrote this article with the purpose of motivating you and the people around you to not only protect yourself from phishing attacks, but also to take just a few minutes of your time to protect the entire Internet from such attacks.
 
 {{% toc %}}
 
