@@ -24,7 +24,7 @@ I wrote this article with the purpose of motivating you and the people around yo
 
 * * *
 
-## Phishing
+## PHISHING
 
 _"“Phishing” refers to an attempt to steal sensitive information, typically in the form of usernames, passwords, credit card numbers, bank account information or other important data in order to utilize or sell the stolen information."_
 
@@ -32,8 +32,6 @@ There are several different types of phishing attacks, but ultimately they all w
 A great introduction can be found on this article from Cloudflare:
 
 -   [What is a phishing attack?](https://www.cloudflare.com/learning/access-management/phishing-attack/)
-
-## Recognize Phishing attacks
 
 ### Emails
 
@@ -51,7 +49,7 @@ Generally, a good practice is that when you receive an email from e.g. LinkedIn 
 
 COMING SOON...
 
-## Reporting
+## REPORTING
 
 When you become a target of a phishing attack or any type of scam, first and foremost, protect yourself and your close ones. However, the entire Internet community would appreciate it if you help report such attacks too.
 
@@ -98,6 +96,6 @@ Additionally, for more serious cases, you can also report cybercrime to national
 -   [EUROPOL – Report Cybercrime Online](https://www.europol.europa.eu/report-a-crime/report-cybercrime-online)
 -   [USA – Online Safety](https://www.usa.gov/online-safety)
 
-## Disclaimer
+## DISCLAIMER
 
 This is a very general introduction on how to protect yourself and others from Phishing attacks. Educational purposes only. Properly inform yourself, be wary of scams and fake news, keep learning, keep testing, and feel free to share your learnings and experiences as I do. Hope it was helpful! Stay safe!
