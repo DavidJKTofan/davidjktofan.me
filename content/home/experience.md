@@ -18,7 +18,7 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "BDR"
+  title = "Business Development Representative (BDR)"
   company = "Cloudflare"
   company_url = "https://www.cloudflare.com/"
   location = "Munich, Germany"
@@ -27,7 +27,7 @@ date_format = "Jan 2006"
   description = """
   Responsibilities include:
 
-  * Own and operate your individual sales pipeline.
+  * Own and operate individual sales pipelines.
   * Focus primarily on inbound sales, while handling marketing-generated leads.
   * Work cross-functionally with stakeholders (account executives, marketing, sales operations, fellow BDRs).
   * Help lead BDR team-wide campaigns.
