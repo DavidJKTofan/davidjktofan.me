@@ -62,8 +62,8 @@ Work in progress...
       flex: 50%;
       max-width: 50%;
     }
-
-    .btn {
+    
+    .travel_container_img_grid .btn {
       color: white;
       font-size: 18px;
     }
@@ -76,7 +76,7 @@ Work in progress...
       max-width: 100%;
     }
 
-    .btn {
+    .travel_container_img_grid .btn {
       color: white;
       font-size: 18px;
     }
