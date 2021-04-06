@@ -23,14 +23,6 @@ Work in progress...
 <!-- STYLESHEET CSS -->
 <style>
   
-  /* Mobile */
-  @media only screen and (max-width: 600px) {
-    .article-container {
-      max-width: 380px !important;
-      margin: 0 auto;
-    }
-  }
-  
   /* Desktop */
   @media only screen and (min-width: 768px) {
     .article-container {
