@@ -4,12 +4,11 @@
   <!-- GOOGLE CHARTS SCRIPT -->
   <script type="text/javascript">
  
-    //If specific h1 exists, run Google Charts
+    //If specific content exists on page, run Google Charts
     //var world_heading = document.querySelector("h1").innerHTML;
-    //if(typeof(world_heading) == 'World of Opportunities' && world_heading != null){
-      
-    if($('#Google_Charts_Here').length > 0 ){
-            
+    var world_charts = document.getElementById("Google_Charts_Here").innerHTML;
+    if(world_charts == 'Work in progress...' && world_charts != null){
+                  
         console.log('Loading Google Charts on this site.');
     
         google.charts.load('current', {
