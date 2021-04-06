@@ -56,6 +56,7 @@ Additionally, if you want to know what CSP a specific website has implemented, y
 
 -   [Security Headers](https://securityheaders.com/)
 -   [CSP Evaluator with Google](https://csp-evaluator.withgoogle.com/)
+-   [CSP Scanner](https://cspscanner.com/)
 -   [Content Security Policy (CSP) Validator](https://cspvalidator.org/)
 -   [HTTP Header Checker – KeyCDN](https://tools.keycdn.com/curl)
 
