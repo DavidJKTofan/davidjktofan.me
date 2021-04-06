@@ -28,14 +28,11 @@ Mission: to help build a better Internet.
 
 ### Cloudflare in Numbers
 
-* 51Tb+ of global network capacity.
-* Accessible via 200 Points of Presence (POPs), strategically situated across 100 countries.
-* Handles 18M+ web requests per second on average.
-* Serves 25M+ protected web sites and services.
-* Blocks an average of 72B cyber threats a day.
-
-INFOGRAPHIC!
-![ComingSoon](PNG)
+-   51Tb+ of global network capacity.
+-   Accessible via 200 Points of Presence (POPs), strategically situated across 100 countries.
+-   Handles 18M+ web requests per second on average.
+-   Serves 25M+ protected web sites and services.
+-   Blocks an average of 72B cyber threats a day.
 
 ### Why choose Cloudflare
 
@@ -51,14 +48,16 @@ INFOGRAPHIC!
 See below a brief overview on Cloudflare's integrated global cloud network.
 
 ![An Integrated Global Cloud Network](/assets/images/Cloudflare/cloudflare-global-cloud-network.png)
-_<caption>Image source: https://www.cloudflare.com/enterprise/</caption>_
+_<caption>Image source: <https://www.cloudflare.com/enterprise/></caption>_
 
 Below you'll see how the Cloudflare Dashboard looks like once you added your domain.
 
 ![Cloudflare Web Dashboard](/assets/images/Cloudflare/cloudflare-dashboard.png)
-_<caption>Image source: https://dash.cloudflare.com/</caption>_
+_<caption>Image source: <https://dash.cloudflare.com/></caption>_
 
 ### PRODUCT1
+
+COMING SOON...
 
 ### PRODUCT2
 
