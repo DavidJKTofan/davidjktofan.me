@@ -5,7 +5,6 @@
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer
-  Upgrade-Insecure-Requests: 1
   Permissions-Policy: fullscreen=(self "https://davidjktofan.com/"), autoplay=(), geolocation=(), microphone=(), camera=(), payment=()
   Cache-Control: max-age=0
   Cache-Control: no-cache
