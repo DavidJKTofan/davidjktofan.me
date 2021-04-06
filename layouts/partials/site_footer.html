@@ -3,7 +3,10 @@
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <!-- GOOGLE CHARTS SCRIPT -->
   <script type="text/javascript">
-    
+ 
+    //If div with id dashboard exists, run Google Charts
+    if($('#dashboard').length >0 ){
+      
         console.log('Loading Google Charts on this site.');
     
         google.charts.load('current', {
@@ -160,7 +163,10 @@
           // DRAW
           dashboard.draw(view);
         }
-
+      
+   } else{
+      console.log('Google Charts not on this site.');
+  }
   </script>
 
 
