@@ -3,11 +3,7 @@
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <!-- GOOGLE CHARTS SCRIPT -->
   <script type="text/javascript">
-    //Attempt to get the element using document.getElementById
-    var element = document.getElementById("chart_div");
- 
-    //If it isn't "undefined" and it isn't "null", then it exists.
-    if(typeof(element) != 'undefined' && element != null){
+    
         console.log('Loading Google Charts on this site.');
     
         google.charts.load('current', {
@@ -164,10 +160,7 @@
           // DRAW
           dashboard.draw(view);
         }
-      
-   } else{
-      console.log('Google Charts not on this site.');
-  }
+
   </script>
 
 
