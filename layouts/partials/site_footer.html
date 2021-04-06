@@ -5,8 +5,13 @@
   <script type="text/javascript">
  
     //If specific content exists on page, run Google Charts
-    //var world_heading = document.querySelector("h1").innerHTML;
-    var world_charts = document.getElementById("Google_Charts_Here").innerHTML;
+    try {
+      var world_charts = document.getElementById("Google_Charts_Here").innerHTML;
+    }
+    catch(err) {
+      var world_charts = null
+    }
+      
     if(world_charts == 'Work in progress...' && world_charts != null){
                   
         console.log('Loading Google Charts on this site.');
