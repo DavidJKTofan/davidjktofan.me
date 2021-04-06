@@ -4,9 +4,10 @@
   <!-- GOOGLE CHARTS SCRIPT -->
   <script type="text/javascript">
  
-    //If div with id dashboard exists, run Google Charts
-    if($('#dashboard').length >0 ){
-      
+    //If specific h1 exists, run Google Charts
+    var world_heading = document.querySelector("h1").innerHTML;
+    if(typeof(world_heading) == 'World of Opportunities' && world_heading != null){
+            
         console.log('Loading Google Charts on this site.');
     
         google.charts.load('current', {
