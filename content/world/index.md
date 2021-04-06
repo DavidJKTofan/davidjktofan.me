@@ -22,6 +22,23 @@ Work in progress...
 
 <!-- STYLESHEET CSS -->
 <style>
+  
+  /* Mobile */
+  @media only screen and (max-width: 600px) {
+    .article-container {
+      max-width: 380px !important;
+      margin: 0 auto;
+    }
+  }
+  
+  /* Desktop */
+  @media only screen and (min-width: 768px) {
+    .article-container {
+      max-width: 80% !important;
+      padding: 0 20px;
+      margin: 0 auto;
+    }
+  }
 
   .filter .google-visualization-controls-categoryfilter-selected li {
     background-color: rgb(1, 0, 113);
