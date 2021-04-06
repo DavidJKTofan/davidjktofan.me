@@ -10,8 +10,6 @@
   Cache-Control: no-cache
   Cache-Control: no-store
   Cache-Control: must-revalidate
-
-# World of Opportunities
 /world/
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
   Content-Security-Policy-Report-Only: default-src 'self' https:;
