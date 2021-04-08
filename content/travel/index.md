@@ -120,7 +120,7 @@ Work in progress...
   <div class="travel_column_img_grid">
     <div class="travel_container_img_grid">
     <a href="https://goo.gl/maps/xweG7kQr8jq8omd36" target="_blank">
-      <img src="/media/gmaps-images/CDMX-piramides.jpeg" alt="Mexico City">
+      <img src="/media/gmaps-images/CDMX-piramides.webp" alt="Mexico City">
     </a>      
         <button class="btn">CDMX</button>
     </div>
