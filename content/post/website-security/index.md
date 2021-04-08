@@ -55,6 +55,7 @@ All fetch directives, such as `default-src` or `child-src`, have a specific mean
 Additionally, if you want to know what CSP a specific website has implemented, you can use these tools:
 
 -   [Security Headers](https://securityheaders.com/)
+-   [Mozilla Observatory](https://observatory.mozilla.org/)
 -   [CSP Evaluator with Google](https://csp-evaluator.withgoogle.com/)
 -   [CSP Scanner](https://cspscanner.com/)
 -   [Content Security Policy (CSP) Validator](https://cspvalidator.org/)
