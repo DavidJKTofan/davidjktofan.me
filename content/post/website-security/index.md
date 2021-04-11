@@ -149,6 +149,8 @@ Back on the Workers dashboard click the `Add Route` button.
 
 _Source for Cloudflare: Thanks to [maxchadwick](https://maxchadwick.xyz/blog/cloudflare-worker-csp)_
 
+_Alternatively, check out this article: [GeekFlare](https://geekflare.com/de/cloudflare-workers-secure-headers/)_
+
 ### Report URI
 
 _"Report URI provides real-time security reporting for your site."_
