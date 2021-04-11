@@ -1,6 +1,6 @@
 ---
 title: Intro to Cloudflare
-date: 2021-04-12T21:22:53.306Z
+date: 2021-04-18T21:22:53.306Z
 draft: false
 featured: true
 tags:
@@ -86,4 +86,4 @@ If you are interested in learning more about **performance**, check out these li
 
 ## Disclaimer
 
-This is a very general introduction to Cloudflare. Educational purposes only. There are many more aspects to website security which are not covered here, and all implementations might differ from situation to situation, technology to technology. Remember, you are responsible for your own actions – this is merely an educational intro. Properly inform yourself, keep learning, keep testing, and feel free to share your learnings and experiences as I do. Hope it was helpful!
+This is a very general introduction to Cloudflare. Educational purposes only. There are many more aspects to website security which are not covered here, and all implementations might differ from situation to situation, technology to technology. Remember, you are responsible for your own actions – this is merely an educational intro. Properly inform yourself, keep learning, keep testing, and feel free to share your learnings and experiences as I do. Hope it was helpful! Images are online and publicly accessible.
