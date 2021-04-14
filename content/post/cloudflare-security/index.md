@@ -1,6 +1,6 @@
 ---
 title: Intro to Cloudflare
-date: 2021-04-18T21:22:53.306Z
+date: 2021-04-18T14:22:53.306Z
 draft: false
 featured: true
 tags:
@@ -28,6 +28,9 @@ Mission: to help build a better Internet.
 
 ### Cloudflare in Numbers
 
+![An Integrated Global Cloud Network](/assets/images/Cloudflare/cloudflare-at-a-glance-v1.webp)
+_<caption>Image source: self-made</caption>_
+
 -   51Tb+ of global network capacity.
 -   Accessible via 200 Points of Presence (POPs), strategically situated across 100 countries.
 -   Handles 18M+ web requests per second on average.
@@ -36,32 +39,98 @@ Mission: to help build a better Internet.
 
 ### Why choose Cloudflare
 
-![Why customers choose Cloudflare](/assets/images/Cloudflare/why-cloudflare.png)
+![Why customers choose Cloudflare](/assets/images/Cloudflare/why-cloudflare.webp)
 
 -   Shared Intelligence
 -   Network Scale
 -   Ease of Use
 -   No Trade Offs (Security + Performance)
 
+* * * * *
+
 ## Cloudflare's Solutions
 
 See below a brief overview on Cloudflare's integrated global cloud network.
 
-![An Integrated Global Cloud Network](/assets/images/Cloudflare/cloudflare-global-cloud-network.png)
-_<caption>Image source: <https://www.cloudflare.com/enterprise/></caption>_
+![An Integrated Global Cloud Network](/assets/images/Cloudflare/cloudflare-global-cloud-network.webp)
+_<caption>Image source: https://www.cloudflare.com/enterprise/</caption>_
 
-Below you'll see how the Cloudflare Dashboard looks like once you added your domain.
+Here is a preview of how the Cloudflare Dashboard looks like once you added your domain.
 
-![Cloudflare Web Dashboard](/assets/images/Cloudflare/cloudflare-dashboard.png)
-_<caption>Image source: <https://dash.cloudflare.com/></caption>_
+![Cloudflare Web Dashboard](/assets/images/Cloudflare/cloudflare-dashboard.webp)
+_<caption>Image source: https://dash.cloudflare.com/</caption>_
 
-### PRODUCT1
+Below you'll find some of the most important solutions that Cloudflare offers.
+They are divided up the following categories:
 
-COMING SOON...
+* Security
+* Performance
+* Reliability
+* Connectivity
+* Edge Developer Platform
+* Enterprise Security
 
-### PRODUCT2
+### <b>Security</b>
 
-### PRODUCT3
+#### [Web Application Firewall (WAF)](https://www.cloudflare.com/waf/)
+
+#### [DDoS Protection](https://www.cloudflare.com/ddos/)
+
+#### [Bot Management](https://www.cloudflare.com/products/bot-management/)
+
+#### [Rate Limiting](https://www.cloudflare.com/rate-limiting/)
+
+#### [SSL](https://www.cloudflare.com/ssl/)
+
+#### [Spectrum](https://www.cloudflare.com/products/cloudflare-spectrum/)
+
+#### [Cloudflare for Campaigns](https://www.cloudflare.com/campaigns/)
+
+
+### <b>Performance</b>
+
+#### [Content Delivery Network (CDN)](https://www.cloudflare.com/cdn/)
+
+#### [Web Optimization](https://www.cloudflare.com/website-optimization/)
+
+#### [Stream](https://www.cloudflare.com/products/cloudflare-stream/)
+
+
+### <b>Reliability</b>
+
+#### [Argo Smart Routing](https://www.cloudflare.com/products/argo-smart-routing/)
+
+#### [Load Balancing](https://www.cloudflare.com/load-balancing/)
+
+#### [Managed DNS](https://www.cloudflare.com/dns/)
+
+
+### <b>Connectivity</b>
+
+#### [Argo Tunnel](https://www.cloudflare.com/products/argo-tunnel/)
+
+#### [Private Network Interface (PNI)](https://www.cloudflare.com/partners/peering-portal/)
+
+#### [Magic Transit](https://www.cloudflare.com/magic-transit/)
+
+
+### <b>Edge Developer Platform</b>
+
+#### [Workers](https://workers.cloudflare.com/)
+
+#### [Workers KV](https://www.cloudflare.com/products/workers-kv/)
+
+
+### <b>Enterprise Security</b>
+
+#### [Cloudflare Gateway](https://www.cloudflare.com/teams/gateway/)
+#### [Cloudflare Access](https://www.cloudflare.com/teams/access/)
+
+
+As an honorable mention: [Cloudflare Pages](https://pages.cloudflare.com/) is definitely worth checking out, if you are interested in building your own website.
+
+
+* * * * *
 
 ## More Materials
 
@@ -79,10 +148,13 @@ Learn more about Cloudflare and its solutions here:
 
 -   [Flare Ups – HHHYPERGROWTH](https://hhhypergrowth.com/flare-ups/)
 -   [2 Pager – Cloudflare](https://cloudflare.showpad.com/share/6mnHykeSSFAUupFxQxcC3)
+-   [Cloudflare YouTube Channel](https://www.youtube.com/c/cloudflare/about)
 
-If you are interested in learning more about **performance**, check out these links:
+If you are interested in learning more about **performance browser networking**, check out these links:
 
 -   [High Performance Browser Networking](https://hpbn.co/)
+
+* * * * *
 
 ## Disclaimer
 
