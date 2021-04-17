@@ -92,7 +92,6 @@
 
     # Custom Header value
     #X-Custom-Header = "foo here"
-    Server = ""
     
 ################################################################################
 # Headers for BLOG posts
