@@ -1,6 +1,6 @@
 ---
 title: Finding a Job in 2021
-date: 2021-04-18T21:22:53.306Z
+date: 2021-04-18T13:22:53.306Z
 draft: false
 featured: true
 tags:
@@ -28,7 +28,10 @@ During my time searching for opportunities, I slowly created a small list of int
 
 ==> [Jobs & Career Opportunities – Google Sheets](https://docs.google.com/spreadsheets/d/16YPfy7nZNBs99dtoG-xCPJZMQOynBgWAVA9omq2PdHE/edit?usp=sharing)
 
-Feel free to share it with anyone you think could benefit from this; or anyone who maybe just needs a little push and motivation to keep looking for a new job. There are certainly many open positions out there, and everyone will eventually find a position where she/he fill fit in. Nevertheless, I wish you – or whoever is looking for a job – all the best and may you stay positive, and stay healthy!
+Feel free to share it with anyone you think could benefit from this; or anyone who maybe just need a little push and motivation to keep looking for a new job. There are certainly many open positions out there, and everyone will eventually find a position where she/he/they will fit in.
+
+I wish you – or whoever is looking for a job – all the best and may you stay positive, and stay healthy!
+
 
 ## Disclaimer
 
