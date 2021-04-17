@@ -37,17 +37,48 @@ A great introduction can be found on this article from Cloudflare:
 
 Be on the look out for these warning signs:
 
-* Several grammar mistakes
-* General greeting ("Dear,", "Hi Kontakt", "Hello Sir"...)
-* Very complex and/or long email sender
+-   Several grammar mistakes.
+-   General greeting ("Dear", "Hi Kontakt", "Hello Sir/Miss"...).
+-   Very complex and/or long email sender.
+-   Too many images, or several different company logos.
 
-These are only a few warning signs that the email you received might (or might not) be a phishing attempt.
+These are only a few warning signs that the email you received might most likely be a phishing attempt.
 
 Generally, a good practice is that when you receive an email from e.g. LinkedIn or your Bank, you do not open any link from those emails, but go on your browser, open a new tab and login to your account in a normal way to check for any notifications or such.
 
 ### Phone Calls
 
-COMING SOON...
+_Vishing (a combination of the words Voice and Phishing) is a phone scam in which fraudsters trick you into divulging your personal, ﬁnancial or security information or into transferring money to them._
+
+Some general tips against Vishing attacks are:
+
+-   Don't answer calls from unknown numbers.
+-   If you hear a robot-sounding voice, immediately hang up.
+-   Never give out personal information or other identifying information in response to unexpected calls or if you are at all suspicious.
+
+Additionally, in some countries you can prevent/stop telemarketers and some spammers to call you by subscribing to specific services, such as:
+
+-   [National Do Not Call Registry – U.S.A.](https://www.donotcall.gov/)
+-   [National Do Not Call List – Canada](https://lnnte-dncl.gc.ca/en)
+-   [Telephone Preference Service – U.K.](https://www.tpsonline.org.uk/)
+-   [Do Not Call Register – Australia](https://www.donotcall.gov.au/)
+-   [Bloctel list – France](https://www.service-public.fr/particuliers/vosdroits/R43993)
+-   ['Do Not Call' register – Netherlands](https://www.bel-me-niet.nl/consument/add/0)
+-   [Robinson Lijst – Belgium](https://www.robinson.be/nl)
+-   [Lista Robinson – Spain](https://www.listarobinson.es/)
+-   [Registro Pubblico delle Opposizioni – Italy](https://www.mise.gov.it/index.php/it/comunicazioni/telefonia/registro-pubblico-delle-opposizioni)
+-   [Robinson Liste – Germany](https://www.robinsonliste.de/)
+
+You can find more information here: [TAKE CONTROL OF YOUR DIGITAL LIFE. DON’T BE A VICTIM OF CYBER SCAMS!](https://www.europol.europa.eu/activities-services/public-awareness-and-prevention-guides/take-control-of-your-digital-life-don%E2%80%99t-be-victim-of-cyber-scams)
+
+#### Phone Settings
+
+-   Apple iPhones have an opt-in "Silence Unknown Callers" call-screening and blocking feature.
+-   Google Pixel phones have a "Call Screen" call-screening and blocking feature; Google offers several free, opt-in, call-blocking tool apps for Android phones; and Google Voice users can use a call management tool to block unwanted calls.
+-   Samsung partners with Hiya to offer a call-blocking solution called Smart Call to label potentially unwanted calls.
+
+_Information Source: [Call Blocking Tools and Resources](https://www.fcc.gov/call-blocking)_
+
 
 ## REPORTING
 
@@ -67,10 +98,10 @@ If you encounter a website that tries to scam people or steal personal informati
 
 If you are using Firefox, you can use the following process to submit a report:
 
-1. Select Help > Report Deceptive Site
-2. Paste the URL of the phishing site
-3. Click I am not a robot
-4. Submit Report
+1.  Select Help > Report Deceptive Site
+2.  Paste the URL of the phishing site
+3.  Click I am not a robot
+4.  Submit Report
 
 ### Abuse Email
 
@@ -95,6 +126,7 @@ Additionally, for more serious cases, you can also report cybercrime to national
 
 -   [EUROPOL – Report Cybercrime Online](https://www.europol.europa.eu/report-a-crime/report-cybercrime-online)
 -   [USA – Online Safety](https://www.usa.gov/online-safety)
+
 
 ## DISCLAIMER
 
