@@ -92,8 +92,8 @@
 
     # Custom Header value
     #X-Custom-Header = "foo here"
-    server = "NetlifyX"
-
+    Server = ""
+    
 ################################################################################
 # Headers for BLOG posts
 [[headers]]
