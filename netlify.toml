@@ -233,7 +233,7 @@
     Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
     # CSP
     Content-Security-Policy = '''
-    default-src 'self'; upgrade-insecure-requests;
+    default-src 'self';
     connect-src 'self' https://docs.google.com/spreadsheets/d/1E2lE8EJoZSu0NeG76Yyq7ai6zCHb7jILXjCqKMQMD0I/gviz/tq https://www.google-analytics.com/g/collect;
     img-src 'self' https://ssl.gstatic.com/editor/;
     font-src 'self' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/webfonts/ https://fonts.gstatic.com/s/montserrat/ https://fonts.gstatic.com/s/roboto/ https://fonts.gstatic.com/s/robotomono/;
