@@ -29,7 +29,7 @@ Mission: to help build a better Internet.
 ### Cloudflare in Numbers
 
 ![An Integrated Global Cloud Network](/media/Cloudflare/cloudflare-at-a-glance-v1.webp)
-_<caption>Image source: self-made</caption>_
+_<caption>Image source: made by [Lunalabs](https://www.lunalabs.eu/)</caption>_
 
 -   51Tb+ of global network capacity.
 -   Accessible via 200 Points of Presence (POPs), strategically situated across 100 countries.
@@ -46,91 +46,85 @@ _<caption>Image source: self-made</caption>_
 -   Ease of Use
 -   No Trade Offs (Security + Performance)
 
-* * * * *
+* * *
 
 ## Cloudflare's Solutions
 
 See below a brief overview on Cloudflare's integrated global cloud network.
 
 ![An Integrated Global Cloud Network](/media/Cloudflare/cloudflare-global-cloud-network.webp)
-_<caption>Image source: https://www.cloudflare.com/enterprise/</caption>_
+_<caption>Image source: <https://www.cloudflare.com/enterprise/></caption>_
 
 Here is a preview of how the Cloudflare Dashboard looks like once you added your domain.
 
 ![Cloudflare Web Dashboard](/media/Cloudflare/cloudflare-dashboard.webp)
-_<caption>Image source: https://dash.cloudflare.com/</caption>_
+_<caption>Image source: <https://dash.cloudflare.com/></caption>_
 
 Below you'll find some of the most important solutions that Cloudflare offers.
 They are divided up the following categories:
 
-* Security
-* Performance
-* Reliability
-* Connectivity
-* Edge Developer Platform
-* Enterprise Security
+-   Security
+-   Performance
+-   Reliability
+-   Connectivity
+-   Edge Developer Platform
+-   Enterprise Security
 
 ### <b>Security</b>
 
-#### [Web Application Firewall (WAF)](https://www.cloudflare.com/waf/)
+-   #### [Web Application Firewall (WAF)](https://www.cloudflare.com/waf/)
 
-#### [DDoS Protection](https://www.cloudflare.com/ddos/)
+-   #### [DDoS Protection](https://www.cloudflare.com/ddos/)
 
-#### [Bot Management](https://www.cloudflare.com/products/bot-management/)
+-   #### [Bot Management](https://www.cloudflare.com/products/bot-management/)
 
-#### [Rate Limiting](https://www.cloudflare.com/rate-limiting/)
+-   #### [Rate Limiting](https://www.cloudflare.com/rate-limiting/)
 
-#### [SSL](https://www.cloudflare.com/ssl/)
+-   #### [SSL](https://www.cloudflare.com/ssl/)
 
-#### [Spectrum](https://www.cloudflare.com/products/cloudflare-spectrum/)
+-   #### [Spectrum](https://www.cloudflare.com/products/cloudflare-spectrum/)
 
-#### [Cloudflare for Campaigns](https://www.cloudflare.com/campaigns/)
-
+-   #### [Cloudflare for Campaigns](https://www.cloudflare.com/campaigns/)
 
 ### <b>Performance</b>
 
-#### [Content Delivery Network (CDN)](https://www.cloudflare.com/cdn/)
+-   #### [Content Delivery Network (CDN)](https://www.cloudflare.com/cdn/)
 
-#### [Web Optimization](https://www.cloudflare.com/website-optimization/)
+-   #### [Web Optimization](https://www.cloudflare.com/website-optimization/)
 
-#### [Stream](https://www.cloudflare.com/products/cloudflare-stream/)
-
+-   #### [Stream](https://www.cloudflare.com/products/cloudflare-stream/)
 
 ### <b>Reliability</b>
 
-#### [Argo Smart Routing](https://www.cloudflare.com/products/argo-smart-routing/)
+-   #### [Argo Smart Routing](https://www.cloudflare.com/products/argo-smart-routing/)
 
-#### [Load Balancing](https://www.cloudflare.com/load-balancing/)
+-   #### [Load Balancing](https://www.cloudflare.com/load-balancing/)
 
-#### [Managed DNS](https://www.cloudflare.com/dns/)
-
+-   #### [Managed DNS](https://www.cloudflare.com/dns/)
 
 ### <b>Connectivity</b>
 
-#### [Argo Tunnel](https://www.cloudflare.com/products/argo-tunnel/)
+-   #### [Argo Tunnel](https://www.cloudflare.com/products/argo-tunnel/)
 
-#### [Private Network Interface (PNI)](https://www.cloudflare.com/partners/peering-portal/)
+-   #### [Private Network Interface (PNI)](https://www.cloudflare.com/partners/peering-portal/)
 
-#### [Magic Transit](https://www.cloudflare.com/magic-transit/)
-
+-   #### [Magic Transit](https://www.cloudflare.com/magic-transit/)
 
 ### <b>Edge Developer Platform</b>
 
-#### [Workers](https://workers.cloudflare.com/)
+-   #### [Workers](https://workers.cloudflare.com/)
 
-#### [Workers KV](https://www.cloudflare.com/products/workers-kv/)
-
+-   #### [Workers KV](https://www.cloudflare.com/products/workers-kv/)
 
 ### <b>Enterprise Security</b>
 
-#### [Cloudflare Gateway](https://www.cloudflare.com/teams/gateway/)
-#### [Cloudflare Access](https://www.cloudflare.com/teams/access/)
+-   #### [Cloudflare Gateway](https://www.cloudflare.com/teams/gateway/)
 
+-   #### [Cloudflare Access](https://www.cloudflare.com/teams/access/)
 
 As an honorable mention: [Cloudflare Pages](https://pages.cloudflare.com/) is definitely worth checking out, if you are interested in building your own website.
 
-
-* * * * *
+* * *
 
 ## More Materials
 
@@ -154,7 +148,7 @@ If you are interested in learning more about **performance browser networking**,
 
 -   [High Performance Browser Networking](https://hpbn.co/)
 
-* * * * *
+* * *
 
 ## Disclaimer
 
