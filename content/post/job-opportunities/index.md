@@ -32,6 +32,11 @@ Feel free to share it with anyone you think could benefit from this; or anyone w
 
 I wish you – or whoever is looking for a job – all the best and may you stay positive, and stay healthy!
 
+## European Union (EU)
+
+On a side note, the European Union (EU) tries to make it easier for European citizens to share their ideas, concerns, and opinions related to the future of Europe: [Conference on the Future of Europe](https://futureu.europa.eu/?locale=en)
+
+_The Conference on the Future of Europe is a unique and timely opportunity for European citizens to debate on Europe’s challenges and priorities._
 
 ## Disclaimer
 
