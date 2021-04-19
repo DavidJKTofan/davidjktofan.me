@@ -28,7 +28,7 @@ Mission: to help build a better Internet.
 
 ### Cloudflare in Numbers
 
-![An Integrated Global Cloud Network](/assets/images/Cloudflare/cloudflare-at-a-glance-v1.webp)
+![An Integrated Global Cloud Network](/static/media/Cloudflare/cloudflare-at-a-glance-v1.webp)
 _<caption>Image source: self-made</caption>_
 
 -   51Tb+ of global network capacity.
@@ -39,7 +39,7 @@ _<caption>Image source: self-made</caption>_
 
 ### Why choose Cloudflare
 
-![Why customers choose Cloudflare](/assets/images/Cloudflare/why-cloudflare.webp)
+![Why customers choose Cloudflare](/static/media/Cloudflare/why-cloudflare.webp)
 
 -   Shared Intelligence
 -   Network Scale
@@ -52,12 +52,12 @@ _<caption>Image source: self-made</caption>_
 
 See below a brief overview on Cloudflare's integrated global cloud network.
 
-![An Integrated Global Cloud Network](/assets/images/Cloudflare/cloudflare-global-cloud-network.webp)
+![An Integrated Global Cloud Network](/static/media/Cloudflare/cloudflare-global-cloud-network.webp)
 _<caption>Image source: https://www.cloudflare.com/enterprise/</caption>_
 
 Here is a preview of how the Cloudflare Dashboard looks like once you added your domain.
 
-![Cloudflare Web Dashboard](/assets/images/Cloudflare/cloudflare-dashboard.webp)
+![Cloudflare Web Dashboard](/static/media/Cloudflare/cloudflare-dashboard.webp)
 _<caption>Image source: https://dash.cloudflare.com/</caption>_
 
 Below you'll find some of the most important solutions that Cloudflare offers.
