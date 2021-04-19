@@ -1,6 +1,6 @@
 ---
 title: Intro to Cloudflare
-date: 2021-04-18T14:22:53.306Z
+date: 2021-04-18T10:22:53.306Z
 draft: false
 featured: true
 tags:
