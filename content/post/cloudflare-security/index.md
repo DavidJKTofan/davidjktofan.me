@@ -152,4 +152,4 @@ If you are interested in learning more about **performance browser networking**,
 
 ## Disclaimer
 
-This is a very general introduction to Cloudflare. Educational purposes only. There are many more aspects to website security which are not covered here, and all implementations might differ from situation to situation, technology to technology. Remember, you are responsible for your own actions – this is merely an educational intro. Properly inform yourself, keep learning, keep testing, and feel free to share your learnings and experiences as I do. Hope it was helpful! Images are online and publicly accessible.
+This is a very general introduction to Cloudflare. Educational purposes only. There are many more aspects to Cloudflare and its products and services – this is merely an educational intro. Properly inform yourself, keep learning, keep testing, and feel free to share your learnings and experiences as I do. Hope it was helpful! Images are online and publicly accessible.
