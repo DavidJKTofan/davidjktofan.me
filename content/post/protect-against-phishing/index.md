@@ -29,14 +29,16 @@ I wrote this article with the purpose of motivating you and the people around yo
 _"“Phishing” refers to an attempt to steal sensitive information, typically in the form of usernames, passwords, credit card numbers, bank account information or other important data in order to utilize or sell the stolen information."_
 
 There are several different types of phishing attacks, but ultimately they all want to steal important information.
-A great introduction can be found on this article from Cloudflare:
+Some great introductions can be found on these articles:
 
--   [What is a phishing attack?](https://www.cloudflare.com/learning/access-management/phishing-attack/)
+-   [What is a phishing attack? – Cloudflare](https://www.cloudflare.com/learning/access-management/phishing-attack/)
+-   [How to: Avoid Phishing Attacks – EFF](https://ssd.eff.org/en/module/how-avoid-phishing-attacks)
 
 ### Emails
 
 Be on the look out for these warning signs:
 
+-   Complicated/long and unrecognizable sender email.
 -   Several grammar mistakes.
 -   General greeting ("Dear", "Hi Kontakt", "Hello Sir/Miss"...).
 -   Very complex and/or long email sender.
