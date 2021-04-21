@@ -218,6 +218,7 @@ There are also other several tools out there that can be helpful to do further s
 -   [HostedScan Security](https://hostedscan.com/scans)
 -   [Probely](https://probely.com/)
 -   [Sucuri Site Check](https://sitecheck.sucuri.net/)
+-   [Blacklight](https://themarkup.org/blacklight)
 
 Other good places to start learning more are these articles (or just Google):
 
