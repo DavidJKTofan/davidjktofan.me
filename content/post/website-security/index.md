@@ -121,7 +121,7 @@ _Source: [Netlify Docs](https://docs.netlify.com/routing/headers/)_
 #### Cloudflare
 
 Visit the `Workers` tab within your Cloudflare account. Click the `Manage Workers` button and then click `Create a Worker`.
-Add the following code to the Worker, and replace _«POLICY_GOES_HERE»_ with your Content Security Policy.
+Add the following code to the Worker, and add your security header parameters.
 
     const securityHeaders = {
             "Content-Security-Policy": "upgrade-insecure-requests",
@@ -167,6 +167,9 @@ Add the following code to the Worker, and replace _«POLICY_GOES_HERE»_ with yo
     addEventListener("fetch", event => event.respondWith(addHeaders(event.request)));
 
 _Code source: [GitHub](https://github.com/securityheaders/security-headers-cloudflare-worker)_
+
+_[Workers Docs](https://developers.cloudflare.com/workers/examples/alter-headers)_
+
 _Note: Cloudflare will grant you 100,000 free worker requests per day on the FREE plan._
 
 Back on the Workers dashboard click the `Add Route` button.
