@@ -30,7 +30,7 @@
 # Define which paths this specific [[headers]] block will cover.
 # Headers for HOMEPAGE
 [[headers]]
-  for = "/"
+  for = "/*"
 
   [headers.values]
     # Force HTTPS only.
