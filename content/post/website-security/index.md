@@ -168,7 +168,7 @@ Add the following code to the Worker, and add your security header parameters.
 
 _Code source: [GitHub](https://github.com/securityheaders/security-headers-cloudflare-worker)_
 
-_[Workers Docs](https://developers.cloudflare.com/workers/examples/alter-headers)_
+_More info on [Workers Docs](https://developers.cloudflare.com/workers/examples/alter-headers)_
 
 _Note: Cloudflare will grant you 100,000 free worker requests per day on the FREE plan._
 
