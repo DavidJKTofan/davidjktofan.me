@@ -86,7 +86,7 @@
     X-Content-Type-Options = "nosniff"
 
     # Disable certain magic features
-    Permissions-Policy = "fullscreen=(self), autoplay=(), geolocation=(), microphone=(), camera=(), payment=()"
+    Permissions-Policy = "fullscreen=(self), autoplay=(), geolocation=(), microphone=(), camera=(), payment=(), interest-cohort=()"
     #Feature-Policy = "camera 'none'; vibrate 'none'; usermedia 'none'; geolocation 'none'; microphone 'none'; sync-xhr self"
 
     #Accept-CH = "Downlink,RTT,Device-Memory,Save-Data,DPR,Width"
@@ -137,7 +137,7 @@
     # Don't allow Mime-sniffing
     X-Content-Type-Options = "nosniff"
     # Disable certain magic features
-    Permissions-Policy = "fullscreen=(self), autoplay=(), geolocation=(), microphone=(), camera=(), payment=()"
+    Permissions-Policy = "fullscreen=(self), autoplay=(), geolocation=(), microphone=(), camera=(), payment=(), interest-cohort=()"
     # Multi-value headers are expressed with multi-line strings.
   	cache-control = '''
   	max-age=0,
@@ -180,7 +180,7 @@
     # Don't allow Mime-sniffing
     X-Content-Type-Options = "nosniff"
     # Disable certain magic features
-    Permissions-Policy = "fullscreen=(self), autoplay=(), geolocation=(), microphone=(), camera=(), payment=()"
+    Permissions-Policy = "fullscreen=(self), autoplay=(), geolocation=(), microphone=(), camera=(), payment=(), interest-cohort=()"
     # Multi-value headers are expressed with multi-line strings.
   	cache-control = '''
   	max-age=0,
@@ -224,7 +224,7 @@
     # Don't allow Mime-sniffing
     X-Content-Type-Options = "nosniff"
     # Disable certain magic features
-    Permissions-Policy = "fullscreen=(self), autoplay=(), geolocation=(), microphone=(), camera=(), payment=()"
+    Permissions-Policy = "fullscreen=(self), autoplay=(), geolocation=(), microphone=(), camera=(), payment=(), interest-cohort=()"
     # Multi-value headers are expressed with multi-line strings.
   	cache-control = '''
   	max-age=0,
@@ -265,7 +265,7 @@
     # Don't allow Mime-sniffing
     X-Content-Type-Options = "nosniff"
     # Disable certain magic features
-    Permissions-Policy = "fullscreen=(self), autoplay=(), geolocation=(), microphone=(), camera=(), payment=()"
+    Permissions-Policy = "fullscreen=(self), autoplay=(), geolocation=(), microphone=(), camera=(), payment=(), interest-cohort=()"
     # Multi-value headers are expressed with multi-line strings.
   	cache-control = '''
   	max-age=0,
@@ -309,7 +309,7 @@
     # Don't allow Mime-sniffing
     X-Content-Type-Options = "nosniff"
     # Disable certain magic features
-    Permissions-Policy = "fullscreen=(self), autoplay=(), geolocation=(), microphone=(), camera=(), payment=()"
+    Permissions-Policy = "fullscreen=(self), autoplay=(), geolocation=(), microphone=(), camera=(), payment=(), interest-cohort=()"
     # Multi-value headers are expressed with multi-line strings.
   	cache-control = '''
   	max-age=0,
@@ -351,7 +351,7 @@
     # Don't allow Mime-sniffing
     X-Content-Type-Options = "nosniff"
     # Disable certain magic features
-    Permissions-Policy = "fullscreen=(), autoplay=(), geolocation=(), microphone=(), camera=(), payment=()"
+    Permissions-Policy = "fullscreen=(), autoplay=(), geolocation=(), microphone=(), camera=(), payment=(), interest-cohort=()"
     # Multi-value headers are expressed with multi-line strings.
   	cache-control = '''
   	max-age=0,
@@ -392,7 +392,7 @@
     # Don't allow Mime-sniffing
     X-Content-Type-Options = "nosniff"
     # Disable certain magic features
-    Permissions-Policy = "fullscreen=(), autoplay=(), geolocation=(), microphone=(), camera=(), payment=()"
+    Permissions-Policy = "fullscreen=(), autoplay=(), geolocation=(), microphone=(), camera=(), payment=(), interest-cohort=()"
     # Multi-value headers are expressed with multi-line strings.
   	cache-control = '''
   	max-age=0,
@@ -429,7 +429,7 @@
     # Don't allow Mime-sniffing
     X-Content-Type-Options = "nosniff"
     # Disable certain magic features
-    Permissions-Policy = "fullscreen=(), autoplay=(), geolocation=(), microphone=(), camera=(), payment=()"
+    Permissions-Policy = "fullscreen=(), autoplay=(), geolocation=(), microphone=(), camera=(), payment=(), interest-cohort=()"
     # Multi-value headers are expressed with multi-line strings.
   	cache-control = '''
   	max-age=0,
@@ -466,7 +466,7 @@
     # Don't allow Mime-sniffing
     X-Content-Type-Options = "nosniff"
     # Disable certain magic features
-    Permissions-Policy = "fullscreen=(), autoplay=(), geolocation=(), microphone=(), camera=(), payment=()"
+    Permissions-Policy = "fullscreen=(), autoplay=(), geolocation=(), microphone=(), camera=(), payment=(), interest-cohort=()"
     # Multi-value headers are expressed with multi-line strings.
     Cache-Control = '''
   	max-age=604800,
@@ -502,7 +502,7 @@
     # Don't allow Mime-sniffing
     X-Content-Type-Options = "nosniff"
     # Disable certain magic features
-    Permissions-Policy = "fullscreen=(), autoplay=(), geolocation=(), microphone=(), camera=(), payment=()"
+    Permissions-Policy = "fullscreen=(), autoplay=(), geolocation=(), microphone=(), camera=(), payment=(), interest-cohort=()"
     # Multi-value headers are expressed with multi-line strings.
     Cache-Control = '''
   	max-age=604800,
@@ -538,7 +538,7 @@
     # Don't allow Mime-sniffing
     X-Content-Type-Options = "nosniff"
     # Disable certain magic features
-    Permissions-Policy = "fullscreen=(), autoplay=(), geolocation=(), microphone=(), camera=(), payment=()"
+    Permissions-Policy = "fullscreen=(), autoplay=(), geolocation=(), microphone=(), camera=(), payment=(), interest-cohort=()"
     # Multi-value headers are expressed with multi-line strings.
     Cache-Control = '''
   	max-age=604800,
