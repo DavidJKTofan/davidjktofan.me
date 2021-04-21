@@ -122,7 +122,7 @@ They are divided up the following categories:
 
 -   #### [Cloudflare Access](https://www.cloudflare.com/teams/access/)
 
-As an honorable mention: [Cloudflare Pages](https://pages.cloudflare.com/) is definitely worth checking out, if you are interested in building your own website.
+As honorable mentions: [Cloudflare Pages](https://pages.cloudflare.com/) and [Cloudflare Registrar](https://www.cloudflare.com/products/registrar/) are definitely worth checking out, if you are interested in building your own website. Easy to use, and immediate security, reliability, and performance for your website.
 
 * * *
 

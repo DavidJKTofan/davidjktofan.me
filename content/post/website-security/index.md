@@ -116,29 +116,58 @@ Here an example of a `_headers` file:
       Cache-Control: no-store
       Cache-Control: must-revalidate
 
+_Source: [Netlify Docs](https://docs.netlify.com/routing/headers/)_
+
 #### Cloudflare
 
 Visit the `Workers` tab within your Cloudflare account. Click the `Manage Workers` button and then click `Create a Worker`.
 Add the following code to the Worker, and replace _«POLICY_GOES_HERE»_ with your Content Security Policy.
 
-    addEventListener('fetch', event => {
-      event.respondWith(handleRequest(event.request))
-    })
+    const securityHeaders = {
+            "Content-Security-Policy": "upgrade-insecure-requests",
+            "Strict-Transport-Security": "max-age=1000",
+            "X-Xss-Protection": "1; mode=block",
+            "X-Frame-Options": "DENY",
+            "X-Content-Type-Options": "nosniff",
+            "Referrer-Policy": "strict-origin-when-cross-origin"
+        },
+        sanitiseHeaders = {
+            Server: ""
+        },
+        removeHeaders = [
+            "Public-Key-Pins",
+            "X-Powered-By",
+            "X-AspNet-Version"
+        ];
 
-    async function handleRequest(request) {
-      let response = await fetch(request)
+    async function addHeaders(req) {
+        const response = await fetch(req),
+            newHeaders = new Headers(response.headers),
+            setHeaders = Object.assign({}, securityHeaders, sanitiseHeaders);
 
-      response = new Response(response.body, response)
+        if (newHeaders.has("Content-Type") && !newHeaders.get("Content-Type").includes("text/html")) {
+            return new Response(response.body, {
+                status: response.status,
+                statusText: response.statusText,
+                headers: newHeaders
+            });
+        }
 
-      response.headers.set(
-        "Content-Security-Policy",
-        "<<POLICY_GOES_HERE>>"
-      )
+        Object.keys(setHeaders).forEach(name => newHeaders.set(name, setHeaders[name]));
 
-      return response
+        removeHeaders.forEach(name => newHeaders.delete(name));
+
+        return new Response(response.body, {
+            status: response.status,
+            statusText: response.statusText,
+            headers: newHeaders
+        });
     }
 
-_Note: Cloudflare will grant you 100,000 free worker requests per day on FREE._
+    addEventListener("fetch", event => event.respondWith(addHeaders(event.request)));
+
+_Code source: [GitHub](https://github.com/securityheaders/security-headers-cloudflare-worker)_
+_Note: Cloudflare will grant you 100,000 free worker requests per day on the FREE plan._
 
 Back on the Workers dashboard click the `Add Route` button.
 
