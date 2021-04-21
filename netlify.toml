@@ -355,7 +355,7 @@
 ################################################################################
 # Headers for 404 pages
 [[headers]]
-  for = "/*"
+  for = "/404*"
   [headers.values]
     # Force HTTPS only.
     Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
