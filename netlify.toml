@@ -476,7 +476,7 @@
 ################################################################################
 # Headers for HOMEPAGE
 [[headers]]
-  for = "/"
+  for = "/*"
 
   [headers.values]
     # Force HTTPS only.
