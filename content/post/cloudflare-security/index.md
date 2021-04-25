@@ -82,9 +82,13 @@ They are divided up the following categories:
 
 -   #### [SSL](https://www.cloudflare.com/ssl/)
 
+-   #### [SSL for SaaS](https://www.cloudflare.com/ssl-for-saas-providers/)
+
 -   #### [Spectrum](https://www.cloudflare.com/products/cloudflare-spectrum/)
 
 -   #### [Cloudflare for Campaigns](https://www.cloudflare.com/campaigns/)
+
+-   #### [DNSSEC](hhttps://www.cloudflare.com/dns/dnssec/)
 
 ### <b>Performance</b>
 
@@ -93,6 +97,8 @@ They are divided up the following categories:
 -   #### [Web Optimization](https://www.cloudflare.com/website-optimization/)
 
 -   #### [Stream](https://www.cloudflare.com/products/cloudflare-stream/)
+
+-   #### [Waiting Room](https://www.cloudflare.com/waiting-room/)
 
 ### <b>Reliability</b>
 
@@ -110,17 +116,37 @@ They are divided up the following categories:
 
 -   #### [Magic Transit](https://www.cloudflare.com/magic-transit/)
 
-### <b>Edge Developer Platform</b>
+### <b>Edge Developer Platform (Serverless)</b>
 
 -   #### [Workers](https://workers.cloudflare.com/)
 
 -   #### [Workers KV](https://www.cloudflare.com/products/workers-kv/)
+
+### <b>Insights</b>
+
+-   #### [Analytics](https://www.cloudflare.com/analytics/)
+
+-   #### [Cloudflare Logs](https://www.cloudflare.com/products/cloudflare-logs/)
+
+-   #### [Web Analytics](https://www.cloudflare.com/web-analytics/)
+
+-   #### [Cloudflare Radar](https://radar.cloudflare.com/)
 
 ### <b>Enterprise Security</b>
 
 -   #### [Cloudflare Gateway](https://www.cloudflare.com/teams/gateway/)
 
 -   #### [Cloudflare Access](https://www.cloudflare.com/teams/access/)
+
+-   #### [Cloudflare Network Interconnect (CNI)](https://www.cloudflare.com/network-interconnect/)
+
+-   #### [Magic WAN](https://www.cloudflare.com/magic-wan/)
+
+### <b>Privacy</b>
+
+-   #### [Data Localization](https://www.cloudflare.com/data-localization/)
+
+-   #### [Compliance](https://www.cloudflare.com/privacy-and-compliance/)
 
 As honorable mentions: [Cloudflare Pages](https://pages.cloudflare.com/) and [Cloudflare Registrar](https://www.cloudflare.com/products/registrar/) are definitely worth checking out, if you are interested in building your own website. Easy to use, and immediate security, reliability, and performance for your website.
 
