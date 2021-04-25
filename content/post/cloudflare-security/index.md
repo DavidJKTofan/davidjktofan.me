@@ -126,7 +126,7 @@ They are divided up the following categories:
 
 -   #### [Analytics](https://www.cloudflare.com/analytics/)
 
--   #### [Cloudflare Logs](https://www.cloudflare.com/products/cloudflare-logs/)
+-   #### [Cloudflare Logs](https://www.cloudflare.com/products/cloudflare-logs/)
 
 -   #### [Web Analytics](https://www.cloudflare.com/web-analytics/)
 
