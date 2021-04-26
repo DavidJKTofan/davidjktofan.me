@@ -24,6 +24,8 @@ Welcome to a brief introduction to Cloudflare.
 
 ## Cloudflare Overview
 
+Cloudflare is an integrated and intelligent Global Cloud (Anycast) Network.
+
 Mission: to help build a better Internet.
 
 ### Cloudflare in Numbers
