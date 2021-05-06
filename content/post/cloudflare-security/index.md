@@ -215,7 +215,7 @@ Furthermore, I also added an empty MX record because I do not use this domain fo
 MX      davidtofan.com    .                            Auto
 ```
 
-### Step 2: Domain
+### Step 2: Domain
 
 In order to redirect www to davidtofan.com, go to Page Rules > Forwarding URL and set up the following Permanent Redirect Rule 301:
 
@@ -295,7 +295,7 @@ async function addHeaders(req) {
 
 Feel free to change any details and adapt it to your needs. If you need help with the Content Security Policy (CSP), then check out my other [article](/post/website-security/).
 
-### Step 4:
+### Step 4: Firewall
 
 Now we set up a Firewall Rule on the Firewall Tab > Firewall Rules, such as for example to block some python requests on my website:
 ```
@@ -304,7 +304,7 @@ Now we set up a Firewall Rule on the Firewall Tab > Firewall Rules, such as for 
 
 There are some interesting examples on [Runcloud Blog](https://blog.runcloud.io/cloudflare-firewall-rules/).
 
-### Step 5:
+### Step 5: Results
 
 Finally, we analyze our website and check what has changed or improved:
 
