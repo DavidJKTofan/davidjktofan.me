@@ -183,3 +183,137 @@ If you are interested in learning more about **performance browser networking**,
 ## Disclaimer
 
 This is a very general introduction to Cloudflare. Educational purposes only, and this blog post does not necessarily reflect the opinions of Cloudflare. There are many more aspects to Cloudflare and its products and services – this is merely an educational intro. Properly inform yourself, keep learning, keep testing, and feel free to share your learnings and experiences as I do. Hope it was helpful! Images are online and publicly accessible.
+
+* * *
+
+## My Personal Website
+
+After joining Cloudflare, I recognized the amazing potential of Cloudflare Pages and all of its other products, so I decided to migrate my website from Netlify to Cloudflare (sorry Netlify – it was nice!).
+
+
+First, I created a FREE account on Cloudflare, and connected my GitHub repository with Cloudflare Pages.
+
+I had to tweak the deployment a little by adding the build command: ```hugo --gc --minify -b https://CLOUDFLARE-PAGES.pages.dev/```
+Additionally, I had to set an Environment Variable: ```HUGO_VERSION   0.80.0```
+
+After that, the page deployed and works just fine.
+
+### Step 1: DNS
+
+Go to dash.cloudflare.com and add your custom domain. Choose the FREE plan for starters, and simply follow the next steps for your own domain.
+
+Add the following DNS records in order to connect to the page on Cloudflare Pages:
+```
+CNAME   davidtofan.com    CLOUDFLARE-PAGES.pages.dev   Auto
+CNAME   www               CLOUDFLARE-PAGES.pages.dev   Auto
+```
+
+Furthermore, I also add an empty MX record because I do not use this domain for emails nor do I want to receive emails:
+```
+MX      davidtofan.com    .                            Auto
+```
+
+### Step 2: Domain
+
+In order to redirect www to the domain, go to Page Rules > Forwarding URL and set up the following Permanent Redirect Rule 301:
+
+Matching URL:
+```
+www.davidtofan.com/*
+```
+
+Destination URL:
+```
+https://davidtofan.com/$1
+```
+
+_Note: the DNS records need to be configured properly for this to work._
+
+Then, I activate the DNSSEC function to add an extra layer of protection to my domain.
+
+### Step 3: Workers
+
+Now on to Workers – it's simply amazing! You can deploy serverless code instantly across the globe.
+
+I used this JavaScript template to create HTTP Security Headers for my website by using Workers:
+```
+let securityHeaders = {
+    "Content-Security-Policy": "default-src 'self'; upgrade-insecure-requests; img-src 'self'; object-src 'none'; form-action 'none'; base-uri 'none'; worker-src 'none'; child-src 'none'; frame-src 'none'; frame-ancestors 'none';",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Frame-Options": "DENY",
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": "no-referrer",
+    "Permissions-Policy": "fullscreen=(self), autoplay=(), geolocation=(), microphone=(), camera=(), payment=(), interest-cohort=()",
+}
+let sanitiseHeaders = {
+    Server: ""
+}
+let removeHeaders = [
+    "Public-Key-Pins",
+    "X-Powered-By",
+    "X-AspNet-Version"
+]
+
+addEventListener('fetch', event => {
+	event.respondWith(addHeaders(event.request))
+})
+
+async function addHeaders(req) {
+	let response = await fetch(req)
+	let newHdrs = new Headers(response.headers)
+
+	if (newHdrs.has("Content-Type") && !newHdrs.get("Content-Type").includes("text/html")) {
+        return new Response(response.body , {
+            status: response.status,
+            statusText: response.statusText,
+            headers: newHdrs
+        })
+	}
+
+	Object.keys(securityHeaders).map(function(name, index) {
+		newHdrs.set(name, securityHeaders[name]);
+	})
+
+	Object.keys(sanitiseHeaders).map(function(name, index) {
+		newHdrs.set(name, sanitiseHeaders[name]);
+	})
+
+	removeHeaders.forEach(function(name){
+		newHdrs.delete(name)
+	})
+
+	return new Response(response.body , {
+		status: response.status,
+		statusText: response.statusText,
+		headers: newHdrs
+	})
+}
+```
+
+Feel free to change any details and adapt it to your need. If you need help with the Content Security Policy (CSP), then check out my other [article](/post/website-security/).
+
+### Step 4:
+
+Set up a Firewall Rule, such as for example to block some python requests on my website:
+```
+(http.user_agent contains "python")
+```
+
+There are some interesting examples on [Runcloud Blog](https://blog.runcloud.io/cloudflare-firewall-rules/).
+
+### Step 5:
+
+Finally, we analyze our website and check what has changed or improved:
+
+-   [Cloudflare Diagnostic Center](https://www.cloudflare.com/diagnostic-center/?url=davidtofan.com)
+-   [Security Headers](https://securityheaders.com/?q=https%3A%2F%2Fdavidtofan.com%2F&hide=on&followRedirects=on)
+-   [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fdavidtofan.com%2F)
+-   [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly?id=BucltckOIIJdgi9CnUc4Uw)
+-   [Web Page Test](https://www.webpagetest.org/)
+-   [DNSViz DNSSEC](https://dnsviz.net/d/davidtofan.com/dnssec/)
+-   [DNSSEC Analyzer](https://dnssec-analyzer.verisignlabs.com/davidtofan.com)
+
+## Conclusion
+
+Coming soon! Still working on some stuff...
