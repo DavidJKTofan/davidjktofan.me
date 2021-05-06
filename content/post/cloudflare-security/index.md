@@ -194,9 +194,15 @@ After joining Cloudflare, I recognized the amazing potential of Cloudflare Pages
 
 First, I created a FREE account on Cloudflare, and connected my GitHub repository with Cloudflare Pages.
 
-I had to tweak the deployment a little by adding the build command: ```hugo --gc --minify -b https://CLOUDFLARE-PAGES.pages.dev/```
+I had to tweak the deployment a little by adding the build command:
+```
+hugo --gc --minify -b https://CLOUDFLARE-PAGES.pages.dev/
+```
 
-Additionally, I had to set an Environment Variable: ```HUGO_VERSION   0.80.0```
+Additionally, I had to set an Environment Variable:
+```
+HUGO_VERSION   0.80.0
+```
 
 After that, the page deployed and worked just fine.
 
