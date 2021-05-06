@@ -195,28 +195,29 @@ After joining Cloudflare, I recognized the amazing potential of Cloudflare Pages
 First, I created a FREE account on Cloudflare, and connected my GitHub repository with Cloudflare Pages.
 
 I had to tweak the deployment a little by adding the build command: ```hugo --gc --minify -b https://CLOUDFLARE-PAGES.pages.dev/```
+
 Additionally, I had to set an Environment Variable: ```HUGO_VERSION   0.80.0```
 
-After that, the page deployed and works just fine.
+After that, the page deployed and worked just fine.
 
 ### Step 1: DNS
 
-Go to dash.cloudflare.com and add your custom domain. Choose the FREE plan for starters, and simply follow the next steps for your own domain.
+Now, go to dash.cloudflare.com and add your custom domain. Choose the FREE plan for starters, and simply follow the next steps.
 
-Add the following DNS records in order to connect to the page on Cloudflare Pages:
+On the DNS tab, add the following DNS records in order to connect to the page on Cloudflare Pages:
 ```
 CNAME   davidtofan.com    CLOUDFLARE-PAGES.pages.dev   Auto
 CNAME   www               CLOUDFLARE-PAGES.pages.dev   Auto
 ```
 
-Furthermore, I also add an empty MX record because I do not use this domain for emails nor do I want to receive emails:
+Furthermore, I also added an empty MX record because I do not use this domain for emails nor do I want to receive emails:
 ```
 MX      davidtofan.com    .                            Auto
 ```
 
 ### Step 2: Domain
 
-In order to redirect www to the domain, go to Page Rules > Forwarding URL and set up the following Permanent Redirect Rule 301:
+In order to redirect www to davidtofan.com, go to Page Rules > Forwarding URL and set up the following Permanent Redirect Rule 301:
 
 Matching URL:
 ```
@@ -230,7 +231,7 @@ https://davidtofan.com/$1
 
 _Note: the DNS records need to be configured properly for this to work._
 
-Then, I activate the DNSSEC function to add an extra layer of protection to my domain.
+Then, I activated the DNSSEC function to add an extra layer of protection to my domain.
 
 ### Step 3: Workers
 
@@ -292,11 +293,11 @@ async function addHeaders(req) {
 }
 ```
 
-Feel free to change any details and adapt it to your need. If you need help with the Content Security Policy (CSP), then check out my other [article](/post/website-security/).
+Feel free to change any details and adapt it to your needs. If you need help with the Content Security Policy (CSP), then check out my other [article](/post/website-security/).
 
 ### Step 4:
 
-Set up a Firewall Rule, such as for example to block some python requests on my website:
+Now we set up a Firewall Rule on the Firewall Tab > Firewall Rules, such as for example to block some python requests on my website:
 ```
 (http.user_agent contains "python")
 ```
