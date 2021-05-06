@@ -190,6 +190,7 @@ This is a very general introduction to Cloudflare. Educational purposes only, an
 
 After joining Cloudflare, I recognized the amazing potential of Cloudflare Pages and all of its other products, so I decided to migrate my website from Netlify to Cloudflare (sorry Netlify – it was nice!).
 
+### Step 0: Cloudflare Pages
 
 First, I created a FREE account on Cloudflare, and connected my GitHub repository with Cloudflare Pages.
 
