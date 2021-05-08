@@ -27,14 +27,10 @@ date_format = "Jan 2006"
   description = """
   Responsibilities include:
 
-  * Own and operate individual sales pipelines.
-  * Focus primarily on inbound sales, while handling marketing-generated leads.
-  * Work cross-functionally with stakeholders (account executives, marketing, sales operations, fellow BDRs).
-  * Help lead BDR team-wide campaigns.
-  * Identify target accounts with strategic timing and strong use cases.
-  * Meet target quota related to the number of qualified opportunities, the value of sales pipeline, and revenue.
-  * Report, track, and manage sales activities and results using SFDC.
-  * Play an active role in the creation and iteration of team processes.
+  * Represent Cloudflare's products, starting with a comprehensive understanding and leading to customer research to identify how our solutions meet needs.
+  * Generate leads and build relationships by nurturing warm prospects and finding new potential sales opportunities.
+  * Manage and maintain a pipeline of interested prospects and engage sales executives for next steps.
+  * Identify best practices to refine the company's lead generation playbook.
   """
 
 [[experience]]

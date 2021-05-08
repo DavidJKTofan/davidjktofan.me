@@ -39,4 +39,4 @@ email: ""
 user_groups:
   - ""
 ---
-As a Digital Consultant, I help businesses develop and acquire the necessary tools and knowledge required to manage the company’s digitalization efforts as well as establishing automation processes, all while fostering a sustainable, collaborative and data-driven company culture. Part-Time Data Analyst!
+My curiosity to know how things work always makes me want to explore and learn more. This appetite for knowledge allows me to dive deeper into the world of digitalization and automation, and with my newly found insights, I strive to help organizations and individuals develop and acquire the necessary tools and resources required to foster secure and resilient digital transformation.
