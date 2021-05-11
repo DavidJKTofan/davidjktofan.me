@@ -31,7 +31,7 @@ Mission: to help build a better Internet.
 ### Cloudflare in Numbers
 
 ![An Integrated Global Cloud Network](/media/Cloudflare/cloudflare-at-a-glance-v1.webp)
-_<caption>Image source: made by [Lunalabs](https://www.lunalabs.eu/)</caption>_
+_<caption>Image source: made by [Lunalabs](https://www.lunalabs.eu/) with info updated on the 20th of February.</caption>_
 
 -   51Tb+ of global network capacity.
 -   Accessible via 200 Points of Presence (POPs), strategically situated across 100 countries.
