@@ -57,7 +57,7 @@
     connect-src 'self' https://www.google-analytics.com/g/ https://docs.google.com/spreadsheets/d/1E2lE8EJoZSu0NeG76Yyq7ai6zCHb7jILXjCqKMQMD0I/gviz/tq;
     object-src 'none';
     form-action 'none';
-    base-uri 'none';
+    base-uri 'self';
     worker-src 'none';
     child-src 'none';
     frame-src 'none';
@@ -121,7 +121,7 @@
     connect-src 'self' https://www.google-analytics.com/g/ https://docs.google.com/spreadsheets/d/1E2lE8EJoZSu0NeG76Yyq7ai6zCHb7jILXjCqKMQMD0I/gviz/tq;
     object-src 'none';
     form-action 'none';
-    base-uri 'none';
+    base-uri 'self';
     worker-src 'none';
     child-src 'none';
     frame-src 'none';
@@ -165,7 +165,7 @@
     connect-src 'self' https://www.google-analytics.com/g/ https://docs.google.com/spreadsheets/d/1E2lE8EJoZSu0NeG76Yyq7ai6zCHb7jILXjCqKMQMD0I/gviz/tq;
     object-src 'none';
     form-action 'none';
-    base-uri 'none';
+    base-uri 'self';
     worker-src 'none'; child-src 'none';
     frame-src 'none';
     frame-ancestors 'none';
@@ -208,7 +208,7 @@
     connect-src 'self' https://www.google-analytics.com/g/ https://docs.google.com/spreadsheets/d/1E2lE8EJoZSu0NeG76Yyq7ai6zCHb7jILXjCqKMQMD0I/gviz/tq;
     object-src 'none';
     form-action 'none';
-    base-uri 'none';
+    base-uri 'self';
     worker-src 'none';
     child-src 'none';
     frame-src 'none';
@@ -250,7 +250,7 @@
     style-src-elem 'self' 'report-sample' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-ZRHessrj6ZEHRe0QeRj0VOv75nb50DTey5Z7nX4V6JM=' https://cdnjs.cloudflare.com/ajax/libs/ https://fonts.googleapis.com/css https://www.gstatic.com/charts/50/css/;
     object-src 'none';
     form-action 'none';
-    base-uri 'none';
+    base-uri 'self';
     worker-src 'none';
     child-src 'none';
     frame-src 'none';
@@ -293,7 +293,7 @@
     connect-src 'self' https://www.google-analytics.com/g/ https://docs.google.com/spreadsheets/d/1E2lE8EJoZSu0NeG76Yyq7ai6zCHb7jILXjCqKMQMD0I/gviz/tq;
     object-src 'none';
     form-action 'none';
-    base-uri 'none';
+    base-uri 'self';
     worker-src 'none';
     child-src 'none';
     frame-src 'none';
@@ -335,7 +335,7 @@
     connect-src 'self' https://www.google-analytics.com/g/;
     object-src 'none';
     form-action 'none';
-    base-uri 'none';
+    base-uri 'self';
     worker-src 'none';
     child-src 'none';
     frame-src 'none';
@@ -376,7 +376,7 @@
     connect-src 'self' https://www.google-analytics.com/g/;
     object-src 'none';
     form-action 'none';
-    base-uri 'none';
+    base-uri 'self';
     worker-src 'none';
     child-src 'none';
     frame-src 'none';
@@ -413,7 +413,7 @@
     connect-src 'self' https://www.google-analytics.com/g/;
     object-src 'none';
     form-action 'none';
-    base-uri 'none';
+    base-uri 'self';
     worker-src 'none';
     child-src 'none';
     frame-src 'none';
@@ -450,7 +450,7 @@
     connect-src 'self' https://www.google-analytics.com/g/;
     object-src 'none';
     form-action 'none';
-    base-uri 'none';
+    base-uri 'self';
     worker-src 'none';
     child-src 'none';
     frame-src 'none';
@@ -486,7 +486,7 @@
     connect-src 'self' https://www.google-analytics.com/g/;
     object-src 'none';
     form-action 'none';
-    base-uri 'none';
+    base-uri 'self';
     worker-src 'none';
     child-src 'none';
     frame-src 'none';
@@ -522,7 +522,7 @@
     connect-src 'self' https://www.google-analytics.com/g/;
     object-src 'none';
     form-action 'none';
-    base-uri 'none';
+    base-uri 'self';
     worker-src 'none';
     child-src 'none';
     frame-src 'none';
