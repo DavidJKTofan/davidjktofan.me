@@ -256,7 +256,7 @@ let securityHeaders = {
     "Access-Control-Allow-Origin": "https://cloudflareinsights.com/"
 }
 let sanitiseHeaders = {
-    Server: ""
+    Server: "My new server header"
 }
 let removeHeaders = [
     "Public-Key-Pins",
@@ -301,6 +301,8 @@ async function addHeaders(req) {
 ```
 
 Feel free to change any details and adapt it to your needs. If you need help with the Content Security Policy (CSP), then check out my other [article](/post/website-security/).
+
+_Code source: [The brand new Security Headers Cloudflare Worker](https://scotthelme.co.uk/security-headers-cloudflare-worker/)_
 
 ### Step 4: Firewall
 
