@@ -246,13 +246,14 @@ Now on to Workers – it's simply amazing! You can deploy serverless code instan
 I used this JavaScript template to create HTTP Security Headers for my website by using Workers:
 ```
 let securityHeaders = {
-    "Content-Security-Policy": "default-src 'self'; upgrade-insecure-requests; img-src 'self'; object-src 'none'; form-action 'none'; base-uri 'none'; worker-src 'none'; child-src 'none'; frame-src 'none'; frame-ancestors 'none';",
+    "Content-Security-Policy": "default-src 'self'; upgrade-insecure-requests; script-src 'self' https://static.cloudflareinsights.com; img-src 'self'; object-src 'none'; form-action 'none'; base-uri 'none'; worker-src 'none'; connect-src 'self' https://static.cloudflareinsights.com/ https://cloudflareinsights.com/; child-src 'none'; frame-src 'none'; frame-ancestors 'none';",
     "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
     "X-XSS-Protection": "1; mode=block",
     "X-Frame-Options": "DENY",
     "X-Content-Type-Options": "nosniff",
     "Referrer-Policy": "no-referrer",
     "Permissions-Policy": "fullscreen=(self), autoplay=(), geolocation=(), microphone=(), camera=(), payment=(), interest-cohort=()",
+    "Access-Control-Allow-Origin": "https://cloudflareinsights.com/"
 }
 let sanitiseHeaders = {
     Server: ""
