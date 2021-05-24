@@ -65,12 +65,14 @@ _<caption>Image source: <https://dash.cloudflare.com/></caption>_
 Below you'll find some of the most important solutions that Cloudflare offers.
 They are divided up the following categories:
 
--   Security
--   Performance
--   Reliability
--   Connectivity
--   Edge Developer Platform
--   Enterprise Security
+-   Security 🔐
+-   Performance ⚡
+-   Reliability 📈
+-   Connectivity 🔌
+-   Edge Developer Platform (Serverless) ☁️
+-   Analytics & Insights 📊
+-   Enterprise Security 🔑
+-   Privacy 🔏
 
 ### <b>Security</b>
 
@@ -82,7 +84,7 @@ They are divided up the following categories:
 
 -   #### [Rate Limiting](https://www.cloudflare.com/rate-limiting/)
 
--   #### [SSL](https://www.cloudflare.com/ssl/)
+-   #### [SSL / TLS](https://www.cloudflare.com/ssl/)
 
 -   #### [SSL for SaaS](https://www.cloudflare.com/ssl-for-saas-providers/)
 
@@ -98,9 +100,11 @@ They are divided up the following categories:
 
 -   #### [Content Delivery Network (CDN)](https://www.cloudflare.com/cdn/)
 
--   #### [Web Optimization](https://www.cloudflare.com/website-optimization/)
+-   #### [Website Optimization](https://www.cloudflare.com/website-optimization/)
 
 -   #### [Stream](https://www.cloudflare.com/products/cloudflare-stream/)
+
+-   #### [Stream Delivery](https://www.cloudflare.com/products/stream-delivery)
 
 -   #### [Waiting Room](https://www.cloudflare.com/waiting-room/)
 
@@ -126,7 +130,9 @@ They are divided up the following categories:
 
 -   #### [Workers KV](https://www.cloudflare.com/products/workers-kv/)
 
-### <b>Insights</b>
+-   #### [Workers Unbound](https://www.cloudflare.com/workers-unbound-beta/)
+
+### <b>Analytics & Insights</b>
 
 -   #### [Analytics](https://www.cloudflare.com/analytics/)
 
@@ -136,21 +142,28 @@ They are divided up the following categories:
 
 -   #### [Cloudflare Radar](https://radar.cloudflare.com/)
 
+-   #### [Cloudflare Speed](https://speed.cloudflare.com/)
+
 ### <b>Enterprise Security</b>
 
 -   #### [Cloudflare Gateway](https://www.cloudflare.com/teams/gateway/)
 
 -   #### [Cloudflare Access](https://www.cloudflare.com/teams/access/)
 
+-   #### [Browser Isolation](https://www.cloudflare.com/teams/browser-isolation/)
+
 -   #### [Cloudflare Network Interconnect (CNI)](https://www.cloudflare.com/network-interconnect/)
 
 -   #### [Magic WAN](https://www.cloudflare.com/magic-wan/)
+
+-   #### [China Network](https://www.cloudflare.com/china-network/)
 
 ### <b>Privacy</b>
 
 -   #### [Data Localization](https://www.cloudflare.com/data-localization/)
 
 -   #### [Compliance](https://www.cloudflare.com/privacy-and-compliance/)
+
 
 As honorable mentions: [Cloudflare Pages](https://pages.cloudflare.com/) and [Cloudflare Registrar](https://www.cloudflare.com/products/registrar/) are definitely worth checking out, if you are interested in building your own website. Easy to use, and immediate security, reliability, and performance for your website.
 
@@ -164,7 +177,7 @@ Here a list of interesting links on Cloudflare.com:
 -   [Support](https://support.cloudflare.com/)
 -   [Learning](https://www.cloudflare.com/learning/)
 -   [Community](https://community.cloudflare.com/)
--   [Developers](https://developers.cloudflare.com/)
+-   [Developers – Your imagination, Cloudflare's infrastructure](https://developers.cloudflare.com/)
 -   [System Status](https://www.cloudflarestatus.com/)
 -   [Pricing](https://www.cloudflare.com/plans/)
 
@@ -173,6 +186,7 @@ Learn more about Cloudflare and its solutions here:
 -   [Flare Ups – HHHYPERGROWTH](https://hhhypergrowth.com/flare-ups/)
 -   [2 Pager – Cloudflare](https://cloudflare.showpad.com/share/6mnHykeSSFAUupFxQxcC3)
 -   [Cloudflare YouTube Channel](https://www.youtube.com/c/cloudflare/about)
+-   [Cloudflare on the Edge – Stratechery](https://stratechery.com/2021/cloudflare-on-the-edge/)
 
 If you are interested in learning more about **performance browser networking**, check out these links:
 
@@ -182,7 +196,7 @@ If you are interested in learning more about **performance browser networking**,
 
 ## Disclaimer
 
-This is a very general introduction to Cloudflare. Educational purposes only, and this blog post does not necessarily reflect the opinions of Cloudflare. There are many more aspects to Cloudflare and its products and services – this is merely an educational intro. Properly inform yourself, keep learning, keep testing, and feel free to share your learnings and experiences as I do. Hope it was helpful! Images are online and publicly accessible.
+This is a very general introduction to Cloudflare. Educational purposes only, and this blog post does not necessarily reflect the opinions of Cloudflare. There are many more aspects to Cloudflare and its products and services – this is merely a brief educational intro. Properly inform yourself, keep learning, keep testing, and feel free to share your learnings and experiences as I do. Hope it was helpful! Images are online and publicly accessible.
 
 * * *
 
