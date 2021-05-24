@@ -314,7 +314,7 @@ async function addHeaders(req) {
 }
 ```
 
-Don´t forget to add ```https://static.cloudflareinsights.com``` to your ```script-src``` directive and ```https://cloudflareinsights.com``` to your ```connect-src``` directive, in order to activate [Web Analytics](https://www.cloudflare.com/web-analytics/) on Cloudflare.
+Don't forget to add ```https://static.cloudflareinsights.com``` to your ```script-src``` directive and ```https://cloudflareinsights.com``` to your ```connect-src``` directive, in order to make [Web Analytics](https://www.cloudflare.com/web-analytics/) work on Cloudflare.
 
 Feel free to change any details and adapt it to your needs. If you need help with the Content Security Policy (CSP), then check out my other [article](/post/website-security/).
 
