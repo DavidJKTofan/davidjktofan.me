@@ -6,6 +6,7 @@ featured: true
 tags:
   - Security
   - Web Development
+  - Cloudflare
   - CyberSec
 categories:
   - Security
