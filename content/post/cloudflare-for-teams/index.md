@@ -32,7 +32,7 @@ Part of the Zero Trust solution is Cloudflare for Teams, which I'd like to intro
 
 ### Cloudflare for Teams
 
-[Cloudflare for Teams](https://www.cloudflare.com/teams/) is divided in three solutions:
+[Cloudflare for Teams](https://www.cloudflare.com/teams/) is divided into three solutions:
 
 -   **Gateway**: operates between a company's employees and the Internet.
 -   **Access**: secures access to internal applications without a VPN.
@@ -52,9 +52,9 @@ The official Developer Docs can be found here: [Cloudflare for Teams documentati
 
 For this example I used a Digital Ocean Droplet running _Ubuntu 20.04 (LTS) x64_.
 
-Follow this guide and its prerequisites in order to set up your Droplet and a web environment: [How To Host a Website Using Cloudflare and Nginx on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-host-a-website-using-cloudflare-and-nginx-on-ubuntu-20-04)
+I followed this guide and its prerequisites in order to set up my Droplet and a web environment: [How To Host a Website Using Cloudflare and Nginx on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-host-a-website-using-cloudflare-and-nginx-on-ubuntu-20-04)
 
-You can use `netstat` in order to listen to your open ports and check if your server is available:
+You can use `netstat` in order to listen to your open ports and check if your server is available/reachable:
 
     sudo apt-get install net-tools      # Install
     sudo netstat -tulpn | grep LISTEN
@@ -215,6 +215,8 @@ And the last step, on the client machine I ran the following command, changing t
 _Note: We need to ensure that Unix usernames on our server [match user SSO identities](https://developers.cloudflare.com/cloudflare-one/identity/users/short-lived-certificates#3-ensure-unix-usernames-match-user-sso-identities)._
 
 Done! [Find the end-result here](https://do-droplet.davidtofan.com/).
+
+* * *
 
 ## Disclaimer
 
