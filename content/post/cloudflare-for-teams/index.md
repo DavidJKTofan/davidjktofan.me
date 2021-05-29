@@ -67,13 +67,13 @@ Already curious to see [the end-result](https://do-droplet.davidtofan.com/)!?
 
 * * *
 
-# Cloudflare Access
+## Cloudflare Access
 
 Let's get started with Cloudflare for Teams and how to set up Access.
 
-## cloudflared
+### cloudflared
 
-### Install cloudflared
+#### Install cloudflared
 
 I downloaded and unpacked the cloudflared daemon on the Droplet server:
 
@@ -102,7 +102,7 @@ Once cloudflared has been installed and authenticated, the process to get my fir
 
 Let's get going...
 
-### Create a Tunnel and configure it
+#### Create a Tunnel and configure it
 
 I created a Tunnel named _TUNNEL_NAME_ with:
 
@@ -139,7 +139,7 @@ Always before running the Tunnel, I validated the config input with:
 
     cloudflared tunnel ingress validate
 
-### Route traffic to the Tunnel
+#### Route traffic to the Tunnel
 
 In order to create DNS records from cloudflared, which will provision a CNAME record that points to the subdomain of a specific Tunnel, one can use either one of these commands:
 
@@ -147,7 +147,7 @@ In order to create DNS records from cloudflared, which will provision a CNAME re
     # OR
     cloudflared tunnel route dns 6ff42ae2-765d-4adf-8112-31c55c1551ef TUNNEL_NAME.davidtofan.com
 
-### Run the Tunnel
+#### Run the Tunnel
 
 I again checked if the config file is OK, and then I ran my Tunnel to check if it works:
 
@@ -158,7 +158,7 @@ Finally, I installed the Cloudflare Tunnel as a system service so that it works 
 
     sudo cloudflared service install
 
-### Connect from a Client Machine
+#### Connect from a Client Machine
 
 Now in order to connect from a client machine (i.e. my MacBook), first I needed to install cloudflared daemon on it too.
 Taking macOS as an example, I installed cloudflared with Homebrew:
@@ -178,13 +178,13 @@ Done!
 
 * * *
 
-## SSH
+### SSH
 
 If we are using the Tunnel to access SSH on the Droplet server, then I only needed to activate `Enable browser rendering` on Access > Applications > Settings > `cloudflared settings` card, which allows us to use SSH terminal directly on our browser.
 
 _Once enabled, when users authenticate and visit the URL of the application, Cloudflare will render a terminal in their browser._
 
-### Short-lived Certificates
+#### Short-lived Certificates
 
 If you are using Public key authentication for SSH on your Droplet, then the following method would make sense to make it easier for users to login: any authenticated user can access my Droplet through SSH without the necessary Public/Private Keys installed on their device by [configuring short-lived certificates](https://developers.cloudflare.com/cloudflare-one/identity/users/short-lived-certificates).
 
