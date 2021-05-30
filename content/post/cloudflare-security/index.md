@@ -87,7 +87,7 @@ They are divided up the following categories:
 
 -   #### [SSL / TLS](https://www.cloudflare.com/ssl/)
 
--   #### [SSL for SaaS](https://www.cloudflare.com/ssl-for-saas-providers/)
+-   #### [Cloudflare for SaaS](https://www.cloudflare.com/saas/)
 
 -   #### [Spectrum](https://www.cloudflare.com/products/cloudflare-spectrum/)
 
@@ -133,6 +133,8 @@ They are divided up the following categories:
 
 -   #### [Workers Unbound](https://www.cloudflare.com/workers-unbound-beta/)
 
+-   #### [Cloudflare Pages](https://pages.cloudflare.com/)
+
 ### <b>Analytics & Insights</b>
 
 -   #### [Analytics](https://www.cloudflare.com/analytics/)
@@ -166,7 +168,7 @@ They are divided up the following categories:
 -   #### [Compliance](https://www.cloudflare.com/privacy-and-compliance/)
 
 
-As honorable mentions: [Cloudflare Pages](https://pages.cloudflare.com/) and [Cloudflare Registrar](https://www.cloudflare.com/products/registrar/) are definitely worth checking out, if you are interested in building your own website. Easy to use, and immediate security, reliability, and performance for your website.
+As honorable mentions: [Cloudflare One](https://www.cloudflare.com/cloudflare-one/), [Trust Hub](https://www.cloudflare.com/trust-hub/), and [Cloudflare Registrar](https://www.cloudflare.com/products/registrar/) are definitely worth checking out.
 
 * * *
 
