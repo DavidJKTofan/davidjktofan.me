@@ -59,6 +59,8 @@ You can use `netstat` in order to listen to your open ports and check if your se
     sudo apt-get install net-tools      # Install
     sudo netstat -tulpn | grep LISTEN
 
+_Note: use the netstat command again after setting up the ufw._
+
 ### DNS Records
 
 In order to access my Droplet's nginx content, I set a type A DNS record on my Cloudflare DNS management dashboard with the name _do-droplet_ as a subdomain leading to the Droplet's IPv4 address.
@@ -215,6 +217,33 @@ And the last step, on the client machine I ran the following command, changing t
 _Note: We need to ensure that Unix usernames on our server [match user SSO identities](https://developers.cloudflare.com/cloudflare-one/identity/users/short-lived-certificates#3-ensure-unix-usernames-match-user-sso-identities)._
 
 Done! [Find the end-result here](https://do-droplet.davidtofan.com/).
+
+* * *
+
+### UFW
+
+Finally, to properly protect my Droplet, I set up the Uncomplicated Firewall (UFW) by denying incoming connections by default and only allow certain connections:
+
+    sudo ufw disable
+
+    sudo ufw default deny
+    sudo ufw allow 'Nginx Full'
+    sudo ufw allow 'OpenSSH'
+
+    sudo ufw enable
+    sudo ufw status
+
+Additionally, I only want to allow traffic from Cloudflare IPs to my Droplet:
+
+    curl -s https://www.cloudflare.com/ips-v4 -o /tmp/cf_ips
+    curl -s https://www.cloudflare.com/ips-v6 >> /tmp/cf_ips
+
+    # Allow all traffic from Cloudflare IPs (no ports restriction)
+    for cfip in `cat /tmp/cf_ips`; do ufw allow proto tcp from $cfip comment 'Cloudflare IP'; done
+
+    ufw reload > /dev/null
+
+_Note: thanks to [cloudflare-ufw](https://github.com/Paul-Reed/cloudflare-ufw/blob/master/cloudflare-ufw.sh), which however would not be needed thanks to [Authenticated Origin Pulls](https://developers.cloudflare.com/ssl/origin-configuration/authenticated-origin-pull) – explained in the guide "How To Host a Website Using Cloudflare and Nginx on Ubuntu 20.04" in step 3 at the beginning of this blog post._
 
 * * *
 
