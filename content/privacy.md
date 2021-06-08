@@ -95,4 +95,4 @@ For more information about Terms of Use and Privacy, please visit <https://www.g
 - Academic Template for Wowchemy Website Builder [GitHub Repository](https://github.com/wowchemy/starter-academic)
 - Hosted on [GitHub](https://github.com/)
 - Served by [Cloudflare Pages](https://pages.cloudflare.com/)
-- Icons from [FontAwesome](https://fontawesome.com/)
+- Icons from [FontAwesome](https://fontawesome.com/) [VectorLogoZone](https://www.vectorlogo.zone/)
