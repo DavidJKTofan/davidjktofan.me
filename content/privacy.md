@@ -71,7 +71,7 @@ You understand and agree that the above Terms constitute the entire general agre
 
 The Website reserves the right to modify these Terms from time to time at our sole discretion and without any notice. Changes to our Terms become effective on the date they are posted and your continued use of The Website after any changes to Terms will signify your agreement to be bound by them.​
 
-**Updated:  April 21st 2021**
+**Updated:  June 8th 2021**
 
 * * * * *
 
@@ -94,5 +94,5 @@ For more information about Terms of Use and Privacy, please visit <https://www.g
 - Published with [Wowchemy Website Builder](https://wowchemy.com/)
 - Academic Template for Wowchemy Website Builder [GitHub Repository](https://github.com/wowchemy/starter-academic)
 - Hosted on [GitHub](https://github.com/)
-- Served by [Netlify](https://www.netlify.com/)
+- Served by [Cloudflare Pages](https://pages.cloudflare.com/)
 - Icons from [FontAwesome](https://fontawesome.com/)
