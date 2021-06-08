@@ -6,4 +6,4 @@ Special thanks to Wowchemy Website Builder, Academic Template, Cloudflare Pages,
 
 # Personal Website
 
-[davidtofan.com](https://davidtofan.com/)
+[davidjktofan.com](https://davidjktofan.com/)
