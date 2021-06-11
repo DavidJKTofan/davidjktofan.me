@@ -65,7 +65,7 @@ Work in progress...
 
     .travel_container_img_grid .button-class {
       color: white;
-      font-size: 18px;
+      font-size: 16px;
       line-height: 1.1;
     }
   }
