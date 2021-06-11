@@ -120,13 +120,19 @@ Work in progress...
   <div class="travel_column_img_grid">
     <div class="travel_container_img_grid">
     <a href="https://goo.gl/maps/xweG7kQr8jq8omd36" target="_blank">
-      <img src="/media/gmaps-images/CDMX-piramides.webp" alt="Mexico City">
+      <img src="/media/gmaps-images/cdmx-mexico.webp" alt="Mexico City">
     </a>      
         <div class="button-class">CDMX</div>
     </div>
     <div class="travel_container_img_grid">
+    <a href="https://goo.gl/maps/YGVFEnzAQyd8rTt17" target="_blank">
+      <img src="/media/gmaps-images/oaxaca-mexico.webp" alt="Oaxaca">
+    </a>
+        <div class="button-class">Oaxaca</div>
+    </div>
+    <div class="travel_container_img_grid">
     <a href="https://goo.gl/maps/Rmu2vJUvN9Y8a6bV9" target="_blank">
-      <img src="/media/gmaps-images/Iceland-background.webp" alt="Iceland">
+      <img src="/media/gmaps-images/iceland-country.webp" alt="Iceland">
     </a>
         <div class="button-class">Iceland</div>
     </div>
@@ -135,13 +141,13 @@ Work in progress...
   <div class="travel_column_img_grid">
     <div class="travel_container_img_grid">
     <a href="https://goo.gl/maps/1JEc36CbsZi9HZw27" target="_blank">
-      <img src="/media/gmaps-images/miami-beach-sun.webp" alt="Miami">
+      <img src="/media/gmaps-images/miami-usa.webp" alt="Miami">
     </a>
         <div class="button-class">Miami</div>
     </div>
     <div class="travel_container_img_grid">
     <a href="https://goo.gl/maps/qvcjPQ7uvk4XVBKm7" target="_blank">
-      <img src="/media/gmaps-images/New-York-background.webp" alt="New York City">
+      <img src="/media/gmaps-images/newyork-usa.webp" alt="New York City">
     </a>
         <div class="button-class">New York</div>
     </div>
@@ -150,13 +156,13 @@ Work in progress...
   <div class="travel_column_img_grid">
     <div class="travel_container_img_grid">
     <a href="https://goo.gl/maps/n4KSVZf3ekJ84hjR7" target="_blank">
-      <img src="/media/gmaps-images/Cadiz-background.webp" alt="Cadiz">
+      <img src="/media/gmaps-images/cadiz-spain.webp" alt="Cadiz">
     </a>
         <div class="button-class">Cádiz</div>
     </div>
     <div class="travel_container_img_grid">
     <a href="https://goo.gl/maps/uVDZCEa1vLotgps78" target="_blank">
-      <img src="/media/gmaps-images/Madrid-background.webp" alt="Madrid">
+      <img src="/media/gmaps-images/madrid-spain.webp" alt="Madrid">
     </a>
         <div class="button-class">Madrid</div>
     </div>
@@ -166,26 +172,56 @@ Work in progress...
     </a>
         <div class="button-class">Seville</div>
     </div>
+    <div class="travel_container_img_grid">
+    <a href="https://goo.gl/maps/nTyJNb5FmzRLmDya6" target="_blank">
+      <img src="/media/gmaps-images/barcelona-spain.webp" alt="Barcelona">
+    </a>
+        <div class="button-class">Barcelona</div>
+    </div>
+    <div class="travel_container_img_grid">
+    <a href="https://goo.gl/maps/R5pfav5PYXFutu5ZA" target="_blank">
+      <img src="/media/gmaps-images/salzburg-austria.webp" alt="Salzburg">
+    </a>
+        <div class="button-class">Salzburg</div>
+    </div>
+    <div class="travel_container_img_grid">
+    <a href="https://goo.gl/maps/EJLfYTQYK52T8v9i6" target="_blank">
+      <img src="/media/gmaps-images/lisbon-portugal.webp" alt="Lisbon">
+    </a>
+        <div class="button-class">Lisbon</div>
+    </div>
   </div>
 
   <div class="travel_column_img_grid">
     <div class="travel_container_img_grid">
     <a href="https://goo.gl/maps/KmzMJEcfaZ5vkoNy6" target="_blank">
-      <img src="/media/gmaps-images/Munich-city-background.webp" alt="Munich">
+      <img src="/media/gmaps-images/munich-germany.webp" alt="Munich">
     </a>
         <div class="button-class">Munich</div>
     </div>
     <div class="travel_container_img_grid">
+    <a href="https://goo.gl/maps/4FGi7FsyRsE4spNM8" target="_blank">
+      <img src="/media/gmaps-images/baden-baden-germany.webp" alt="Baden-Baden">
+    </a>
+        <div class="button-class">Baden-Baden</div>
+    </div>
+    <div class="travel_container_img_grid">
     <a href="https://goo.gl/maps/CEKdSx2KLyCCzdT86" target="_blank">
-      <img src="/media/gmaps-images/paris-eiffel-tower.webp" alt="Paris">
+      <img src="/media/gmaps-images/paris-france.webp" alt="Paris">
     </a>
         <div class="button-class">Paris</div>
     </div>
     <div class="travel_container_img_grid">
     <a href="https://goo.gl/maps/KAUGawBPehRiiXxf8" target="_blank">
-      <img src="/media/gmaps-images/london-background.webp" alt="London">
+      <img src="/media/gmaps-images/london-uk.webp" alt="London">
     </a>
         <div class="button-class">London</div>
+    </div>
+    <div class="travel_container_img_grid">
+    <a href="https://goo.gl/maps/pLRcEdderVNTi7c26" target="_blank">
+      <img src="/media/gmaps-images/zurich-switzerland.webp" alt="Zurich">
+    </a>
+        <div class="button-class">Zurich</div>
     </div>
   </div>
 
