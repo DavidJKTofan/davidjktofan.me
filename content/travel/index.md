@@ -181,6 +181,12 @@ Work in progress...
     </a>
         <button class="btn">Paris</button>
     </div>
+    <div class="travel_container_img_grid">
+    <a href="https://goo.gl/maps/KAUGawBPehRiiXxf8" target="_blank">
+      <img src="/media/gmaps-images/london-background.webp" alt="London">
+    </a>
+        <button class="btn">London</button>
+    </div>
   </div>
 
 </div>
