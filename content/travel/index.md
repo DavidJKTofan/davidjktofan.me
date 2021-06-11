@@ -103,7 +103,7 @@ Work in progress...
     -ms-transform: translate(-50%, -50%);
     background-color: rgb(40, 42, 54, 0.8);
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.1;
     padding: 5px 24px;
     border: none;
