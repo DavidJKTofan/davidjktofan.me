@@ -5,7 +5,6 @@ draft: false
 share: true
 commentable: false
 editable: false
-highlight: false
 image:
   filename: featured.png
   focal_point: Smart
