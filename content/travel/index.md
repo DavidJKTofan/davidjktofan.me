@@ -66,6 +66,7 @@ Work in progress...
     .travel_container_img_grid .button-class {
       color: white;
       font-size: 18px;
+      line-height: 1.1;
     }
   }
 
@@ -79,6 +80,7 @@ Work in progress...
     .travel_container_img_grid .button-class {
       color: white;
       font-size: 18px;
+      line-height: 1.1;
     }
   }
 
@@ -102,6 +104,7 @@ Work in progress...
     background-color: rgb(40, 42, 54, 0.8);
     color: white;
     font-size: 18px;
+    line-height: 1.1;
     padding: 5px 24px;
     border: none;
     cursor: pointer;
