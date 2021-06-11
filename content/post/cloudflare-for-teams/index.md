@@ -96,7 +96,7 @@ I logged in and connected it to my Cloudflare account with:
 
 _Note: Credentials will normally be saved to `/home/$USER/.cloudflared/cert.pem`._
 
-Once cloudflared has been installed and authenticated, the process to get my first Tunnel up and running included 3 high-level steps:
+Once cloudflared has been installed and authenticated, the process to get my first Cloudflare Tunnel up and running included 3 high-level steps:
 
 1.  Create a Tunnel and configure it
 2.  Route traffic to the Tunnel
@@ -228,7 +228,7 @@ Finally, to properly protect my Droplet, I set up the Uncomplicated Firewall (UF
 
     sudo ufw default deny
     sudo ufw allow 'Nginx Full'
-    sudo ufw allow 'OpenSSH'
+    #sudo ufw allow 'OpenSSH' # Not necessary as we set up a the Cloudflare Tunnel
 
     sudo ufw enable
     sudo ufw status
@@ -243,7 +243,7 @@ Additionally, I only want to allow traffic from Cloudflare IPs to my Droplet:
 
     ufw reload > /dev/null
 
-_Note: thanks to [cloudflare-ufw](https://github.com/Paul-Reed/cloudflare-ufw/blob/master/cloudflare-ufw.sh), which however would not be needed thanks to [Authenticated Origin Pulls](https://developers.cloudflare.com/ssl/origin-configuration/authenticated-origin-pull) – explained in the guide "How To Host a Website Using Cloudflare and Nginx on Ubuntu 20.04" in step 3 at the beginning of this blog post._
+_Note: [cloudflare-ufw](https://github.com/Paul-Reed/cloudflare-ufw/blob/master/cloudflare-ufw.sh) makes this last step easier, which however would not be needed thanks to [Authenticated Origin Pulls](https://developers.cloudflare.com/ssl/origin-configuration/authenticated-origin-pull) – explained in the guide "How To Host a Website Using Cloudflare and Nginx on Ubuntu 20.04" in step 3 at the beginning of this blog post. Additionally, technically, we could simply block all incoming connections to the Droplet as the Cloudflare Tunnel would be the only allowed entry point, making everything a little more secure._
 
 * * *
 
