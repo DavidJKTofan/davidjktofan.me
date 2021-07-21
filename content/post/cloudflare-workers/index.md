@@ -1,5 +1,5 @@
 ---
-title: Cloudflare Workers
+title: Intro to Cloudflare Workers
 date: 2021-08-10T10:22:53.306Z
 draft: false
 featured: true
@@ -41,6 +41,8 @@ However, convince yourself of it's power and usefulness by trying it out yoursel
 
 ## Our First Project
 
+We will create a Cloudflare Workers which returns/renders a dynamic HTML response/page based on where the user visiting our site is in the world.
+
 Here the final [GitHub Repository](https://github.com/DavidJKTofan/html-my-project) of our first project.
 And below, the steps to follow:
 
@@ -56,24 +58,24 @@ Install Cloudflare Command-line (Wrangler):
 npm install -g @cloudflare/wrangler
 ```
 
-Check if it has been installed and it is the latest version:
+Check if Wrangler has been installed and it is the latest version:
 ```
 wrangler --version
 ```
 
-Connect Wrangler with your Cloudflare account:
+Connect Wrangler with your Cloudflare account (option 1):
 ```
 wrangler login
 ```
 
 _NOTE: if you don't have a Cloudflare account yet, [click here](https://dash.cloudflare.com/sign-up) – it's FREE!_
 
-If the login process does not proceed as intended, you can manually add your API Token here:
+If the login process does not proceed as intended, you can manually add your API Token here (option 2):
 ```
 wrangler config
 ```
 
-Alternatively, go into the Wrangler CONFIG file and add your `account_id`:
+Alternatively, go into the Wrangler CONFIG file and add your `account_id` (option 3):
 ```
 cd PROJECT_NAME
 sudo nano wrangler.toml
@@ -95,7 +97,78 @@ wrangler generate PROJECT_NAME
 
 Now the fun part is that we will create a [`template.js`](https://github.com/DavidJKTofan/html-my-project/blob/master/template.js) file with some code for a landing page.
 
-In the main `index.js` file we will have to call `import template from './template'` – in order to call our `template.js` –, as well as set `template(request.cf` as the new Response body. Additionally, change the `content-type` to `text/html;charset=UTF-8`.
+In the main `index.js` file we will have to call `import template from './template'` – in order to call our `template.js` –, as well as set `template(request.cf)` as the new Response body. Additionally, change the `content-type` to `text/html;charset=UTF-8`.
+
+The `index.js` file should look like this:
+```
+import template from './template'
+
+addEventListener('fetch', event => {
+  event.respondWith(handleRequest(event.request))
+})
+
+async function handleRequest(request) {
+  return new Response(template(request.cf), {        // body
+    headers: { 'content-type': 'text/html;charset=UTF-8' },  // init
+  })
+}
+```
+
+Allow import other modules and `npm` packages on Workers by changing the type in the `wrangler.toml` file:
+```
+type = "webpack"
+```
+
+In order to use country code emojis, install this package:
+```
+npm i country-code-emoji
+```
+
+The `template.js` file should look like this:
+```
+import flag from 'country-code-emoji'
+
+const template = cf => {
+    const emoji = flag(cf.country) || "👋🏻"
+
+    return `
+      <!DOCTYPE html>
+      <html lang="en">
+        <head>
+          <meta charset="utf-8" />
+          <meta http-equiv="x-ua-compatible" content="ie=edge" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <title>Hello!</title>
+          <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+          <style>
+            body {
+              background: #eee;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              min-height: 100vh;
+              font-family: sans-serif;
+            }
+            div.container {
+              background: #fff;
+              border-radius: 1rem;
+              padding: 4rem;
+            }
+          </style>
+        </head>
+        <body>
+          <div class="container">
+            <h1>Hello there! You're connecting from ${cf.city} in ${cf.country} ${emoji}</h1>
+          </div>
+        </body>
+      </html>
+      `
+  }
+
+export default template
+```
+
+_NOTE: you can choose different [IncomingRequestCfProperties](https://developers.cloudflare.com/workers/runtime-apis/request#incomingrequestcfproperties) instead of `cf.country`, such as `cf.colo` or `cf.city`._
 
 Preview the project:
 ```
@@ -112,19 +185,9 @@ Publish our project to Cloudflare:
 wrangler publish
 ```
 
-Allow import other modules and `npm` packages on Workers by changing the type in the `wrangler.toml` file:
-```
-type = "webpack"
-```
-
-Install package with country code emojis:
-```
-npm i country-code-emoji
-```
-
 ### Result
 
-The final result [here](https://html-my-project.davidtofan.workers.dev), including the [GitHub Repository](https://github.com/DavidJKTofan/html-my-project).
+The final result can be found [here](https://html-my-project.davidtofan.workers.dev), including the [GitHub Repository](https://github.com/DavidJKTofan/html-my-project).
 
 * * *
 
@@ -141,7 +204,7 @@ Some examples of Use Cases are:
 - [Data loss prevention](https://developers.cloudflare.com/workers/examples/data-loss-prevention)
 - ...
 
-Check out the [Built With](https://workers.cloudflare.com/built-with) section to learn more and get inspired.
+Discover more [Case Studies with Workers](https://www.cloudflare.com/case-studies/?product=Workers), and check out the [Built With](https://workers.cloudflare.com/built-with) section to also learn more and get inspired by other projects.
 
 * * * * *
 
