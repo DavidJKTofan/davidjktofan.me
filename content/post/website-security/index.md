@@ -1,5 +1,6 @@
 ---
 title: Intro to Website Security
+summary: Introducing Content Security Policy (CSP) and general Website Security.
 date: 2021-02-28T21:22:53.306Z
 draft: false
 featured: true
