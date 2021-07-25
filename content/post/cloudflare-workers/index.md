@@ -1,6 +1,6 @@
 ---
 title: Intro to Cloudflare Workers
-date: 2021-08-10T10:22:53.306Z
+date: 2021-08-02T10:22:53.306Z
 draft: false
 featured: true
 tags:
@@ -46,7 +46,7 @@ We will create a Cloudflare Workers which returns/renders a dynamic HTML respons
 Here the final [GitHub Repository](https://github.com/DavidJKTofan/html-my-project) of our first project.
 And below, the steps to follow:
 
-### Setup
+### Setup
 
 Install and/or update `npm` on your computer:
 ```
