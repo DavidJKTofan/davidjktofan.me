@@ -1,5 +1,6 @@
 ---
 title: Cloudflare for Teams
+summary: Stop data loss, malware and phishing with the most performant Zero Trust application access and Internet browsing solution.
 date: 2021-05-26T10:30:12.306Z
 draft: false
 featured: true
