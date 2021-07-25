@@ -1,5 +1,6 @@
 ---
 title: A World of Opportunities
+summary: Resource platform for entrepreneurs and students who are eager to learn.
 date: 2020-10-06T12:28:44.805Z
 draft: false
 featured: true
