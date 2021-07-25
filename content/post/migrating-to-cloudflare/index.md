@@ -32,7 +32,7 @@ First, I created a FREE account on Cloudflare, and connected my GitHub repositor
 
 I had to tweak the deployment a little by adding the build command:
 ```
-hugo --gc --minify -b https://CLOUDFLARE-PAGES.pages.dev/
+hugo --gc --minify -b https://YOUR_DOMAIN.com/
 ```
 
 Additionally, I had to set an Environment Variable:
