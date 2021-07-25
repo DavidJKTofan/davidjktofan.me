@@ -1,5 +1,6 @@
 ---
 title: Agile Boutique Agency
+summary: A startup team of creatives that love what they do.
 date: 2020-11-03T11:24:58.647Z
 draft: false
 featured: true
