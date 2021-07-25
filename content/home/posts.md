@@ -23,17 +23,36 @@ subtitle = ""
   # Page order. Descending (desc) or ascending (asc) date.
   order = "desc"
 
+  # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
+  filter_default = 0
+
+  [[content.filter_button]]
+    name = "All"
+    tag = "*"
+
+  [[content.filter_button]]
+    name = "Security"
+    tag = "Security"
+     
+  [[content.filter_button]]
+    name = "Resources"
+    tag = "Resources"
+     
+  [[content.filter_button]]
+    name = "Startups"
+    tag = "Startups"
+    
   # Filter posts by a taxonomy term.
-  [content.filters]
-    tag = ""
-    category = ""
-    publication_type = ""
-    author = ""
-    exclude_featured = false
+  #[content.filters]
+    #tag = ""
+    #category = ""
+    #publication_type = ""
+    #author = ""
+    #exclude_featured = false
   
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "2"
+  columns = "4"
   
   # Toggle between the various page layout types.
   #   1 = List
@@ -41,6 +60,9 @@ subtitle = ""
   #   3 = Card
   #   4 = Citation (publication only)
   view = 3
+  
+  # For Showcase view, flip alternate rows?
+  flip_alt_rows = false
   
 [design.background]
   # Apply a background color, gradient, or image.
