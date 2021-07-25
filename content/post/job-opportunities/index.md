@@ -1,5 +1,6 @@
 ---
 title: Finding a Job in 2021
+summary: A place to start looking for new and old opportunities.
 date: 2021-04-18T13:22:53.306Z
 draft: false
 featured: true
@@ -24,7 +25,7 @@ Especially in mid-2020, during the height of the [COVID19 pandemic](https://en.w
 
 ## Some (maybe) useful websites
 
-During my time searching for opportunities, I slowly created a small list of interesting websites that might hopefully be helpful to you (the reader), or maybe one of your friends or colleagues.
+During my time searching for opportunities during 2020 and beginning of 2021, I slowly created a small list of interesting websites that might hopefully be helpful to you (the reader), or maybe one of your friends or colleagues.
 
 ==> [Jobs & Career Opportunities – Google Sheets](https://docs.google.com/spreadsheets/d/16YPfy7nZNBs99dtoG-xCPJZMQOynBgWAVA9omq2PdHE/edit?usp=sharing)
 
