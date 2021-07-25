@@ -21,6 +21,8 @@ Welcome to a brief introduction to Cloudflare – an integrated and intelligent 
 
 Their mission: to help build a better Internet.
 
+According to [Industry Analyst Highlights](https://www.cloudflare.com/analysts/), they are also market leader in the Secure Access Service Edge (SASE) architecture by providing 80% of the services on the SASE model, as well as leader in DDoS Mitigation Solutions, and more.
+
 {{% toc %}}
 
 * * *
