@@ -1,5 +1,6 @@
 ---
 title: Protect yourself from Phishing
+summary: Some obvious and not so obvious tips and tricks to protect yourself from digital thiefs.
 date: 2021-04-02T11:22:53.306Z
 draft: false
 featured: true
