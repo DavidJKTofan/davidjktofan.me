@@ -1,5 +1,6 @@
 ---
-title: Intro to Cloudflare
+title: Introducing Cloudflare
+summary: Today, businesses, non-profits, bloggers, and anyone with an Internet presence boast faster, more secure websites and apps thanks to Cloudflare.
 date: 2021-04-18T10:22:53.306Z
 draft: false
 featured: true
