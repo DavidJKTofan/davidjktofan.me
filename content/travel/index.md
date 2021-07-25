@@ -16,13 +16,13 @@ image:
   #image: "travel_thumbnail.png"
 ---
 
-During some of my journeys around the globe I try to remember the places that impacted me the most – must-see places –, or simply places that I had fun seeing. Therefore, I created a series of GoogleMaps Lists which I would like to share with you and your friends.
+During some of my journeys around the globe I try to remember the places that impacted me the most – _must-see places_ –, or simply places that I had fun seeing/visiting, or even got recommended by friends and locals. Therefore, I created a series of GoogleMaps Lists which I would like to share with you and your friends.
 
 Hope they are useful :) and feel free to recommend me new places too!
 
 I definitely recommend visiting [Hotel am Markt](https://www.hotel-am-markt.eu/) in the hearth of Munich (Germany), or [Palla](https://www.palla.pe/) in Arequipa (Peru).
 
-Work in progress...
+Work in progress... (Click on the images to go to the GoogleMaps List)...
 
 <!-- STYLESHEET CSS -->
 
