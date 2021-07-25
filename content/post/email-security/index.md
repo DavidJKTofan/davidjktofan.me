@@ -1,5 +1,6 @@
 ---
 title: Intro to Email Security
+summary: An overview on Email security, including SPF, DKIM, DMARC.
 date: 2021-02-29T21:22:53.306Z
 draft: false
 featured: true
@@ -41,9 +42,9 @@ Google Workspace is one of the most used business email providers for startups a
 
 Some of the most basic aspects of better email security are the three following authentication configurations:
 
-* SPF
-* DKIM
-* DMARC
+* SPF (Sender Policy Framework)
+* DKIM (DomainKeys Identified Mail)
+* DMARC (Domain-based Message Authentication, Reporting, and Conformance)
 
 All of these need to be properly configured in your domain's DNS records. That's why it is also important to properly choose and protect your Domain Registration Providers. Some providers I personally have had good experiences with so far are the following:
 
