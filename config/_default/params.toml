@@ -55,7 +55,7 @@ description = "David Tofan's personal website, illustrating his experience as an
 ############################
 
 # Enable source code highlighting? true/false
-# Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
+# Documentation: https://wowchemy.com/docs/content/writing-markdown-latex/#option-highlight_languages
 highlight = true
 highlight_languages = ["r"]  # Add support for highlighting additional languages
 # highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
