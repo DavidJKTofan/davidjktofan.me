@@ -1,5 +1,6 @@
 ---
 title: A Journey into Digital Privacy & CyberSec
+summary: A brief journey into digital privacy and cyber security.
 date: 2020-11-27T21:22:53.306Z
 draft: false
 featured: true
