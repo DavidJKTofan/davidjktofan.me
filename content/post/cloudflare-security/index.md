@@ -101,6 +101,8 @@ They are divided up the following categories:
 
 -   #### [Content Delivery Network (CDN)](https://www.cloudflare.com/cdn/)
 
+-   #### [China Network](https://www.cloudflare.com/china-network/)
+
 -   #### [Website Optimization](https://www.cloudflare.com/website-optimization/)
 
 -   #### [Stream](https://www.cloudflare.com/products/cloudflare-stream/)
@@ -117,13 +119,17 @@ They are divided up the following categories:
 
 -   #### [Managed DNS](https://www.cloudflare.com/dns/)
 
+-   #### [Secondary DNS](https://support.cloudflare.com/hc/en-us/articles/360001356152-Configuring-Secondary-DNS)
+
 ### <b>Connectivity</b>
 
--   #### [Argo Tunnel](https://www.cloudflare.com/products/argo-tunnel/)
+-   #### [Magic WAN](https://www.cloudflare.com/magic-wan/)
+
+-   #### [Cloudflare Tunnel](https://www.cloudflare.com/products/tunnel/)
+
+-   #### [Cloudflare Network Interconnect (CNI)](https://www.cloudflare.com/network-interconnect/)
 
 -   #### [Private Network Interface (PNI)](https://www.cloudflare.com/partners/peering-portal/)
-
--   #### [Magic Transit](https://www.cloudflare.com/magic-transit/)
 
 ### <b>Edge Developer Platform (Serverless)</b>
 
@@ -155,11 +161,7 @@ They are divided up the following categories:
 
 -   #### [Browser Isolation](https://www.cloudflare.com/teams/browser-isolation/)
 
--   #### [Cloudflare Network Interconnect (CNI)](https://www.cloudflare.com/network-interconnect/)
-
--   #### [Magic WAN](https://www.cloudflare.com/magic-wan/)
-
--   #### [China Network](https://www.cloudflare.com/china-network/)
+-   #### [Magic Transit](https://www.cloudflare.com/magic-transit/)
 
 ### <b>Privacy</b>
 
@@ -168,7 +170,7 @@ They are divided up the following categories:
 -   #### [Compliance](https://www.cloudflare.com/privacy-and-compliance/)
 
 
-As honorable mentions: [Cloudflare One](https://www.cloudflare.com/cloudflare-one/), [Trust Hub](https://www.cloudflare.com/trust-hub/), and [Cloudflare Registrar](https://www.cloudflare.com/products/registrar/) are definitely worth checking out.
+As honorable mentions: [Cloudflare One](https://www.cloudflare.com/cloudflare-one/), [Trust Hub](https://www.cloudflare.com/trust-hub/), and [Cloudflare Registrar](https://www.cloudflare.com/products/registrar/) are definitely worth checking out. Additionally, you might know Cloudflare because of the free public DNS resolver [1.1.1.1](https://1.1.1.1/).
 
 * * *
 
