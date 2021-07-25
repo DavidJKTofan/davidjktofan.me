@@ -1,5 +1,6 @@
 ---
 title: Intro to Cloudflare Workers
+summary: Deploy serverless code instantly across the globe to give it exceptional performance, reliability, and scale.
 date: 2021-08-02T10:22:53.306Z
 draft: false
 featured: true
