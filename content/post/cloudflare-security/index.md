@@ -18,7 +18,7 @@ image:
 toc: true
 ---
 
-Welcome to a brief introduction to Cloudflare – an integrated and intelligent Global Cloud (Anycast) Network.
+Welcome to a brief introduction to Cloudflare ([NYSE: NET](https://cloudflare.net/)) – an integrated and intelligent Global Cloud (Anycast) Network.
 
 Their mission: to help build a better Internet.
 
