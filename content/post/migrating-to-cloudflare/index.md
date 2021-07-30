@@ -141,6 +141,7 @@ Don't forget to add ```https://static.cloudflareinsights.com``` to your ```scrip
 Feel free to change any details and adapt it to your needs. If you need help with the Content Security Policy (CSP), then check out my other [article](/post/website-security/).
 
 _Code source: [The brand new Security Headers Cloudflare Worker](https://scotthelme.co.uk/security-headers-cloudflare-worker/)_
+
 _Alternative code: [Set security headers - Workers](https://developers.cloudflare.com/workers/examples/security-headers)_
 
 ### Step 4: Firewall
