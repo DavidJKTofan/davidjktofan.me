@@ -168,3 +168,5 @@ Finally, we analyze our website and check what has changed or improved:
 ## Conclusion
 
 Coming soon! Still working on some stuff...
+
+![Cloudflare Speed Measurement](cloudflare-speed-measurement.png)
