@@ -19,14 +19,14 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Acclaim"
-  organization_url = "https://www.youracclaim.com/"
-  title = "Acclaim"
+  organization = "Credly"
+  organization_url = "https://info.credly.com/"
+  title = "Credly"
   url = ""
-  certificate_url = "https://www.youracclaim.com/users/david-tofan/badges"
+  certificate_url = "https://www.credly.com/users/david-tofan/badges"
   date_start = "2021-01-01"
   date_end = ""
-  description = "Check out my verified badges on Credly's Acclaim."
+  description = "Check out my verified badges on Credly (formerly Acclaim)."
 
 [[item]]
   organization = "CertiProf"
