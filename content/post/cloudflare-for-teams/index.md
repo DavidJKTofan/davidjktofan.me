@@ -76,9 +76,11 @@ Let's get started with Cloudflare for Teams and how to set up Access.
 
 ### cloudflared
 
+Cloudflare Daemon – or `cloudflared` – is the software that powers Cloudflare Tunnel. `cloudflared` runs alongside origin servers to connect to Cloudflare's network, as well as client devices for non-HTTP traffic from user endpoints.
+
 #### Install cloudflared
 
-I downloaded and unpacked the cloudflared daemon on the Droplet server:
+I downloaded and unpacked the `cloudflared` daemon on the Droplet server:
 
     sudo wget https://bin.equinox.io/c/VdrWdbjqyF/cloudflared-stable-linux-amd64.deb
     sudo dpkg -i cloudflared-stable-linux-amd64.deb
@@ -87,7 +89,7 @@ Checked my version (just in case):
 
     cloudflared --version
 
-To update the cloudflared daemon simply run:
+To update the `cloudflared` daemon simply run:
 
     cloudflared update
 
@@ -97,9 +99,9 @@ I logged in and connected it to my Cloudflare account with:
 
 _Note: Credentials will normally be saved to `/home/$USER/.cloudflared/cert.pem`._
 
-Once cloudflared has been installed and authenticated, the process to get my first Cloudflare Tunnel up and running included 3 high-level steps:
+Once `cloudflared` has been installed and authenticated, the process to get my first Cloudflare Tunnel up and running included 3 high-level steps:
 
-1.  Create a Tunnel and configure it
+1.  Create a Tunnel (_TCP over WebSocket encryption_) and configure it
 2.  Route traffic to the Tunnel
 3.  Run the Tunnel
 
@@ -115,7 +117,7 @@ The output of that command displayed my Tunnel ID (you'll need this later):
 
     "Created tunnel TUNNEL_NAME with id 6ff42ae2-765d-4adf-8112-31c55c1551ef"
 
-Then I edited the cloudflared config file:
+Then I edited the `cloudflared` config file:
 
     sudo nano ~/.cloudflared/config.yml
 
@@ -144,7 +146,7 @@ Always before running the Tunnel, I validated the config input with:
 
 #### Route traffic to the Tunnel
 
-In order to create DNS records from cloudflared, which will provision a CNAME record that points to the subdomain of a specific Tunnel, one can use either one of these commands:
+In order to create DNS records from `cloudflared`, which will provision a CNAME record that points to the subdomain of a specific Tunnel, one can use either one of these commands:
 
     cloudflared tunnel route dns TUNNEL_NAME TUNNEL_NAME.davidtofan.com
     # OR
@@ -163,8 +165,8 @@ Finally, I installed the Cloudflare Tunnel as a system service so that it works 
 
 #### Connect from a Client Machine
 
-Now in order to connect from a client machine (i.e. my MacBook), first I needed to install cloudflared daemon on it too.
-Taking macOS as an example, I installed cloudflared with Homebrew:
+Now in order to connect from a client machine (i.e. my MacBook), first I needed to install `cloudflared` on it too.
+Taking macOS as an example, I installed `cloudflared` with Homebrew:
 
     brew install cloudflare/cloudflare/cloudflared
 
