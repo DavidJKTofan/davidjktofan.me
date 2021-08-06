@@ -253,3 +253,11 @@ _Note: [cloudflare-ufw](https://github.com/Paul-Reed/cloudflare-ufw/blob/master/
 ## Disclaimer
 
 This is a very general introduction to Cloudflare and [Cloudflare for Teams](https://www.cloudflare.com/teams/). Educational purposes only, and this blog post does not necessarily reflect the opinions of Cloudflare. There are many more aspects to Cloudflare and its products and services – this is merely a brief educational intro. Properly inform yourself, keep learning, keep testing, and feel free to share your learnings and experiences as I do. Hope it was helpful! Images are online and publicly accessible.
+
+* * * *
+
+## More Blog Posts
+
+- [Introducing Cloudflare](https://davidtofan.com/post/cloudflare-security/)
+- [Migrating to Cloudflare](https://davidtofan.com/post/migrating-to-cloudflare/)
+- [Intro to Cloudflare Workers](https://davidtofan.com/post/cloudflare-workers/)
