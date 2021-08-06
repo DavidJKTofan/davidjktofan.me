@@ -33,13 +33,13 @@ According to [Industry Analyst Highlights](https://www.cloudflare.com/analysts/)
 ![An Integrated Global Cloud Network](/media/Cloudflare/cloudflare-at-a-glance-v1.webp)
 _<caption>Image source: made by [Lunalabs](https://www.lunalabs.eu/) with info updated on the 20th of February.</caption>_
 
-As of 25th of July 2021 (_updated_), there were some changes:
+As of 6th of August 2021 (_updated_), there were some changes:
 
--   +67 Tbps of global network capacity.
--   Accessible via +200 Points of Presence (POPs), strategically situated across +100 countries.
--   Handles +25 million HTTP requests per second on average.
+-   +90 Tbps of global network capacity.
+-   Accessible via +200 Points of Presence (POPs), strategically situated across +100 countries, including over 25 cities in mainland China.
+-   Handles +25 million HTTP requests per second on average, and +12 million DNS queries per second.
 -   Serves +27 million protected web sites and services.
--   Blocks an average of 72 billion cyber threats a day.
+-   Blocks an average of +87 billion cyber threats a day.
 
 ### Why choose Cloudflare
 
