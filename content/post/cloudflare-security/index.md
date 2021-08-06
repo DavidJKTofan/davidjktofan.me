@@ -206,7 +206,9 @@ If you are interested in learning more about **performance browser networking**,
 
 This is a very general introduction to Cloudflare. Educational purposes only, and this blog post does not necessarily reflect the opinions of Cloudflare. There are many more aspects to Cloudflare and its products and services – this is merely a brief educational intro. Properly inform yourself, keep learning, keep testing, and feel free to share your learnings and experiences as I do. Hope it was helpful! Images are online and publicly accessible.
 
-## More Blog Posts
+* * * * 
+
+## More on Cloudflare
 
 - [Migrating to Cloudflare](https://davidtofan.com/post/migrating-to-cloudflare/)
 - [Cloudflare for Teams](https://davidtofan.com/post/cloudflare-for-teams/)
