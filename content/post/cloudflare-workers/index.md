@@ -217,7 +217,7 @@ Educational purposes only, and this blog post does not necessarily reflect the o
 
 * * * *
 
-## More Blog Posts
+## More on Cloudflare
 
 - [Introducing Cloudflare](https://davidtofan.com/post/cloudflare-security/)
 - [Migrating to Cloudflare](https://davidtofan.com/post/migrating-to-cloudflare/)
