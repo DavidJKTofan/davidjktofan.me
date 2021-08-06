@@ -170,3 +170,11 @@ Finally, we analyze our website and check what has changed or improved:
 Coming soon! Still working on some stuff...
 
 ![Cloudflare Speed Measurement](cloudflare-speed-measurement.png)
+
+* * * *
+
+## More Blog Posts
+
+- [Introducing Cloudflare](https://davidtofan.com/post/cloudflare-security/)
+- [Intro to Cloudflare Workers](https://davidtofan.com/post/cloudflare-workers/)
+- [Cloudflare for Teams](https://davidtofan.com/post/cloudflare-for-teams/)
