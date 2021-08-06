@@ -214,3 +214,11 @@ Discover more [Case Studies with Workers](https://www.cloudflare.com/case-studie
 I want to thank the [Introduction to Cloudflare Workers by Kristian Freeman](https://egghead.io/courses/introduction-to-cloudflare-workers-5aa3) Course.
 
 Educational purposes only, and this blog post does not necessarily reflect the opinions of Cloudflare.
+
+* * * *
+
+## More Blog Posts
+
+- [Introducing Cloudflare](https://davidtofan.com/post/cloudflare-security/)
+- [Migrating to Cloudflare](https://davidtofan.com/post/migrating-to-cloudflare/)
+- [Cloudflare for Teams](https://davidtofan.com/post/cloudflare-for-teams/)
