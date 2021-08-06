@@ -256,7 +256,7 @@ This is a very general introduction to Cloudflare and [Cloudflare for Teams](htt
 
 * * * *
 
-## More Blog Posts
+## More on Cloudflare
 
 - [Introducing Cloudflare](https://davidtofan.com/post/cloudflare-security/)
 - [Migrating to Cloudflare](https://davidtofan.com/post/migrating-to-cloudflare/)
