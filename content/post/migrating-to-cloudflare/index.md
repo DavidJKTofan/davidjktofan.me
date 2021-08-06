@@ -173,7 +173,7 @@ Coming soon! Still working on some stuff...
 
 * * * *
 
-## More Blog Posts
+## More on Cloudflare
 
 - [Introducing Cloudflare](https://davidtofan.com/post/cloudflare-security/)
 - [Intro to Cloudflare Workers](https://davidtofan.com/post/cloudflare-workers/)
