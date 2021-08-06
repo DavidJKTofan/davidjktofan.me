@@ -22,7 +22,7 @@ Welcome to a brief introduction to [Cloudflare Workers](https://workers.cloudfla
 
 ## What is Cloudflare Workers
 
-_Cloudflare Workers is a serverless application platform running on Cloudflare's global cloud network Open external link in over 200 cities around the world, offering both free and paid plans._
+_Cloudflare Workers is a serverless application platform running on Cloudflare's global cloud network in over 200 cities around the world, offering both free and paid plans._
 
 Developer Docs: https://developers.cloudflare.com/workers/
 
