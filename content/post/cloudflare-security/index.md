@@ -56,7 +56,7 @@ As of 6th of August 2021 (_updated_), there were some changes:
 
 See below a brief overview on Cloudflare's integrated global cloud network.
 
-![An Integrated Global Cloud Network](/media/Cloudflare/cloudflare-global-cloud-network.webp)
+![An Integrated Global Cloud Network](/media/Cloudflare/cloudflare-integrated-global-cloud-platform-2-no-DLP-IDS-IPS.webp)
 _<caption>Image source: <https://www.cloudflare.com/enterprise/></caption>_
 
 Here is a preview of how the Cloudflare Dashboard looks like once you added your domain.
