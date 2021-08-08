@@ -52,7 +52,16 @@ CNAME   davidtofan.com    CLOUDFLARE-PAGES.pages.dev   Auto
 CNAME   www               CLOUDFLARE-PAGES.pages.dev   Auto
 ```
 
-Furthermore, I also added an empty MX record because I do not use this domain for emails nor do I want to receive emails:
+Make sure that there are orange cloud icons ![Cloudflare Icon](/media/Cloudflare/cloudflare-orange-cloud.webp) next to the DNS records, which mean that traffic to those hostnames is running / proxied through Cloudflare.
+
+Some other benefits of the orange cloud DNS records are:
+- Masking your Origin IP
+- Caching
+- an HTTPS certificate on the edge servers (a separate certificate on your server is still necessary)
+
+_NOTE: only A, AAAA and CNAME records should have the orange cloud / be proxied. For non web traffic, such as TCP or UDP protocols, solutions such as [Spectrum](https://www.cloudflare.com/products/cloudflare-spectrum/) can help. Alternatively, a gray-cloud icon (DNS-only) does not proxy traffic._
+
+Furthermore, I also added an empty MX record because I do not use this domain for emails nor do I want to receive emails, which is set to DNS-only:
 ```
 MX      davidtofan.com    .                            Auto
 ```
