@@ -44,7 +44,7 @@ After that, the page deployed and worked just fine.
 
 ### Step 1: DNS
 
-Now, go to dash.cloudflare.com and add your custom domain. Choose the FREE plan for starters, and simply follow the next steps.
+Now, go to `dash.cloudflare.com` and add your custom domain. Choose the FREE plan for starters, and simply follow the next steps – which will be to change your domain's Nameservers to Cloudflare's in order to do a Full Setup and enjoy the full range of solutions and features; (alternatively, it's also possible to do a [CNAME Setup](https://support.cloudflare.com/hc/en-us/articles/360020348832-Understanding-a-CNAME-Setup) or Partial Setup).
 
 On the DNS tab, add the following DNS records in order to connect to the page on Cloudflare Pages:
 ```
