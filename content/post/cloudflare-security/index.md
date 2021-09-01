@@ -96,6 +96,8 @@ They are divided up the following categories:
 
 -   #### [DNSSEC](hhttps://www.cloudflare.com/dns/dnssec/)
 
+-   #### [API Shield](https://www.cloudflare.com/apishield)
+
 -   #### [Orbit IoT protection](https://www.cloudflare.com/orbit/)
 
 ### <b>Performance</b>
