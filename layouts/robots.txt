@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /admin/
 Disallow: /privacy/
 
-Sitemap: https://davidjktofan.com/sitemap.xml
+Sitemap: https://davidtofan.com/sitemap.xml
