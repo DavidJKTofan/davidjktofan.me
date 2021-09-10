@@ -8,7 +8,7 @@ tags:
   - Resources
 categories:
   - Resources
-external_link: https://davidjktofan.com/travel/
+external_link: https://davidtofan.com/travel/
 image:
   filename: featured.png
   focal_point: Smart
