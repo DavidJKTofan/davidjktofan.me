@@ -6,6 +6,6 @@ Special thanks to Wowchemy Website Builder, Academic Template, Cloudflare Pages,
 
 # Personal Website
 
-* Main Domain: [davidjktofan.com](https://davidjktofan.com/)
+* Main Domain: [davidtofan.com](https://davidtofan.com/)
 * Cloudflare Pages: https://davidjktofan-me.pages.dev/
 * Netlify (backup): https://david-tofan.netlify.app/
