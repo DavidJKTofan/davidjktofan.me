@@ -18,7 +18,7 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Cloud Security Representative"
+  title = "Cloud Security Consultant"
   company = "Cloudflare"
   company_url = "https://www.cloudflare.com/"
   location = "Munich, Germany"
@@ -27,9 +27,9 @@ date_format = "Jan 2006"
   description = """
   Responsibilities include:
 
+  * Offer advice and expertise to organisations to help them improve their online performance and overall cybersecurity.
   * Represent Cloudflare's products, starting with a comprehensive understanding and leading to customer research to identify how our solutions meet needs.
   * Generate leads and build relationships by nurturing prospects and finding new potential sales opportunities.
-  * Manage and maintain a pipeline of interested prospects and engage sales executives for next steps.
   * Identify best practices to refine the company's lead generation playbook.
   """
 
