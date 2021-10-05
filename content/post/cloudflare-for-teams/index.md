@@ -172,7 +172,7 @@ Taking macOS as an example, I installed `cloudflared` with Homebrew:
 
 Then I changed the SSH configuration file on my client machine:
 
-    sudo ~/.ssh/config
+    sudo nano ~/.ssh/config
 
 Inserting the following values, replacing `TUNNEL_NAME.davidtofan.com` with the hostname I created:
 
