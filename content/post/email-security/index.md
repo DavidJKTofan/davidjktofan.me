@@ -58,7 +58,7 @@ After you have chosen your favorite Domain Registration Provider, you should sta
 
 ### Sender Policy Framework (SPF)
 
-_"SPF is an email authentication method designed to detect forging sender addresses during the delivery of the email."_
+"_SPF is an email authentication method designed to detect forging sender addresses during the delivery of the email._"
 
 Normally, SPF (TXT record) looks like this:
 ```
@@ -72,7 +72,7 @@ More info here:
 
 ### DomainKeys Identified Mail (DKIM)
 
-_"DKIM is an email authentication method designed to detect forged sender addresses in email."_
+_"DKIM is an email authentication method designed to detect forged sender addresses in email._"
 
 Go to `Apps > Google Workspace > Settings for Gmail > Authenticate email` and you'll find DKIM authentication configuration. Select your email domain and generate a new record. Select your DKIM key bit length (usually the higher, the more secure), and leave the prefix selector as is.
 
@@ -89,7 +89,7 @@ _Note: You might have to wait a few hours for the DNS to update._
 
 ### Domain-based Message Authentication, Reporting and Conformance (DMARC)
 
-_"DMARC is an email authentication protocol. It is designed to give email domain owners the ability to protect their domain from unauthorized use, commonly known as email spoofing."_
+"_DMARC is an email authentication protocol. It is designed to give email domain owners the ability to protect their domain from unauthorized use, commonly known as email spoofing._"
 
 An example of a DMARC (TXT record) looks like this:
 ```
@@ -105,7 +105,7 @@ More info can be found here:
 
 **OCTOBER 2021 UPDATE:** Cloudflare is announcing solutions for email safety and security, which are super easy to set up, and FREE!
 
-_"The new Email Security DNS Wizard can be used to create DNS records that prevent others from sending malicious emails on behalf of your domain."_
+"_The new Email Security DNS Wizard can be used to create DNS records that prevent others from sending malicious emails on behalf of your domain._"
 
 Find more information here: [Tackling Email Spoofing and Phishing](https://blog.cloudflare.com/tackling-email-spoofing/)
 
