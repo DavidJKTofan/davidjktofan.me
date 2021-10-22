@@ -101,6 +101,15 @@ More info can be found here:
 * [DMARC Overview](https://dmarc.org/overview/)
 
 
+## Email Security and Routing
+
+**OCTOBER 2021 UPDATE:** Cloudflare is announcing solutions for email safety and security, which are super easy to set up, and FREE!
+
+_"The new Email Security DNS Wizard can be used to create DNS records that prevent others from sending malicious emails on behalf of your domain."_
+
+Find more information here: [Tackling Email Spoofing and Phishing](https://blog.cloudflare.com/tackling-email-spoofing/)
+
+
 ## Disclaimer
 
 This is a very general introduction to email security, SPF, DKIM and DMARC. Educational purposes only. There are many more aspects to email security which are not covered here, and all implementations might differ from situation to situation, platform to platform, technology to technology. Remember, you are responsible for your own actions – this is merely an educational intro. Properly inform yourself, keep learning, keep testing, and feel free to share your learnings and experiences as I do. Hope it was helpful!
