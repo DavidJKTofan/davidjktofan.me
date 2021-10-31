@@ -107,7 +107,7 @@ More info can be found here:
 
 "_The new Email Security DNS Wizard can be used to create DNS records that prevent others from sending malicious emails on behalf of your domain._"
 
-Find more information here: [Tackling Email Spoofing and Phishing](https://blog.cloudflare.com/tackling-email-spoofing/)
+Find more information here: [Tackling Email Spoofing and Phishing](https://blog.cloudflare.com/tackling-email-spoofing/) and [Easily creating and routing email addresses with Cloudflare Email Routing](https://blog.cloudflare.com/introducing-email-routing/)
 
 
 ## Disclaimer

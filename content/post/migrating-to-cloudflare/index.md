@@ -153,6 +153,17 @@ _Code source: [The brand new Security Headers Cloudflare Worker](https://scotthe
 
 _Alternative code: [Set security headers - Workers](https://developers.cloudflare.com/workers/examples/security-headers)_
 
+**OCTOBER 2021 UPDATE:** Cloudflare announced support for ```_headers``` and ```_redirects``` files. Simply create the files in the build directory of your project and within it, define the rules you want to apply.
+
+For example, to prevent your ```pages.dev``` deployment from being indexed and improve SEO: 
+```
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex
+```
+
+More information here: [Custom Headers for Cloudflare Pages](https://blog.cloudflare.com/custom-headers-for-pages/)
+
+
 ### Step 4: Firewall
 
 Now we set up a Firewall Rule on the Firewall Tab > Firewall Rules, such as for example to block some python requests on my website:
