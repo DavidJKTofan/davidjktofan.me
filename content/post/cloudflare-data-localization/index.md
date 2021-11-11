@@ -84,7 +84,7 @@ Cloudflare anonymizes source IP addresses via IP truncation methods (last octet 
 
 ## Conclusion
 
-This is all part of Cloudflare's [Trust Hub](https://www.cloudflare.com/trust-hub/) efforts.
+This is all part of Cloudflare's [Trust Hub](https://www.cloudflare.com/trust-hub/) efforts, as well as to take a rigorous and granular approach to data localization, making it easy for businesses to set rules and controls at the Internet edge, adhere to compliance regulations, and keep data locally stored and protected.
 
 *Trust is the foundation of Cloudflare’s business. We earn our users’ trust by respecting the sanctity of personal data transiting our network, and by being transparent about how we handle and secure that data.*
 
