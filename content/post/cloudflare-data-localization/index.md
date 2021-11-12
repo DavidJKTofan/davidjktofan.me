@@ -1,7 +1,7 @@
 ---
 title: Cloudflare Data Localization
 summary: Take a rigorous and granular approach to data localization, making it easy for businesses to set rules and controls at the Internet edge, adhere to compliance regulations, and keep data locally stored and protected.
-date: 2021-11-15T10:22:53.306Z
+date: 2021-11-11T10:22:53.306Z
 draft: false
 featured: true
 tags:
