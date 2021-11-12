@@ -45,7 +45,8 @@ The Cloudflare Data Localization Suite is mainly composed of 4 solutions:
 
 _[Keyless SSL](https://www.cloudflare.com/ssl/keyless-ssl/) allows security-conscious clients to upload their own custom certificates and benefit from Cloudflare, but without exposing their TLS private keys._
 
-![How Keyless SSL Works Diagram](https://www.cloudflare.com/resources/images/slt3lc6tev37/3DEZZ7tsSCXbd9WLGvzrAZ/f288b712064cd5ae1b99ae1f248ef734/keyless-ssl-diagram-how-keyless-ssl-works.svg)
+![How Keyless SSL Works Diagram](/media/Cloudflare/keyless-ssl-diagram-how-keyless-ssl-works.svg)
+_<caption>Image source: [Overview of Keyless SSL](https://www.cloudflare.com/ssl/keyless-ssl/).</caption>_
 
 It allows organizations to store and manage their own SSL private keys for use with Cloudflare on any external infrastructure of their choosing.
 
@@ -67,7 +68,8 @@ More information can be found on the [Dev Docs](https://developers.cloudflare.co
 
 This gives organizations control over where their traffic is inspected, and that traffic is securely transmitted to Cloudflare data centers inside the selected region.
 
-![Regional Services Process Diagram](https://blog.cloudflare.com/content/images/2020/06/image2-9.png)
+![Regional Services Process Diagram](/media/Cloudflare/regional-services-process.png)
+_<caption>Image source: [Introducing Regional Services](https://blog.cloudflare.com/introducing-regional-services/).</caption>_
 
 ### Edge Log Delivery
 
@@ -75,7 +77,8 @@ With [Edge Log Delivery](https://blog.cloudflare.com/introducing-the-cloudflare-
 
 For example, an Azure storage bucket in their preferred region, or an instance of Splunk that runs in an on-premise data center. With this option, organizations can still get their complete logs in their preferred region, without these logs first flowing through either of our US or EU core data centers.
 
-![Edge Log Delivery Diagram](https://blog.cloudflare.com/content/images/2020/12/edge-log-delivery-before-copy@3x-1.png)
+![Edge Log Delivery Diagram](/media/Cloudflare/edge-log-delivery-before-after.png)
+_<caption>Image source: [Introducing the Cloudflare Data Localization Suite](https://blog.cloudflare.com/introducing-the-cloudflare-data-localization-suite/).</caption>_
 
 ### IP obfuscation
 
