@@ -25,6 +25,8 @@ Check out Matthew Prince, co-founder and CEO at Cloudflare, talking about *"givi
 {{% toc %}}
 
 * * *
+* * *
+
 
 ## Data Localization Suite
 
@@ -40,10 +42,15 @@ The Cloudflare Data Localization Suite is mainly composed of 4 solutions:
 
 4. Protect end-user's privacy with **IP obfuscation**
 
+* * *
 
-### Keyless SSL
+### Encryption Key Management
 
-_[Keyless SSL](https://www.cloudflare.com/ssl/keyless-ssl/) allows security-conscious clients to upload their own custom certificates and benefit from Cloudflare, but without exposing their TLS private keys._
+Organizations may choose to use either **Keyless SSL** or **Geo Key Manager** to ensure that their SSL/TLS keys do not leave the European Union (EU) – this is a standard use case.
+
+#### Keyless SSL
+
+_[Keyless SSL](https://www.cloudflare.com/ssl/keyless-ssl/) "allows security-conscious clients to upload their own custom certificates and benefit from Cloudflare, but without exposing their TLS private keys."_
 
 ![How Keyless SSL Works Diagram](/media/Cloudflare/keyless-ssl-diagram-how-keyless-ssl-works.svg)
 _<caption>Image source: [Overview of Keyless SSL](https://www.cloudflare.com/ssl/keyless-ssl/).</caption>_
@@ -52,38 +59,68 @@ It allows organizations to store and manage their own SSL private keys for use w
 
 More information can be found on the [Dev Docs](https://developers.cloudflare.com/ssl/keyless-ssl).
 
-### Geo Key Manager
+#### Geo Key Manager
 
 [Geo Key Manager](https://blog.cloudflare.com/scaling-geo-key-manager/) allows organizations to choose where they store their TLS certificate private keys.
 
-This is similar to Keyless SSL, with the difference that you get granular control over which locations should store the keys. For example, an organization can choose for the private keys required for inspection of traffic to only be accessible inside data centers located in the European Union (EU).
+This is similar to Keyless SSL, with the difference that you get granular control over which locations should store the keys. For example, an organization can choose for the private keys required for inspection of traffic to only be accessible inside data centers located in the EU.
 
 One can set this up by going on the Cloudflare Dashboard > ```SSL/TLS``` > ```Edge Certificates``` > ```Upload Custom SSL Certificate```.
 
 More information can be found on the [Dev Docs](https://developers.cloudflare.com/ssl/edge-certificates/custom-certificates).
 
-### Regional Services
+* * *
+
+### Payload Inspection Boundary
+
+Keyless SSL and Geo Key Manager ensure that private key material does not leave the EU. Regional Services ensures that those keys are only used inside the EU.
+
+#### Regional Services
 
 [Regional Services](https://blog.cloudflare.com/introducing-regional-services/) provides full control over exactly where the organization's traffic is handled.
 
-This gives organizations control over where their traffic is inspected, and that traffic is securely transmitted to Cloudflare data centers inside the selected region.
+This gives organizations control over where their traffic is inspected and decrypted (TLS termination), and that traffic is securely transmitted to Cloudflare data centers inside the selected region.
 
 ![Regional Services Process Diagram](/media/Cloudflare/regional-services-process.png)
 _<caption>Image source: [Introducing Regional Services](https://blog.cloudflare.com/introducing-regional-services/).</caption>_
 
-### Edge Log Delivery
+When Regional Services is used, all of the edge application services will run inside the selected region. This includes:
 
-With [Edge Log Delivery](https://blog.cloudflare.com/introducing-the-cloudflare-data-localization-suite/), organizations can send logs directly from the edge to their partner of choice. 
+* Storing and retrieving content from Cache
+* Blocking malicious HTTP payloads with the Web Application Firewall (WAF)
+* Detecting and blocking suspicious activity with Bot Management
+* Running Cloudflare Workers scripts
+* Load Balancing traffic to the best origin servers
 
-For example, an Azure storage bucket in their preferred region, or an instance of Splunk that runs in an on-premise data center. With this option, organizations can still get their complete logs in their preferred region, without these logs first flowing through either of our US or EU core data centers.
+* * *
+
+### Customer Metadata Boundary
+
+Cloudflare collects metadata about the usage of their products for the purposes of:
+
+* Serving analytics via dashboards and APIs
+* Sharing raw logs with customers
+* Stopping security threats such as Bots or DDoS attacks
+* Improving the performance of Cloudflare's network
+* Maintaining the reliability and resiliency of Cloudflare's network
+
+This metadata does not contain the contents of customer traffic, and so they do not contain usernames, passwords, personal information, and other private details of customers' end-users. However, these logs may contain end-user IP addresses, which is considered personal data in the EU.
+
+#### Edge Log Delivery
+
+With [Edge Log Delivery](https://blog.cloudflare.com/introducing-the-cloudflare-data-localization-suite/), organizations can send logs directly from the edge to their partner of choice, also allowing all of the traffic metadata that can identify a customer to stay in the EU.
+
+For example, an Azure storage bucket in their preferred region, or an instance of Splunk that runs in an on-premise data center. With this option, organizations can still get their complete logs in their preferred region, without these logs first flowing through either of the US or EU Cloudflare core data centers.
 
 ![Edge Log Delivery Diagram](/media/Cloudflare/edge-log-delivery-before-after.png)
 _<caption>Image source: [Introducing the Cloudflare Data Localization Suite](https://blog.cloudflare.com/introducing-the-cloudflare-data-localization-suite/).</caption>_
 
-### IP obfuscation
+#### IP obfuscation
 
 Cloudflare anonymizes source IP addresses via IP truncation methods (last octet for IPv4 and last 80 bits for IPv6) on the UI and in logs. This offers end-user data privacy.
 
+* * *
+* * *
 
 ## Conclusion
 
