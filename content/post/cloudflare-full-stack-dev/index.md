@@ -1,7 +1,7 @@
 ---
-title: Cloudflare Page Shield
-summary: Page Shield protects website visitors from Magecart-style supply chain attacks that steal credit card information and sensitive data through malicious third-party dependencies.
-date: 2021-12-12T10:22:53.306Z
+title: Cloudflare Pages
+summary: ABC
+date: 2021-11-20T10:22:53.306Z
 draft: true
 featured: true
 tags:
@@ -17,16 +17,17 @@ image:
 toc: true
 ---
 
-This is a brief introduction to [Page Shield](https://www.cloudflare.com/page-shield/).
+_"Building a full stack application with Cloudflare Pages"_ – this is the title of the [latest blog post](https://blog.cloudflare.com/building-full-stack-with-pages/)
 
 {{% toc %}}
 
 * * *
 * * *
 
-# Page Shield
+# The Example
 
-_"...JavaScript completes its ninth year in a row as the most commonly used programming language."_ – Stack Overflow Insights 2021
+_Today, we're walking through our example image-sharing platform. We want to be able to share pictures with friends while still also keeping some images private. We'll build a JSON API with Functions (storing data on KV and Durable Objects), integrate with Cloudflare Images and Cloudflare Access, and use React for our front end._
+
 
 * * *
 
