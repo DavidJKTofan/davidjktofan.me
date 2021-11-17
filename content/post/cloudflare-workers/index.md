@@ -188,7 +188,7 @@ wrangler publish
 
 ### Result
 
-The final result can be found [here](https://html-my-project.davidtofan.workers.dev), including the [GitHub Repository](https://github.com/DavidJKTofan/html-my-project).
+The final result can be found [here](https://html-my-project.cf-testing.workers.dev/), including the [GitHub Repository](https://github.com/DavidJKTofan/html-my-project).
 
 * * *
 

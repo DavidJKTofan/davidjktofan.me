@@ -179,7 +179,7 @@ They are divided up the following categories:
 
 As **honorable mentions**: [Cloudflare One](https://www.cloudflare.com/cloudflare-one/), [Trust Hub](https://www.cloudflare.com/trust-hub/), and [Cloudflare Registrar](https://www.cloudflare.com/products/registrar/) are definitely worth checking out. Additionally, you might know Cloudflare because of the free public DNS resolver [1.1.1.1](https://1.1.1.1/).
 
-Check out the entire [Cloudflare Product Portfolio](https://www.cloudflare.com/de-de/cloudflare-product-portfolio/) (_get's updated every so often_).
+Check out the entire [Cloudflare Product Portfolio](https://www.cloudflare.com/cloudflare-product-portfolio/) (_get's updated every so often_).
 
 * * *
 
