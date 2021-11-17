@@ -27,6 +27,8 @@ This is a brief introduction to [Page Shield](https://www.cloudflare.com/page-sh
 
 # Page Shield
 
+_"...JavaScript completes its ninth year in a row as the most commonly used programming language."_ – Stack Overflow Insights 2021
+
 * * *
 
 # Disclaimer
