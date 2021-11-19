@@ -19,6 +19,10 @@ toc: true
 
 _"Cloudflare Pages Goes Full Stack"_ – this is the title of the [latest blog post](https://blog.cloudflare.com/cloudflare-pages-goes-full-stack/)
 
+Cloudflare is becoming the modern full-stack cloud provider.
+
+If you are already using Serverless solutions such as AWS Lambda or Google Cloud Functions, you have to try Cloudflare's solutions!
+
 
 {{% toc %}}
 
@@ -34,6 +38,30 @@ With Cloudflare Pages going Full Stack, we can now define our bindings, such as:
 - **R2 (coming soon!)**: S3-compatible Object Storage solution that's slashing egress fees to zero.
 - **Environment Variable**: An injected value that can be accessed by your functions and is stored as plain-text. You can set your environment variables directly within the Pages interface for both your production and preview environments at build-time and run-time.
 - **Secret (coming soon!)**: An encrypted environment variable, which cannot be viewed by [wrangler](https://developers.cloudflare.com/workers/cli-wrangler) or any dashboard interfaces. Secrets are a great home for sensitive data including passwords and API tokens.
+
+### KV namespace
+
+### Durable Objects
+
+Durable Objects lets developer implement previously complexa pplications, like collaborative whiteboarding, game servers, or global queues, in just a few lines of code.
+
+This solves a major problem for developers maning data, and makes it easier than ever to build any type of application, no matter the complexity, compliance requirements, or performance needs.
+
+#### Durable Objects Compute
+
+#### Durable Objects Storage
+
+
+### R2
+
+Coming soon...
+
+### Environment Variable
+
+### Secret
+
+Coming soon...
+
 
 ## The Example
 
