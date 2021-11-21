@@ -1,5 +1,5 @@
 ---
-title: DDoS Attacks
+title: DDoS Attacks & Protections
 summary: ABC
 date: 2021-11-20T10:22:53.306Z
 draft: true
@@ -49,7 +49,7 @@ At the Layer 3, the Protocol Data Unit (PDU) is called **Packet**. Packets consi
 Here you can get some insights into the latest **[DDoS Attack Trends](https://radar.cloudflare.com/notebooks/ddos-2021-q3)** (published every quarter).
 
 
-## DDoS Protection
+## DDoS Protections
 
 ### Blackholing and sinkholing
 
