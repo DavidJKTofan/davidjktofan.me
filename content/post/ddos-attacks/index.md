@@ -33,7 +33,7 @@ _In a distributed denial-of-service attack (DDoS attack), the incoming traffic f
 There are generally three main types of DoS and DDoS attacks:
 
 * **Volume-based Attacks**: massive volumes of traffic that saturate bandwidth.
-* **Protocol Attacks**: consumes network infrastructure processing resources (like servers, firewalls, and load balancers), and is measured in _Packets per second_ (Pps).
+* **Protocol Attacks**: consumes network infrastructure processing resources (like servers, firewalls, and load balancers), and is measured in _Packets per second_ (Pps), or in _terabits per second_ (Tbps) or _gigabits per second_ (Gbps).
 * **Application Layer Attacks (Layer 7)**: seemingly legitimate and innocent requests targets vulnerabilities or issues within a specific application, with the goal of crashing the server resources, and the magnitude is measured in _Requests per second_ (Rps).
 
 Additionally, there are some differences between Layer 3 DDoS attacks and DDoS attacks at a higher layer, such as:
@@ -44,7 +44,7 @@ Additionally, there are some differences between Layer 3 DDoS attacks and DDoS a
 
 Source: [What are layer 3 DDoS attacks? – Cloudflare](https://www.cloudflare.com/de-de/learning/ddos/layer-3-ddos-attacks/)
 
-At the Layer 3, the Protocol Data Unit (PDU) is called **Packet** (of about 1 KBS to 1.5 KBS). Packets consists of **control information** and user data (payload). Control information provides data for delivering the payload (e.g., source and destination network addresses, error detection codes, or sequencing information).
+At the Layer 3, the Protocol Data Unit (PDU) is called **Packet**. Packets consists of **control information** and user data (payload). Control information provides data for delivering the payload (e.g., source and destination network addresses, error detection codes, or sequencing information).
 
 Here you can get some insights into the latest **[DDoS Attack Trends](https://radar.cloudflare.com/notebooks/ddos-2021-q3)** (published every quarter).
 
