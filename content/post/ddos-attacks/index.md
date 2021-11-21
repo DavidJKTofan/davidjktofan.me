@@ -22,6 +22,7 @@ toc: true
 _"A denial-of-service attack (DoS attack) is a cyber-attack in which the perpetrator seeks to make a machine or network resource unavailable to its intended users by temporarily or indefinitely disrupting services of a host connected to a network._
 _In a distributed denial-of-service attack (DDoS attack), the incoming traffic flooding the victim originates from many different sources."_ – [Denial-of-service attack – Wikipedia](https://en.wikipedia.org/wiki/Denial-of-service_attack)
 
+
 {{% toc %}}
 
 * * *
@@ -45,7 +46,7 @@ Source: [What are layer 3 DDoS attacks? – Cloudflare](https://www.cloudflare.
 
 At the Layer 3, the Protocol Data Unit (PDU) is called **Packet** (of about 1 KBS to 1.5 KBS). Packets consists of **control information** and user data (payload). Control information provides data for delivering the payload (e.g., source and destination network addresses, error detection codes, or sequencing information).
 
-Here you can get some insights into the latest [DDoS Attack Trends](https://radar.cloudflare.com/notebooks/ddos-2021-q3) (published every quarter).
+Here you can get some insights into the latest **[DDoS Attack Trends](https://radar.cloudflare.com/notebooks/ddos-2021-q3)** (published every quarter).
 
 
 ## DDoS Protection
