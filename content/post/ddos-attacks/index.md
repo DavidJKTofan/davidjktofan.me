@@ -17,7 +17,7 @@ image:
 toc: true
 ---
 
-## Denial-of-Service attack
+## Denial-of-Service (DoS) attack explained
 
 _"A denial-of-service attack (DoS attack) is a cyber-attack in which the perpetrator seeks to make a machine or network resource unavailable to its intended users by temporarily or indefinitely disrupting services of a host connected to a network._
 _In a distributed denial-of-service attack (DDoS attack), the incoming traffic flooding the victim originates from many different sources."_ – [Denial-of-service attack – Wikipedia](https://en.wikipedia.org/wiki/Denial-of-service_attack)
@@ -27,12 +27,13 @@ _In a distributed denial-of-service attack (DDoS attack), the incoming traffic f
 * * *
 * * *
 
-## DDoS
+## DDoS Attacks
 
+There are generally three main types of DoS and DDoS attacks:
 
-
-
-
+* **Volume-based Attacks**: massive volumes of traffic that saturate bandwidth.
+* **Protocol Attacks**: consumes network infrastructure processing resources (like servers, firewalls, and load balancers), and is measured in _Packets per second_ (Pps).
+* **Application Layer Attacks (Layer 7)**: seemingly legitimate and innocent requests targets vulnerabilities or issues within a specific application, with the goal of crashing the server resources, and the magnitude is measured in _Requests per second_ (Rps).
 
 Additionally, there are some differences between Layer 3 DDoS attacks and DDoS attacks at a higher layer, such as:
 
