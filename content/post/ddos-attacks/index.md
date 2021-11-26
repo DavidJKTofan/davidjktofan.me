@@ -29,6 +29,11 @@ _In a distributed denial-of-service attack (DDoS attack), the incoming traffic f
 * * *
 
 ## DDoS Attacks
+https://www.imperva.com/learn/ddos/ddos-attacks/
+https://cybersecurity.att.com/blogs/security-essentials/types-of-ddos-attacks-explained
+https://us-cert.cisa.gov/sites/default/files/publications/DDoS%20Quick%20Guide.pdf
+https://javapipe.com/blog/ddos-types/
+
 
 There are generally three main types of DoS and DDoS attacks:
 
