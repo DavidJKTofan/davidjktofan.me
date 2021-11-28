@@ -19,9 +19,9 @@ toc: true
 
 _"Cloudflare Pages Goes Full Stack"_ – this is the title of the [latest blog post](https://blog.cloudflare.com/cloudflare-pages-goes-full-stack/)
 
-Cloudflare is becoming the modern full-stack cloud provider.
+Cloudflare is becoming the modern full-stack cloud provider that we all wanted it to be.
 
-If you are already using Serverless solutions such as AWS Lambda or Google Cloud Functions, you have to try Cloudflare's solutions!
+If you are already using Serverless solutions such as _AWS Lambda_ or _Google Cloud Functions_, you have to try Cloudflare's solutions!
 
 
 {{% toc %}}
@@ -49,10 +49,11 @@ This solves a major problem for developers maning data, and makes it easier than
 
 #### Durable Objects Compute
 
-#### Durable Objects Storage
+
+#### Durable Objects Storage
 
 
-### R2
+#### R2
 
 Coming soon...
 
