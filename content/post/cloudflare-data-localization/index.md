@@ -36,9 +36,9 @@ The Cloudflare Data Localization Suite is mainly composed of 4 solutions:
   - **Keyless SSL**
   - **Geo Key Manager**
 
-2. Choose where (what region) your traffic will be handled (SSL decrypted) with **Regional Services**
+2. Choose where (what region) your traffic (HTTPS requests and responses) will be handled/inspected (SSL/TLS decrypted) with **Regional Services**
 
-3. Decide where log data is sent with **Edge Log Delivery**
+3. Decide where log data and analytics is sent with **Edge Log Delivery**
 
 4. Protect end-user's privacy with **IP obfuscation**
 
@@ -79,7 +79,7 @@ Keyless SSL and Geo Key Manager ensure that private key material does not leave 
 
 [Regional Services](https://blog.cloudflare.com/introducing-regional-services/) provides full control over exactly where the organization's traffic is handled.
 
-This gives organizations control over where their traffic is inspected and decrypted (TLS termination), and that traffic is securely transmitted to Cloudflare data centers inside the selected region.
+This gives organizations control over where their HTTPS requests and responses are inspected and decrypted (SSL/TLS termination), and that traffic is securely transmitted to Cloudflare data centers inside the selected region.
 
 ![Regional Services Process Diagram](/media/Cloudflare/regional-services-process.png)
 _<caption>Image source: [Introducing Regional Services](https://blog.cloudflare.com/introducing-regional-services/).</caption>_
@@ -92,9 +92,7 @@ When Regional Services is used, all of the edge application services will run in
 * Running Cloudflare Workers scripts
 * Load Balancing traffic to the best origin servers
 
-* * *
-
-### Customer Metadata Boundary
+#### Traffic Metadata
 
 Cloudflare collects metadata about the usage of their products for the purposes of:
 
@@ -105,6 +103,12 @@ Cloudflare collects metadata about the usage of their products for the purposes 
 * Maintaining the reliability and resiliency of Cloudflare's network
 
 This metadata does not contain the contents of customer traffic, and so they do not contain usernames, passwords, personal information, and other private details of customers' end-users. However, these logs may contain end-user IP addresses, which is considered personal data in the EU.
+
+* * *
+
+### Customer Metadata Boundary
+
+All of the traffic metadata that can identify a customer stays in the EU.
 
 #### Edge Log Delivery
 
