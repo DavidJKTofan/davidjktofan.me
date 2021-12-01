@@ -169,7 +169,7 @@ const template = cf => {
 export default template
 ```
 
-_NOTE: you can choose different [IncomingRequestCfProperties](https://developers.cloudflare.com/workers/runtime-apis/request#incomingrequestcfproperties) instead of `cf.country`, such as `cf.colo` or `cf.city`._
+_NOTE: you can choose different [IncomingRequestCfProperties](https://developers.cloudflare.com/workers/runtime-apis/request#incomingrequestcfproperties) instead of `cf.country`, such as `cf.colo`, `cf.asn`, or `cf.city`._
 
 Preview the project:
 ```
@@ -206,6 +206,34 @@ Some examples of Use Cases are:
 - ...
 
 Discover more [Case Studies with Workers](https://www.cloudflare.com/case-studies/?product=Workers), and check out the [Built With](https://workers.cloudflare.com/built-with) section to also learn more and get inspired by other projects.
+
+## Automate Deployment
+
+In order to automate our work, we can have this project on our GitHub repository, and use [GitHub Action](https://github.com/marketplace/actions/deploy-to-cloudflare-workers-with-wrangler) to automatically deploy the main branch into the production environment.
+
+We can add a new `.github/workflows/buildAndDeploy.yml` file to our repository, adding the following content:
+```
+name: buildAndDeployWorker
+on: push
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy
+    steps:
+      - uses: actions/checkout@v2
+      - name: Publish
+        uses: cloudflare/wrangler-action@1.3.0
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          environment: 'production'
+```
+
+Now we need to get our Cloudflare API Token by going to `https://dash.cloudflare.com/profile/api-tokens` and click on Create Token, and selecting the Edit Cloudflare Workers	template.
+
+Once created, we have add our API Token from Cloudflare to our GitHub repository, by going to our repository's Settings > Secrets > New repository secret, adding `CF_API_TOKEN` with our Cloudflare API Token as the value.
+This will populate `${{ secrets.CF_API_TOKEN }}`.
+
+Now, every time we push changes to our repository, those changes will automatically be deployed to our Workers.
 
 * * * * *
 
