@@ -225,7 +225,6 @@ jobs:
         uses: cloudflare/wrangler-action@1.3.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
-          environment: 'production'
 ```
 
 Now we need to get our Cloudflare API Token by going to `https://dash.cloudflare.com/profile/api-tokens` and click on Create Token, and selecting the Edit Cloudflare Workers	template.
