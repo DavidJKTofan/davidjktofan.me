@@ -66,8 +66,6 @@ _Note: use the netstat command again after setting up the ufw._
 
 In order to access my Droplet's nginx content, I set a type A DNS record on my Cloudflare DNS management dashboard with the name _do-droplet_ as a subdomain leading to the Droplet's IPv4 address.
 
-Already curious to see [the end-result](https://do-droplet.davidtofan.com/)!?
-
 * * *
 
 ## Cloudflare Access
@@ -219,7 +217,7 @@ And the last step, on the client machine I ran the following command, changing t
 
 _Note: We need to ensure that Unix usernames on our server [match user SSO identities](https://developers.cloudflare.com/cloudflare-one/identity/users/short-lived-certificates#3-ensure-unix-usernames-match-user-sso-identities)._
 
-Done! [Find the end-result here](https://do-droplet.davidtofan.com/).
+Done! [Find demos and examples here](https://www.cf-testing.com/).
 
 * * *
 
