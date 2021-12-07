@@ -92,7 +92,13 @@ When Regional Services is used, all of the edge application services will run in
 * Running Cloudflare Workers scripts
 * Load Balancing traffic to the best origin servers
 
-#### Traffic Metadata
+* * *
+
+### Traffic Metadata
+
+All of the traffic metadata that can identify a customer stays in the EU.
+
+#### Customer Metadata Boundary
 
 Cloudflare collects metadata about the usage of their products for the purposes of:
 
@@ -104,11 +110,10 @@ Cloudflare collects metadata about the usage of their products for the purposes 
 
 This metadata does not contain the contents of customer traffic, and so they do not contain usernames, passwords, personal information, and other private details of customers' end-users. However, these logs may contain end-user IP addresses, which is considered personal data in the EU.
 
-* * *
+![Metadata Boundary diagram](/media/Cloudflare/customer-metadata-boundary.png)
+_<caption>Image source: [Introducing the Customer Metadata Boundary](https://blog.cloudflare.com/introducing-the-customer-metadata-boundary/).</caption>_
 
-### Customer Metadata Boundary
-
-All of the traffic metadata that can identify a customer stays in the EU.
+More info on their blog post [Introducing the Customer Metadata Boundary](https://blog.cloudflare.com/introducing-the-customer-metadata-boundary/).
 
 #### Edge Log Delivery
 
