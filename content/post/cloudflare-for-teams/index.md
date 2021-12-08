@@ -29,17 +29,19 @@ Welcome to a brief introduction to Cloudflare for Teams.
 1. Zero Trust Security Solution Set
 2. Connectivity and Network Security
 
-Part of the Zero Trust solution is Cloudflare for Teams, which I'd like to introduce today.
+Part of the Zero Trust solution is **Cloudflare for Teams**, which I'd like to introduce today.
 
 ### Cloudflare for Teams
 
 [Cloudflare for Teams](https://www.cloudflare.com/teams/) is divided into three solutions:
 
 -   **Gateway**: operates between a company's employees and the Internet.
--   **Access**: secures access to internal applications without a VPN.
--   **Browser Isolation**: runs in the cloud away from local or on-premise networks and endpoints, insulating devices from attacks.
+-   **Access**: secures access to applications.
+-   **Browser Isolation**: executes active webpage content in a secure isolated browser away from local or on-premise networks and endpoints, insulating devices from attacks.
 
 The official Developer Docs can be found here: [Cloudflare for Teams documentation](https://developers.cloudflare.com/cloudflare-one/)
+
+Take a [self-guided tour](https://www.cloudflare.com/teams/self-guided-tour-of-zero-trust-platform/) of Cloudflare’s Zero Trust platform.
 
 * * *
 
@@ -53,7 +55,7 @@ The official Developer Docs can be found here: [Cloudflare for Teams documentati
 
 For this example I used a Digital Ocean Droplet running _Ubuntu 20.04 (LTS) x64_.
 
-I followed this guide and its prerequisites in order to set up my Droplet and a web environment: [How To Host a Website Using Cloudflare and Nginx on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-host-a-website-using-cloudflare-and-nginx-on-ubuntu-20-04)
+I followed this guide and its prerequisites in order to set up my Droplet and a web environment: [How To Host a Website Using Cloudflare and NGINX on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-host-a-website-using-cloudflare-and-nginx-on-ubuntu-20-04)
 
 You can use `netstat` in order to listen to your open ports and check if your server is available/reachable:
 
@@ -64,7 +66,7 @@ _Note: use the netstat command again after setting up the ufw._
 
 ### DNS Records
 
-In order to access my Droplet's nginx content, I set a type A DNS record on my Cloudflare DNS management dashboard with the name _do-droplet_ as a subdomain leading to the Droplet's IPv4 address.
+In order to access my Droplet's NGINX content, I set a type A DNS record on my Cloudflare DNS management dashboard with the name (i.e.) `do-droplet` as a subdomain leading to the Droplet's IPv4 address.
 
 * * *
 
@@ -221,14 +223,26 @@ Done! [Find demos and examples here](https://www.cf-testing.com/).
 
 * * *
 
-### UFW
+## Cloudflare Gateway
+
+This is Cloudflare's Secure Web Gateway (SWG) solution, which allows you to set up DNS, Network, and HTTP policies, keeping your data safe from malware, ransomware, phishing, command & control, Shadow IT, and other Internet risks.
+
+DNS policies work by simply replacing your router's or devices' DNS servers with Cloudflare's, and Network and HTTP policies work by installing [Cloudflare's Root Certificate](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/install-cloudflare-cert) and a small client called [WARP](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/deployment).
+
+Part of the WARP client is the add-on Browser Isolation, which _"complements the Teams Secure Web Gateway and Zero Trust Network Access solutions by executing active webpage content in a secure isolated browser"_.
+
+Nonetheless, Cloudflare recently introduced [Clientless Web Isolation](https://blog.cloudflare.com/introducing-clientless-web-isolation-beta/), meaning that you can use Browser Isolation without WARP installed on your device.
+
+* * *
+
+## UFW
 
 Finally, to properly protect my Droplet, I set up the Uncomplicated Firewall (UFW) by denying incoming connections by default and only allow certain connections:
 
     sudo ufw disable
 
     sudo ufw default deny
-    sudo ufw allow 'Nginx Full'
+    sudo ufw allow 'NGINX Full'
     #sudo ufw allow 'OpenSSH' # Not necessary as we set up a the Cloudflare Tunnel
 
     sudo ufw enable
@@ -244,7 +258,7 @@ Additionally, I only want to allow traffic from Cloudflare IPs to my Droplet:
 
     ufw reload > /dev/null
 
-_Note: [cloudflare-ufw](https://github.com/Paul-Reed/cloudflare-ufw/blob/master/cloudflare-ufw.sh) makes this last step easier, which however would not be needed thanks to [Authenticated Origin Pulls](https://developers.cloudflare.com/ssl/origin-configuration/authenticated-origin-pull) – explained in the guide "How To Host a Website Using Cloudflare and Nginx on Ubuntu 20.04" in step 3 at the beginning of this blog post. Additionally, technically, we could simply block all incoming connections to the Droplet as the Cloudflare Tunnel would be the only allowed entry point, making everything a little more secure._
+_Note: [cloudflare-ufw](https://github.com/Paul-Reed/cloudflare-ufw/blob/master/cloudflare-ufw.sh) makes this last step easier, which however would not be needed thanks to [Authenticated Origin Pulls](https://developers.cloudflare.com/ssl/origin-configuration/authenticated-origin-pull) – explained in the guide "How To Host a Website Using Cloudflare and NGINX on Ubuntu 20.04" in step 3 at the beginning of this blog post. Additionally, technically, we could simply block all incoming connections to the Droplet as the Cloudflare Tunnel would be the only allowed entry point, making everything a little more secure._
 
 * * *
 
