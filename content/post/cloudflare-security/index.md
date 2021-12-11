@@ -60,7 +60,7 @@ Check out Cloudflare's global [Network Map](https://www.cloudflare.com/network).
 
 See below a brief overview on Cloudflare's integrated global cloud network.
 
-![An Integrated Global Cloud Network](/media/Cloudflare/cloudflare-integrated-global-cloud-platform-2-no-DLP-IDS-IPS.webp)
+![An Integrated Global Cloud Network](/media/Cloudflare/Cloudflare-Services-Overview.webp)
 _<caption>Image source: <https://www.cloudflare.com/enterprise/></caption>_
 
 Here is a preview of how the Cloudflare Dashboard looks like once you added your domain.
