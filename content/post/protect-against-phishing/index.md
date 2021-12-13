@@ -8,6 +8,7 @@ tags:
   - Security
   - Phishing
   - CyberSec
+  - Email
 categories:
   - Security
 image:

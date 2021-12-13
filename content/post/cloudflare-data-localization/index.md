@@ -9,8 +9,9 @@ tags:
   - Privacy
   - Cloudflare
   - CyberSec
+  - Data
 categories:
-  - Security
+  - Privacy
 image:
   filename: featured.png
   focal_point: Smart
@@ -26,7 +27,6 @@ Check out Matthew Prince, co-founder and CEO at Cloudflare, talking about *"givi
 
 * * *
 * * *
-
 
 ## Data Localization Suite
 

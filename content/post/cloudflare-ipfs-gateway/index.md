@@ -8,8 +8,9 @@ tags:
   - Blockchain
   - Cloudflare
   - CyberSec
+  - Blockchain
 categories:
-  - Security
+  - Developers
 image:
   filename: featured.png
   focal_point: Smart
@@ -72,4 +73,4 @@ See it in action on [Cloudflare Playground](https://www.cf-testing.com/ipfs-gate
 
 ## Disclaimer
 
-Educational purposes only, and this blog post does not necessarily reflect the opinions of Cloudflare. There are many more aspects to Cloudflare and its products and services – this is merely a brief educational intro. Properly inform yourself, keep learning, keep testing, and feel free to share your learnings and experiences as I do. Hope it was helpful! Images are online and publicly accessible.
+Educational purposes only, and this blog post does not necessarily reflect the opinions of Cloudflare. There are many more aspects to Cloudflare and its products and services – this is merely a brief educational intro. Properly inform yourself, keep learning, keep testing, and feel free to share your learnings and experiences as I do. Hope it was helpful! Images are online and publicly accessible.

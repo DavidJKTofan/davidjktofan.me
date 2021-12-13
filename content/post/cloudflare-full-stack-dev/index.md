@@ -8,8 +8,11 @@ tags:
   - Security
   - Cloudflare
   - CyberSec
+  - Developers
+  - Workers
+  - Web Development
 categories:
-  - Security
+  - Developers
 image:
   filename: featured.png
   focal_point: Smart
@@ -17,7 +20,7 @@ image:
 toc: true
 ---
 
-_"Cloudflare Pages Goes Full Stack"_ – this is the title of the [latest blog post](https://blog.cloudflare.com/cloudflare-pages-goes-full-stack/)
+_"Cloudflare Pages Goes Full Stack"_ – this is the title of the [latest blog post](https://blog.cloudflare.com/cloudflare-pages-goes-full-stack/)
 
 Cloudflare is becoming the modern full-stack cloud provider that we all wanted it to be.
 
@@ -75,4 +78,4 @@ _Today, we're walking through our example image-sharing platform. We want to be 
 
 ## Disclaimer
 
-Educational purposes only, and this blog post does not necessarily reflect the opinions of Cloudflare. There are many more aspects to Cloudflare and its products and services – this is merely a brief educational intro. Properly inform yourself, keep learning, keep testing, and feel free to share your learnings and experiences as I do. Hope it was helpful! Images are online and publicly accessible.
+Educational purposes only, and this blog post does not necessarily reflect the opinions of Cloudflare. There are many more aspects to Cloudflare and its products and services – this is merely a brief educational intro. Properly inform yourself, keep learning, keep testing, and feel free to share your learnings and experiences as I do. Hope it was helpful! Images are online and publicly accessible.

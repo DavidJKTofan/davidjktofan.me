@@ -7,6 +7,7 @@ featured: true
 tags:
   - Resources
   - Opportunities
+  - Personal Development
 categories:
   - Resources
 image:

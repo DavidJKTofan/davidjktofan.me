@@ -9,8 +9,9 @@ tags:
   - Web Development
   - Cloudflare
   - CyberSec
+  - Workers
 categories:
-  - Security
+  - Developers
 image:
   filename: featured.png
   focal_point: Smart
