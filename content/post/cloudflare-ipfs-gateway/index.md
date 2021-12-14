@@ -1,6 +1,6 @@
 ---
 title: Cloudflare IPFS Gateway
-summary: ABC
+summary: With Cloudflare's read-only Distributed Web Gateway one can access content stored on the InterPlanetary File System (IPFS).
 date: 2021-12-10T10:22:53.306Z
 draft: false
 featured: true
@@ -22,7 +22,7 @@ With [Cloudflare Distributed Web Gateway](https://www.cloudflare.com/distributed
 
 IPFS allows us to serve content from a custom domain over HTTPs, and browser files stored on IPFS, while Cloudflare's gateway allows one to browse any file stored on the public IPFS network by going to `cloudflare-ipfs.com/...`.
 
-More information on the [Dev Docs](https://developers.cloudflare.com/distributed-web/ipfs-gateway).
+More information on the [Dev Docs](https://developers.cloudflare.com/distributed-web/ipfs-gateway) – the demo might take some time to load, depending on how many other nodes or users have accessed the content recently.
 
 {{% toc %}}
 
@@ -68,6 +68,105 @@ See it in action on [Cloudflare Playground](https://www.cf-testing.com/ipfs-gate
 </body>
 </html>
 ```
+
+## Setup
+
+### Installing IPFS
+
+Choose which [IPFS Release](https://github.com/ipfs/go-ipfs/releases) you want to download and install:
+
+```
+wget -q https://github.com/ipfs/go-ipfs/releases/download/v0.4.21/go-ipfs_v0.4.21_linux-amd64.tar.gz
+
+tar xf go-ipfs_v0.4.21_linux-amd64.tar.gz
+
+sudo mv go-ipfs/ipfs /usr/local/bin
+
+rm -rf go-ipfs go-ipfs_v0.4.21_linux-amd64.tar.gz
+```
+
+Run this to set up IPFS:
+```
+ipfs init
+```
+
+### Adding the Service
+
+Create a file with `sudo nano /etc/systemd/system/ipfs.service` with the following content, in order to allow this new service/daemon to run in the background and on boot:
+```
+[Unit]
+Description=IPFS Daemon
+
+[Service]
+ExecStart=/usr/local/bin/ipfs daemon
+User=root
+Restart=always
+LimitNOFILE=10240
+
+[Install]
+WantedBy=multi-user.target
+```
+
+_Note: Change `User=root` if you're not running the daemon as root._
+
+Run the new daemon and enable/start it:
+```
+sudo systemctl daemon-reload
+sudo systemctl enable ipfs
+sudo systemctl start ipfs
+```
+
+In order to check on its status:
+```
+systemctl status ipfs
+```
+
+### Opening Up to the Internet
+
+The node should be running on an Internet-facing server/VPS, and direct connections on port 4001 should be allowed.
+
+## Connecting Your Website
+
+### Connecting to Cloudflare's Gateway
+
+Connect your IPFS node to the network:
+```
+ipfs daemon
+```
+
+Add your content to IPFS:
+```
+ipfs add -r /path/to/folder-with-your-content
+```
+
+_Note: This will add your content to IPFS and give you back the hash of the directory._
+
+To ensure that the content stays pinned, we need to pin it to our node, essentially caching it on our node:
+```
+ipfs pin add -r /ipfs/<hash_of_folder>
+```
+
+### Connecting to Cloudflare's Gateway
+
+The hash generated before is essentially the path to the content on the IPFS. However, we want to make it easier to reach that content.
+
+The following guide comes from [Connecting Your Website – Dev Docs](https://developers.cloudflare.com/distributed-web/ipfs-gateway/connecting-website):
+
+First, go to the DNS settings for your domain. When you're there, add the following two records:
+
+1. CNAME for your.website pointing to cloudflare-ipfs.com
+TXT record for _dnslink.your.website with the value dnslink=/ipfs/<your_hash_here>
+2. Now any request to your.website will resolve to cloudflare-ipfs.com/ipfs/<your_hash_here>.
+
+When you want to update your content, just repeat the steps we've outlined above.
+
+1. Collect all of your updated content into a folder.
+2. Upload the content to a pinning service or upload it to your own node. If you're uploading it to your own node, remember to do both ipfs add -r /path/to/folder-with-your-content and ipfs pin add -r /ipfs/<hash_of_folder>.
+3. Edit your TXT record for _dnslink.your.website to dnslink=/ipfs/<your_NEW_hash_here>.
+
+## Demo
+
+[Cloudflare Playground – IPFS Demo](https://www.cf-testing.com/ipfs-gateway.html)
 
 * * *
 
